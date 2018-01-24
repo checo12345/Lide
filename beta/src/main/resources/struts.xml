@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+	<package name="user" namespace="/" extends="struts-default">
+		<action name="iniciarSesion" class="com.lidebeta.spi.CSAction" method="iniciarSesion">
+			<result name="exitoso">jsp/iniciarSesion.jsp</result>
+		</action>
+		<action name="menuPrincipal">
+			<result >jsp/menuPrincipal.jsp</result>
+		</action>
+	</package>
+	
+</struts>

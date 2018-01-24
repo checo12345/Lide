@@ -1,0 +1,147 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://${app.id}.appspot.com/_ah/api",
+  "name" : "productsCustomerApi",
+  "version" : "v1",
+  "description" : "API for search products.",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://${app.id}.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "methods" : {
+    "productsCustomerApi.getProductsByKeywordCustomer" : {
+      "path" : "getProductsByKeywordCustomer",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "replace this with your web client ID", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.lide.beta.server.products.spi.ProductsCustomerApi.getProductsByKeywordCustomer",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "productsCustomerApi.getProductsByKindCustomer" : {
+      "path" : "getProductsByKindCustomer",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "replace this with your web client ID", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.lide.beta.server.products.spi.ProductsCustomerApi.getProductsByKindCustomer",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "KeywordForm" : {
+        "id" : "KeywordForm",
+        "type" : "object",
+        "properties" : {
+          "keyword" : {
+            "type" : "string"
+          }
+        }
+      },
+      "Product" : {
+        "id" : "Product",
+        "type" : "object",
+        "properties" : {
+          "productId" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "description" : {
+            "type" : "string"
+          },
+          "keywords" : {
+            "type" : "string"
+          },
+          "kinds" : {
+            "type" : "string"
+          },
+          "avaible" : {
+            "type" : "boolean"
+          },
+          "price" : {
+            "type" : "number"
+          },
+          "lasUpdate" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "urlImage" : {
+            "type" : "string"
+          }
+        }
+      },
+      "ProductCollection" : {
+        "id" : "ProductCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Product"
+            }
+          }
+        }
+      },
+      "KindForm" : {
+        "id" : "KindForm",
+        "type" : "object",
+        "properties" : {
+          "kind" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.lide.beta.server.products.spi.ProductsCustomerApi.getProductsByKeywordCustomer" : {
+        "request" : {
+          "$ref" : "KeywordForm"
+        },
+        "response" : {
+          "$ref" : "ProductCollection"
+        }
+      },
+      "com.lide.beta.server.products.spi.ProductsCustomerApi.getProductsByKindCustomer" : {
+        "request" : {
+          "$ref" : "KindForm"
+        },
+        "response" : {
+          "$ref" : "ProductCollection"
+        }
+      }
+    }
+  }
+}
