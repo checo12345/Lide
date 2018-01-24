@@ -13,4 +13,5 @@ public interface ProductContract {
 	static final String COLUMN_LAST_UPDATE 		= "last_update";
 	static final String COLUMN_IMAGE 			= "image";
 	static final String COLUMN_QUANTITY 		= "quantity";
+	static final String COLUMN_CODIGO_BARRAS 	= "codigo_barras";
 }	

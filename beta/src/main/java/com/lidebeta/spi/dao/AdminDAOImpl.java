@@ -2,11 +2,6 @@ package com.lidebeta.spi.dao;
 
 import static com.lidebeta.spi.service.OfyService.ofy;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
@@ -15,27 +10,20 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import com.lidebeta.spi.AdminApi;
-import com.google.api.server.spi.auth.common.User;
 import com.google.appengine.api.search.Document;
 import com.google.appengine.api.search.Field;
 import com.google.appengine.api.search.IndexSpec;
-import com.google.appengine.api.search.OperationResult;
 import com.google.appengine.api.search.PutResponse;
 import com.google.appengine.api.search.Results;
 import com.google.appengine.api.search.ScoredDocument;
 import com.google.appengine.api.search.SearchServiceFactory;
 import com.googlecode.objectify.Key;
 import com.googlecode.objectify.cmd.Query;
-import com.lidebeta.spi.Constants;
 import com.lidebeta.spi.ProductContract;
-import com.lidebeta.spi.bean.Admin;
-import com.lidebeta.spi.bean.Category;
 import com.lidebeta.spi.bean.CoverageArea;
 import com.lidebeta.spi.bean.Keyword;
 import com.lidebeta.spi.bean.Order;
 import com.lidebeta.spi.bean.Product;
-import com.lidebeta.spi.bean.Response;
-import com.lidebeta.spi.bean.Response.Reason;
 import com.lidebeta.spi.bean.Store;
 import com.lidebeta.spi.bean.Sync;
 
@@ -58,6 +46,7 @@ public class AdminDAOImpl implements AdminDAO {
 	  		product.setId				(document.getId()); 
 	  		product.setName				(document.getOnlyField(ProductContract.COLUMN_NAME).getText()); 
 	  		product.setDescription		(document.getOnlyField(ProductContract.COLUMN_DESCRIPTION).getText()); 
+	  		product.setCodigoBarras		(document.getOnlyField(ProductContract.COLUMN_CODIGO_BARRAS).getText()); 
 	  		product.setAvaible			(document.getOnlyField(ProductContract.COLUMN_AVAIBLE).getNumber()==1);
 	  		product.setPrice			(document.getOnlyField(ProductContract.COLUMN_PRICE).getNumber()); 
 	  		product.setImage			(document.getOnlyField(ProductContract.COLUMN_IMAGE).getAtom());
@@ -75,6 +64,7 @@ public class AdminDAOImpl implements AdminDAO {
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_STORE_ID)			.setAtom(product.getStoreId().toString()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_NAME)				.setText(product.getName()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_DESCRIPTION)		.setText(product.getDescription()))
+			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_CODIGO_BARRAS)		.setText(product.getCodigoBarras()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_KEYWORDS)			.setText(product.getKeywords()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_CATEGORIES)			.setText(product.getCategories()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_AVAIBLE)			.setNumber(product.isAvaible()?1:0))
@@ -82,8 +72,6 @@ public class AdminDAOImpl implements AdminDAO {
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_LAST_UPDATE)		.setDate(Calendar.getInstance().getTime()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_IMAGE)				.setAtom(product.getImage()))
 			    .addField(Field.newBuilder().setName(ProductContract.COLUMN_QUANTITY)			.setNumber(product.getQuantity()));
-		
-		
 		
 		if(product.getId()!=null){
 			docBuilder.setId(product.getId());
@@ -95,7 +83,8 @@ public class AdminDAOImpl implements AdminDAO {
 	@Override
 	public Product updateProduct(Product product) {
 		System.out.println("product.quantity = "+product.getQuantity());
-		PutResponse putResponse = getIndex(product.getCoverageAreaId().toString()).put(documentFromProduct(product));
+		PutResponse putResponse = 
+				getIndex(product.getCoverageAreaId().toString()).put(documentFromProduct(product));
 		for(String id: putResponse.getIds()){
 			product.setId(id);
 		}
@@ -118,6 +107,31 @@ public class AdminDAOImpl implements AdminDAO {
 		return productsFromScoredDocuments(results);
 	}
 
+	@Override
+	public Product fetchProductByCb(Product product) {
+		StringBuilder query = new StringBuilder();
+		query.append(ProductContract.COLUMN_STORE_ID);
+		query.append(" = ");
+		query.append(product.getStoreId());
+		query.append(" AND ");
+		query.append(ProductContract.COLUMN_CODIGO_BARRAS);
+		query.append(" = ");
+		query.append(product.getCodigoBarras());
+		
+		System.out.println();
+		System.out.println("----------------------"+query);
+		System.out.println();
+		
+		Results<ScoredDocument> results = getIndex(product.getCoverageAreaId().toString()).search(query.toString());
+		
+		System.out.println();
+		System.out.println("----------------------"+results);
+		System.out.println();
+		
+		List<Product> productList = productsFromScoredDocuments(results);
+		return productList.isEmpty()?null:productList.get(0);
+	}
+	
 	@Override
 	public Store updateStore(Store store) {
 		Key<CoverageArea> coverageAreaKey = Key.create(CoverageArea.class, store.getCoverageAreaId());
@@ -186,5 +200,7 @@ public class AdminDAOImpl implements AdminDAO {
 		
 		return orders;
 	}
+
+	
 
 }

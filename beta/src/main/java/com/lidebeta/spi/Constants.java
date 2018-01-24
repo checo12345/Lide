@@ -6,18 +6,18 @@ import com.google.api.server.spi.Constant;
  * Contains the client IDs and scopes for allowed clients consuming your API.
  */
 public class Constants {
-  public static final String WEB_CLIENT_ID = "347485897175-9dc1rkes6auj36o6f6utjv3e0k5ha5cj.apps.googleusercontent.com";
+  public static final String WEB_CLIENT_ID = "299646937934-044postf14bnq484tthl88cnfo9f9379.apps.googleusercontent.com";
 //  public static final String ANDROID_CLIENT_ID = "347485897175-q7gccknelit5m4p814bm6fha5u5bi9kp.apps.googleusercontent.com";
   
   
 //  public static final String ANDROID_CUSTOMER_CLIENT_ID = "347485897175-sogc1j5q7dbjgapkjbd30rj09rhqjl0p.apps.googleusercontent.com";
-  public static final String ANDROID_CUSTOMER_CLIENT_ID = "347485897175-sogc1j5q7dbjgapkjbd30rj09rhqjl0p.apps.googleusercontent.com";
+  public static final String ANDROID_CUSTOMER_CLIENT_ID = "299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com";
   
 //  public static final String ANDROID_CLIENT_ID = "347485897175-p8fdbb289tcpua7mfjc8nhvofas3rohk.apps.googleusercontent.com";
-  public static final String ANDROID_CLIENT_ID = "347485897175-7h91tno2c79qlrcf0lgbhk2eq2p6375j.apps.googleusercontent.com";
+  public static final String ANDROID_CLIENT_ID = "299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com";
   
 //public static final String ANDROID_MANAGER_CLIENT_ID = "347485897175-p8fdbb289tcpua7mfjc8nhvofas3rohk.apps.googleusercontent.com";
-  public static final String ANDROID_MANAGER_CLIENT_ID = "347485897175-kf18ekkqs2d1t30r25u4sdqogts17gv9.apps.googleusercontent.com";
+  public static final String ANDROID_MANAGER_CLIENT_ID = "299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com";
   
   
   public static final String IOS_CLIENT_ID = "replace this with your iOS client ID";

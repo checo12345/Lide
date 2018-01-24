@@ -91,7 +91,7 @@ public class AdminApi {
 	@ApiMethod(name="fetchProductsByKeyword", path="fetchProductsByKeyword", httpMethod=HttpMethod.POST)
 	public List<Product> fetchProductsByKeyword(User user, Keyword keyword) throws UnauthorizedException{
 		
-		/*if(user == null){
+		if(user == null){
     		throw new UnauthorizedException("Authoruzation required");
     	}
 		
@@ -104,8 +104,29 @@ public class AdminApi {
 				!admin.isActive()){
 			throw new UnauthorizedException("Authentication fail");
 		}
-		*/
+		
 		return ADMIN_DAO.fetchProductsByKeyword(keyword);
+		
+	}
+
+	@ApiMethod(name="fetchProductByCb", path="fetchProductByCb", httpMethod=HttpMethod.POST)
+	public Product fetchProductByCb(User user, Product product) throws UnauthorizedException{
+		
+		if(user == null){
+    		throw new UnauthorizedException("Authoruzation required");
+    	}
+		
+		Key<Admin> adminKey = Key.create(Admin.class, user.getEmail());
+		Admin admin = ofy().load().key(adminKey).now();
+		
+		if(		 admin==null || 
+				!admin.getCoverageAreaIdList().	contains(product.getCoverageAreaId()) || 
+//				!admin.getStoreIdList().		contains(keyword.getStore_id()) ||
+				!admin.isActive()){
+			throw new UnauthorizedException("Authentication fail");
+		}
+		
+		return ADMIN_DAO.fetchProductByCb(product);
 		
 	}
 	
@@ -201,7 +222,7 @@ public class AdminApi {
 	@ApiMethod(name="authenticate", path="authenticate", httpMethod=HttpMethod.POST)
 	public AdminPack authenticate(User user, Admin _admin) throws UnauthorizedException{
 		
-		System.out.println("\n========== ACTION: authenticate()================");
+		
 		if(user == null){
     		throw new UnauthorizedException("Authoruzation required null user");
     	}
@@ -288,11 +309,12 @@ public class AdminApi {
 					
 					product.setQuantity(10);
 					
-					product.setCoverageAreaId(4785074604081152L);
-					product.setStoreId(5910974510923776L);
+					product.setCoverageAreaId(4785074604081152l);
+					product.setStoreId(5910974510923776l);
+					
+					product.setCodigoBarras(String.valueOf(i++));
 					
 					ADMIN_DAO.updateProduct(product);
-					
 					
 				}
 	        }

@@ -221,6 +221,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 	
 	@Override
 	public BooleanWrapper updateNotificationToken(Customer customer) {
+		System.out.println("customer=" + customer.toString());
 		Key<Customer> customerKey = ofy().save().entity(customer).now();			
 		return new BooleanWrapper(customerKey!=null, customerKey!=null?"":"problems davind entity");
 	}

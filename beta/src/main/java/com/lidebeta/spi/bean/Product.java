@@ -29,6 +29,8 @@ public class Product {
 	private String image;
 	
 	private int quantity;
+
+	private String codigoBarras;
 	
 	public Long getDatastoreId() {
 		return datastoreId;
@@ -127,12 +129,21 @@ public class Product {
 		this.quantity = quantity;
 	}
 
+	public String getCodigoBarras() {
+		return codigoBarras;
+	}
+
+	public void setCodigoBarras(String codigoBarras) {
+		this.codigoBarras = codigoBarras;
+	}
+
+	
 	@Override
 	public String toString() {
 		return "Product [datastoreId=" + datastoreId + ", coverageAreaId=" + coverageAreaId + ", storeId=" + storeId
 				+ ", id=" + id + ", name=" + name + ", description=" + description + ", keywords=" + keywords
 				+ ", categories=" + categories + ", avaible=" + avaible + ", price=" + price + ", lasUpdate="
-				+ lasUpdate + ", image=" + image + ", quantity=" + quantity + "]";
+				+ lasUpdate + ", image=" + image + ", quantity=" + quantity + ", codigoBarras=" + codigoBarras + "]";
 	}
 
 	public String getId() {

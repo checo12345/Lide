@@ -15,6 +15,7 @@ import com.lidebeta.spi.bean.Sync;
 public interface AdminDAO {
 	Product updateProduct(Product product);
 	List<Product> fetchProductsByKeyword(Keyword keyword);
+	Product fetchProductByCb(Product product);
 	Store updateStore(Store store);
 	List<Order> getOrders(Sync sync);
 }

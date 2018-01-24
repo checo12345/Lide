@@ -28,8 +28,8 @@ import com.lidebeta.spi.business.DeliveryBusinessImpl;
 		clientIds = {
 				Constants.WEB_CLIENT_ID, 
 				Constants.API_EXPLORER_CLIENT_ID,
-				Constants.ANDROID_CLIENT_ID,
-				"347485897175-p8fdbb289tcpua7mfjc8nhvofas3rohk.apps.googleusercontent.com"//debug
+				Constants.ANDROID_CLIENT_ID
+//				,				"299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com"//debug
 		}, 
 		audiences = {Constants.ANDROID_AUDIENCE},
 		description = "API for delivery team"
