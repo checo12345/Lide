@@ -5,8 +5,10 @@ com\lidebeta\spi\bean\Customer.class
 com\lidebeta\spi\bean\Response.class
 com\lidebeta\spi\AdminApi.class
 com\lidebeta\spi\bean\Notification.class
+com\lidebeta\spi\CSAction.class
 com\lidebeta\spi\bean\DeliveryManQuery.class
 com\lidebeta\spi\ProductContract.class
+freemarker\core\TextBlock.class
 com\lidebeta\spi\dao\RootDAO.class
 com\lidebeta\spi\bean\DeliveryMan.class
 com\lidebeta\spi\bean\Number.class
@@ -16,6 +18,7 @@ com\lidebeta\spi\Constants.class
 com\lidebeta\spi\bean\Category.class
 com\lidebeta\spi\bean\FcmMessage.class
 com\lidebeta\spi\bean\OrderWrapper.class
+com\lidebeta\spi\CustomerApiAction.class
 com\lidebeta\spi\bean\Keyword.class
 com\lidebeta\spi\bean\Product.class
 com\lidebeta\spi\DeliverApi.class
@@ -29,8 +32,8 @@ com\lidebeta\spi\bean\AdminPack.class
 com\lidebeta\spi\bean\Response$Reason.class
 com\lidebeta\spi\bean\Total.class
 com\lidebeta\spi\dao\DeliveryDAO.class
+com\lidebeta\spi\Struts2ListenerOnGAE.class
 com\lidebeta\spi\bean\Admin.class
-com\lidebeta\spi\CustomerApi.class
 com\lidebeta\spi\dao\CustomerDAOImpl.class
 com\lidebeta\spi\RootApi.class
 com\lidebeta\spi\dao\CustomerDAO.class

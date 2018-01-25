@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/OBW6x3gv_CD_39OL8yR0t0Vj9lc\"",
+ "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/Dvl7bYAP0nRPASZPlu4nJcufn7s\"",
  "discoveryVersion": "v1",
  "id": "adminApi:v1",
  "name": "adminApi",
@@ -314,6 +314,9 @@
     "categories": {
      "type": "string"
     },
+    "codigoBarras": {
+     "type": "string"
+    },
     "coverageAreaId": {
      "type": "string",
      "format": "int64"
@@ -476,6 +479,23 @@
    ],
    "returns": {
     "$ref": "OrderCollection"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "adminApi.fetchProductByCb": {
+   "id": "adminApi.fetchProductByCb",
+   "parameters": {
+    "resource": {
+     "$ref": "Product"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "Product"
    },
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"

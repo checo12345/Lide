@@ -4,7 +4,7 @@
         <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
         <init-param>
             <param-name>services</param-name>
-            <param-value>com.lidebeta.spi.AdminApi,com.lidebeta.spi.CustomerApi,com.lidebeta.spi.DeliverApi,com.lidebeta.spi.RootApi</param-value>
+            <param-value>com.lidebeta.spi.AdminApi,com.lidebeta.spi.CustomerApiAction,com.lidebeta.spi.DeliverApi,com.lidebeta.spi.RootApi</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>

@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/ZwLiXlr3AksDBkWW-MvBwAQUEuQ\"",
+ "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/QjnuvAZk1_ZgPYFl50WpCvkEy2k\"",
  "discoveryVersion": "v1",
  "id": "customerApi:v1",
  "name": "customerApi",
@@ -350,6 +350,9 @@
      "type": "boolean"
     },
     "categories": {
+     "type": "string"
+    },
+    "codigoBarras": {
      "type": "string"
     },
     "coverageAreaId": {
