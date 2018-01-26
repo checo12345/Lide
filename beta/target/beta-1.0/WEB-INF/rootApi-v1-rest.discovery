@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/98V3JLLn5lwdtsjQVP2s9g7yMns\"",
+ "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/igg_HWYDnc8Lct2y3sErFfrKWOM\"",
  "discoveryVersion": "v1",
  "id": "rootApi:v1",
  "name": "rootApi",
@@ -415,6 +415,15 @@
     }
    }
   },
+  "Root": {
+   "id": "Root",
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string"
+    }
+   }
+  },
   "Store": {
    "id": "Store",
    "type": "object",
@@ -535,6 +544,21 @@
    },
    "response": {
     "$ref": "OrderCollection"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "rootUp": {
+   "id": "rootApi.rootUp",
+   "path": "rootUp",
+   "httpMethod": "POST",
+   "request": {
+    "$ref": "Customer",
+    "parameterName": "resource"
+   },
+   "response": {
+    "$ref": "Root"
    },
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"

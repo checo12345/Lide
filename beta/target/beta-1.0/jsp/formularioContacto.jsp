@@ -3,16 +3,16 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 
 <h1 class="m-t-none m-b" style="text-align: center;" id="tituloForm">REGISTRAR NUEVA VENTA</h1>
-<form id="registrarContactoForm" class="form-horizontal" action="agregarContacto" role="form" onsubmit="return false;" style="min-height: 70px;">
+<form id="registrarContactoForm" class="form-horizontal" action="agregarProducto" role="form" onsubmit="return false;" style="min-height: 70px;">
 	<div class="col-sm-8">
 		<label class="control-label">Codigo del producto</label>
 		<div class="input-group">
 			<span class="input-group-addon"> <span
 				class="glyphicon glyphicon-tags"></span>
 			</span> 
-			<input type="hidden" name="contacto.pk_contacto" value='<s:property value="contacto.pk_contacto"/>'>
-			<input type="text" class="form-control" name="contacto.contacto_nombreCompleto" value='<s:property value="contacto.contacto_nombreCompleto"/>'
-				placeholder="Ingresar codigo de barras del producto" required>
+			<input type="text" class="form-control" name="producto.codigoBarras"	placeholder="Ingresar codigo de barras del producto">
+			<input type="hidden"  name="producto.coverageAreaId" value="4785074604081152">
+			<input type="hidden"  name="producto.storeId" value="5910974510923776">
 		</div>
 	</div>
 	
@@ -20,8 +20,7 @@
 	<div class="col-sm-4">
 	<label class="control-label">Acciones</label>
 		<div class="input-group">
-			<button type="submit" class="btn btn-primary block m-b pull-right"
-		id="btn-admon-contacto" style="margin-left: 10px;">Agregar Producto</button>
+			<button onclick="agregarProducto()" type="button" class="btn btn-primary block m-b pull-right" id="btn-admon-contacto">Agregar Producto</button>
 		</div>
 		
 	</div>

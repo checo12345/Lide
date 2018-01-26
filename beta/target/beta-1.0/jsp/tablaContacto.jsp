@@ -17,30 +17,11 @@
                         <th class="text-center" data-toggle="true" data-field="id">Codigo</th>
                         <th class="text-center" data-toggle="true">Nombre</th>
                         <th class="text-center" data-toggle="true">Precio</th>
-                        <th class="text-center" data-toggle="true">Cantidad</th>
+                        <th class="text-center" data-toggle="true">Existencia</th>
                         <th class="text-center">Acciones</th>		
                     </tr>
                     </thead>
                     <tbody>	
-					<s:if test="listaContactos != null && listaContactos.size>0">
-                    	<s:iterator value="listaContactos">
-	                        <tr id="contacto<s:property value="pk_contacto" />">
-	                            <td><s:property value="pk_contacto" /></td>
-								<td><s:property value="contacto_nombreCompleto" /></td>
-	                            <td><s:property value="contacto_apellidoPaterno" /></td>
-	                            <td><s:property value="contacto_apellidoMaterno" /></td>
-	                            <td>			
-	                                <a class="col-sm-3 btn btn-sm btn-primary btn-xs"  onclick="obtenerContacto('<s:property value="pk_contacto" />')">
-	                                    <i class="fa fa-pencil fa-2x" data-toggle="tooltip" title="Editar"></i>
-	                                </a>
-	                                 	
-	                                <a class="col-sm-3 btn btn-sm btn-primary btn-xs" onclick="modalEliminarContacto('<s:property value="pk_contacto" />')" style="margin-left:5px;">
-	                                    <i class="fa fa-trash-o fa-2x" data-toggle="tooltip" title="Eliminar"></i>
-	                                </a>
-	                            </td>
-	                        </tr>
-                    	</s:iterator>
-					</s:if>
                     </tbody>
                     <tfoot>
                     <tr>

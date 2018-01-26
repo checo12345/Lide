@@ -110,8 +110,8 @@ public class AdminApi {
 	}
 
 	@ApiMethod(name="fetchProductByCb", path="fetchProductByCb", httpMethod=HttpMethod.POST)
-	public Product fetchProductByCb(User user, Product product) throws UnauthorizedException{
-		
+	public Product fetchProductByCb(Product product) throws UnauthorizedException{
+		/*
 		if(user == null){
     		throw new UnauthorizedException("Authoruzation required");
     	}
@@ -120,12 +120,11 @@ public class AdminApi {
 		Admin admin = ofy().load().key(adminKey).now();
 		
 		if(		 admin==null || 
-				!admin.getCoverageAreaIdList().	contains(product.getCoverageAreaId()) || 
-//				!admin.getStoreIdList().		contains(keyword.getStore_id()) ||
+				!admin.getCoverageAreaIdList().contains(product.getCoverageAreaId()) ||
 				!admin.isActive()){
 			throw new UnauthorizedException("Authentication fail");
 		}
-		
+		*/
 		return ADMIN_DAO.fetchProductByCb(product);
 		
 	}

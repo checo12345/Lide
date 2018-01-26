@@ -11,6 +11,12 @@
 		<action name="menuPrincipal">
 			<result >jsp/menuPrincipal.jsp</result>
 		</action>
+		<action name="agregarProducto" class="com.lidebeta.spi.CSAction" method="agregarProducto">
+			<result name="exitoso">jsp/rowVenta.jsp</result>
+		</action>
+		<action name="realizarVenta" class="com.lidebeta.spi.CSAction" method="realizarVenta">
+			<result name="exitoso">jsp/tablaContacto.jsp</result>
+		</action>
 	</package>
 	
 </struts>

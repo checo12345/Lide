@@ -137,6 +137,7 @@
 					</div>
 					<div id="contenidoDinamico"><s:include value="/jsp/formularioContacto.jsp"></s:include></div>
 					<div id="contenidoDinamico2"><s:include value="/jsp/tablaContacto.jsp"></s:include></div>
+					<div id="contenidoDinamico3"><s:include value="/jsp/cobrarVenta.jsp"></s:include></div>
 				</div>
 			</div>
 		</div>

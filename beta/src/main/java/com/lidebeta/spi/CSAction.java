@@ -3,23 +3,54 @@ package com.lidebeta.spi;
 import java.util.List;
 
 import com.lidebeta.spi.bean.CoverageArea;
+import com.lidebeta.spi.bean.Product;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class CSAction extends ActionSupport{
+public class CSAction extends ActionSupport {
 	private String respuestaCadena = "exitoso";
-	private List<CoverageArea> areas ;
-	
+	private List<CoverageArea> areas;
+	private Product producto;
+
 	public String iniciarSesion() {
 		System.out.println("\n========== ACTION: iniciarSesion()================");
 		try {
-			AdminApi ca = new AdminApi() ;
-			}
-		catch (Exception e) {
+			AdminApi ca = new AdminApi();
+		} catch (Exception e) {
 			respuestaCadena = "errorGeneral";
 		}
 		return respuestaCadena;
-	} 
-	
+	}
+
+	public String agregarProducto() {
+		System.out.println("\n========== ACTION: agregarProducto()================");
+		try {
+			System.out.println(
+					"codigo: " + getProducto().getCodigoBarras() + " area: " + getProducto().getCoverageAreaId());
+			AdminApi ca = new AdminApi();
+			System.out.println(
+					"codigo: " + getProducto().getCodigoBarras() + " area: " + getProducto().getCoverageAreaId());
+			setProducto(ca.fetchProductByCb(getProducto()));
+		} catch (Exception e) {
+			System.out.println("mamo: " + e.getMessage());
+			respuestaCadena = "errorGeneral";
+		}
+		return respuestaCadena;
+	}
+
+	private String[] test;
+	private List<Product> productos;
+	public String realizarVenta() {
+		System.out.println("\n========== ACTION: realizarVenta()================");
+		try {
+				if(getProductos() != null)
+					System.out.println("codigo: " +  getProductos().get(0).getCodigoBarras());
+		} catch (Exception e) {
+			System.out.println("mamo: " + e.getMessage());
+			respuestaCadena = "errorGeneral";
+		}
+		return respuestaCadena;
+	}
+
 	public CSAction() {
 		super();
 	}
@@ -35,6 +66,29 @@ public class CSAction extends ActionSupport{
 	public void setAreas(List<CoverageArea> areas) {
 		this.areas = areas;
 	}
-	
+
+	public Product getProducto() {
+		return producto;
+	}
+
+	public void setProducto(Product producto) {
+		this.producto = producto;
+	}
+
+	public String[] getTest() {
+		return test;
+	}
+
+	public void setTest(String[] test) {
+		this.test = test;
+	}
+
+	public List<Product> getProductos() {
+		return productos;
+	}
+
+	public void setProductos(List<Product> productos) {
+		this.productos = productos;
+	}
 	
 }

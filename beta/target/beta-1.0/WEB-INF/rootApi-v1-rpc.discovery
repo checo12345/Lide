@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/98V3JLLn5lwdtsjQVP2s9g7yMns\"",
+ "etag": "\"RnkXbyw9us4_w3H-FU6An0C4oYs/igg_HWYDnc8Lct2y3sErFfrKWOM\"",
  "discoveryVersion": "v1",
  "id": "rootApi:v1",
  "name": "rootApi",
@@ -413,6 +413,15 @@
     }
    }
   },
+  "Root": {
+   "id": "Root",
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string"
+    }
+   }
+  },
   "Store": {
    "id": "Store",
    "type": "object",
@@ -541,6 +550,23 @@
    ],
    "returns": {
     "$ref": "OrderCollection"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "rootApi.rootUp": {
+   "id": "rootApi.rootUp",
+   "parameters": {
+    "resource": {
+     "$ref": "Customer"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "Root"
    },
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"
