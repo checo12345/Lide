@@ -35,6 +35,7 @@ function agregarProducto()
 			type : "POST",
 			dataType : "html",
 			data:	postData,
+			contentType: "application/json; charset=utf-8",
 			success : function(respuestaHtml, textStatus, jqXHR) {
 					footable = $("#tablaContacto").data('footable');
 					footable.appendRow(respuestaHtml);
@@ -72,7 +73,7 @@ function realizarVenta()
 	    //params="{'productos':[{'codigoBarras':'123','name':'Doe'},{'codigoBarras':'456','name':'Smith'}]}" ;
 	 $('.ibox-content').toggleClass('sk-loading');
 	 $.ajax({
-			url : "realizarVenta.action?alt=json",
+			url : "realizarVenta.action",
 			type : "POST",
 			dataType : "html",
 			data:	JSON.stringify(params),
