@@ -1,7 +1,7 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 
 <tr>
-	<td><s:property value="producto.codigoBarras" /></td>
+	<td class="precio"><s:property value="producto.codigoBarras" /></td>
 	<td><s:property value="producto.description" /></td>
 	<td class="precio"><s:property value="producto.price" /></td>
 	<td><s:property value="producto.quantity" /></td>

@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.lidebeta.spi.bean.CoverageArea;
 import com.lidebeta.spi.bean.Product;
+import com.lidebeta.spi.dao.AdminDAOImpl;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class CSAction extends ActionSupport {
@@ -44,7 +45,12 @@ public class CSAction extends ActionSupport {
 		System.out.println("\n========== ACTION: realizarVenta()================");
 		try {
 				if(getProductos() != null)
-					System.out.println("codigo: " +  getProductos().get(0).getCodigoBarras());
+				{
+					AdminDAOImpl ca = new AdminDAOImpl();
+					for (Product producto:getProductos()) {
+						ca.actualizaInventario(producto);
+					}
+				}
 		} catch (Exception e) {
 			System.out.println("mamo: " + e.getMessage());
 			respuestaCadena = "errorGeneral";

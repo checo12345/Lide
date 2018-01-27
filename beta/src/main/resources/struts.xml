@@ -4,15 +4,15 @@
 "http://struts.apache.org/dtds/struts-2.0.dtd">
  
 <struts>
-	<package name="user" namespace="/" extends="json-default">
+	<package name="user" namespace="/" extends="struts-default ,json-default">
 		<interceptors>
 	        <interceptor-stack name="jsonStack">
 	            <interceptor-ref name="json">
-	                <param name="enableSMD"></param>
+	                <param name="enableSMD">true</param>
 	            </interceptor-ref>
 	        </interceptor-stack>
 	    </interceptors>  
-       <default-interceptor-ref name="jsonStack"></default-interceptor-ref>
+       
 		<action name="iniciarSesion" class="com.lidebeta.spi.CSAction" method="iniciarSesion">
 			<result name="exitoso">jsp/iniciarSesion.jsp</result>
 		</action>
@@ -23,6 +23,7 @@
 			<result name="exitoso">jsp/rowVenta.jsp</result>
 		</action>
 		<action name="realizarVenta" class="com.lidebeta.spi.CSAction" method="realizarVenta">
+		<interceptor-ref name="jsonStack"></interceptor-ref>
 			<result name="exitoso">jsp/tablaContacto.jsp</result>
 		</action>
 	</package>

@@ -60,22 +60,40 @@ function sumar_columnas(){
 
 function realizarVenta()
 {
-	 var test= ["1","2","3","4","5"] ;
-	 	var params = {};
-	 	var arr = [];
-	    var p1 = { codigoBarras : "123", name : "Doe"};
-	    var p2 = { codigoBarras : "456", name: "Smith"};
-	    arr.push(p1); 
-	    arr.push(p2);
-	    params["productos"] = arr;
-	    var datos= JSON.stringify(params) ;
+	var Orden = {};
+ 	var listaProductos = [];
+    var producto = new Object();
+    
+    
+    
+	$("#tablaContacto tbody tr").each(function (index) {
+		$(this).children("td").each(function (index2) {
+			switch (index2) {
+			case 0:
+				producto.codigoBarras=$(this).text();
+			break;
+				
+			case 3:
+				producto.quantity=1;//$(this).text();
+				producto.storeId=5910974510923776;
+				producto.coverageAreaId=4785074604081152;
+				break;
+			}
+			
+		});
+		listaProductos.push(producto); 
+	});
+     
+	Orden["productos"] = listaProductos;
+	 	
+
 	 $('.ibox-content').toggleClass('sk-loading');
 	 $.ajax({
 			url : "realizarVenta.action",
 			type : "POST",
 			dataType : "html",
-			data:	JSON.stringify(params),
-			contentType: "application/json; charset=utf-8", //traditional:true,
+			data:	JSON.stringify(Orden),
+			contentType: "application/json; charset=utf-8",
 			success : function(respuestaHtml, textStatus, jqXHR) {
 				$("#contenidoDinamico2").empty() ;
 				$("#contenidoDinamico2").html(respuestaHtml) ;
