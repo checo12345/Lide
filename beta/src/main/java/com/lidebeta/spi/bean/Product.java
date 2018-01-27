@@ -1,8 +1,9 @@
 package com.lidebeta.spi.bean;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Product {
+public class Product implements Serializable{
 
 	private Long datastoreId;//
 	

@@ -1,5 +1,6 @@
 package com.lidebeta.spi;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.lidebeta.spi.bean.CoverageArea;
@@ -38,7 +39,7 @@ public class CSAction extends ActionSupport {
 	}
 
 	private String[] test;
-	private List<Product> productos;
+	private List<Product> productos = new ArrayList<Product>() ;
 	public String realizarVenta() {
 		System.out.println("\n========== ACTION: realizarVenta()================");
 		try {
