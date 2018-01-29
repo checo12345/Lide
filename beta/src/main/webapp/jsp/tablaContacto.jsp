@@ -16,8 +16,10 @@
                     <tr>
                         <th class="text-center" data-toggle="true" data-field="id">Codigo</th>
                         <th class="text-center" data-toggle="true">Nombre</th>
-                        <th class="text-center" data-toggle="true">Precio</th>
                         <th class="text-center" data-toggle="true">Existencia</th>
+                        <th class="text-center" data-toggle="true">Precio</th>
+                        <th class="text-center" data-toggle="true">Cantidad</th>
+                        <th class="text-center" data-toggle="true">Sub-Total</th>
                         <th class="text-center">Acciones</th>		
                     </tr>
                     </thead>
@@ -36,18 +38,4 @@
 </div>
 </div>
 
-<div id="mdl-contacto" class="modal small inmodal fade modaltext" tabindex="-1" role="dialog"  aria-hidden="true" data-backdrop="static" data-keyboard="false">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                <h1 class="m-t-none m-b" id="tituloContactoForm">Editar Puesto</h1>
-                <h4 class="modal-title"></h4>
-            </div>
-            <div class="modal-body" id="modalDinamico">       
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div>
+

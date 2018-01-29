@@ -19,7 +19,18 @@
                 toastr.success('Bienvenido', 'Sistema de Punto de Venta Web');
 
             }, 1300);
-
+           
+            
+            $("#tablaContacto").on("input", "input", function() {
+          	  var input = $(this);
+          	  var columns = input.closest("tr").children();
+          	  var price = columns.eq(3).text();
+          	  var calculated = input.val() * price;
+          	  columns.eq(5).text(calculated.toFixed(2));
+          	  sumar_columnas();
+          	  
+          	});
+            
         });
  
 function cerrarSesion() {
@@ -38,6 +49,7 @@ function agregarProducto()
 			success : function(respuestaHtml, textStatus, jqXHR) {
 					footable = $("#tablaContacto").data('footable');
 					footable.appendRow(respuestaHtml);
+					$("#codigoProducto").val("") ;
 					sumar_columnas() ;
 			},
 			error : function(jqXHR,textStatus,errorThrown) {
@@ -73,15 +85,17 @@ function realizarVenta()
 				producto.codigoBarras=$(this).text();
 			break;
 				
-			case 3:
+			case 4:
 				producto.quantity=1;//$(this).text();
 				producto.storeId=5910974510923776;
 				producto.coverageAreaId=4785074604081152;
 				break;
 			}
 			
+			
 		});
-		listaProductos.push(producto); 
+		listaProductos.push(producto);
+		producto = new Object();
 	});
      
 	Orden["productos"] = listaProductos;
@@ -95,8 +109,7 @@ function realizarVenta()
 			data:	JSON.stringify(Orden),
 			contentType: "application/json; charset=utf-8",
 			success : function(respuestaHtml, textStatus, jqXHR) {
-				$("#contenidoDinamico2").empty() ;
-				$("#contenidoDinamico2").html(respuestaHtml) ;
+				limpiarTabla();
 			},
 			error : function(jqXHR,textStatus,errorThrown) {
 				toastr.error("No se encontro",'Departamento');
@@ -104,5 +117,58 @@ function realizarVenta()
 		});
 	 $('.ibox-content').toggleClass('sk-loading');
 }
+
+function limpiarTabla()
+{
+	    $(".footable>tbody>tr").each(function(index, elem){
+	        $(elem).remove();
+	     });
+	    
+	    $('#totalVenta').text('$0.00');
+	}
+
+/*
+ * Descripcion: Modal para eliminar un producto de la tabla
+ * Fecha: 04 de Enero de 2018
+ * @author: Sergio Rojas
+ * */
+function modalEliminarProducto(codigoBarras) {
+
+    swal({
+        title: "Eliminar Producto",
+        text: '¿Desea realizar esta acción?',
+        type: 'warning',
+        showCancelButton: true,
+        closeOnConfirm: true,
+        showLoaderOnConfirm: true,
+        confirmButtonColor: '#DD6B55',
+        allowOutsideClick: true,
+        confirmButtonText: 'Aceptar',
+        cancelButtonText: 'Cancelar'
+        },
+        function(){
+        	eliminarVisualProducto(codigoBarras) ;
+        }
+    );
+}
+
+
+function eliminarVisualProducto(codigoBarras) {
+
+	footable = $("#tablaContacto").data('footable');
+	filaTabla = $("#" + codigoBarras);
+
+	filaTabla.css({
+		"background-color" : '#DD6B55',
+		"color" : "#000"
+	})
+	filaTabla.css({
+		"background-color" : '#DD6B55'
+	}).hide(1500, function() {
+		footable.removeRow(filaTabla);
+	});
+}
+
+
 
 

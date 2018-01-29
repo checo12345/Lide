@@ -7,6 +7,8 @@ import com.lidebeta.spi.bean.CoverageArea;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.dao.AdminDAOImpl;
 import com.opensymphony.xwork2.ActionSupport;
+import com.google.api.server.spi.auth.common.User;
+
 
 public class CSAction extends ActionSupport {
 	private String respuestaCadena = "exitoso";
@@ -26,12 +28,14 @@ public class CSAction extends ActionSupport {
 	public String agregarProducto() {
 		System.out.println("\n========== ACTION: agregarProducto()================");
 		try {
+			
 			System.out.println(
 					"codigo: " + getProducto().getCodigoBarras() + " area: " + getProducto().getCoverageAreaId());
 			AdminApi ca = new AdminApi();
 			System.out.println(
 					"codigo: " + getProducto().getCodigoBarras() + " area: " + getProducto().getCoverageAreaId());
-			setProducto(ca.fetchProductByCb(getProducto()));
+			User user = new User("checo.que@gmail.com") ;
+			setProducto(ca.fetchProductByCb(user,getProducto()));
 		} catch (Exception e) {
 			System.out.println("mamo: " + e.getMessage());
 			respuestaCadena = "errorGeneral";

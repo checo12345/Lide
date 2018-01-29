@@ -10,7 +10,7 @@
 			<span class="input-group-addon"> <span
 				class="glyphicon glyphicon-tags"></span>
 			</span> 
-			<input type="text" class="form-control" name="producto.codigoBarras"	placeholder="Ingresar codigo de barras del producto">
+			<input type="text" class="form-control" name="producto.codigoBarras" id="codigoProducto"	placeholder="Ingresar codigo de barras del producto">
 			<input type="hidden"  name="producto.coverageAreaId" value="4785074604081152">
 			<input type="hidden"  name="producto.storeId" value="5910974510923776">
 		</div>
