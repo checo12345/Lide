@@ -30,6 +30,8 @@ public class Product implements Serializable{
 	private String image;
 	
 	private int quantity;
+	
+	private int pedido;
 
 	private String codigoBarras;
 	
@@ -153,6 +155,14 @@ public class Product implements Serializable{
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	public int getPedido() {
+		return pedido;
+	}
+
+	public void setPedido(int pedido) {
+		this.pedido = pedido;
 	}
 	
 	

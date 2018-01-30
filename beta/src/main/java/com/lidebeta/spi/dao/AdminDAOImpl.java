@@ -214,8 +214,8 @@ public class AdminDAOImpl implements AdminDAO {
 	public void actualizaInventario(Product product) {
 		//Prodcto debe tener codigo de barras, store y coverageArea
 		Product indexProd = fetchProductByCb( product);
-		indexProd.setQuantity(indexProd.getQuantity()+product.getQuantity());
+		indexProd.setQuantity(indexProd.getQuantity()+product.getPedido());
 		updateProduct(indexProd);
-		}
-
+	}
+	
 }
