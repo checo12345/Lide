@@ -38,6 +38,7 @@ import com.lidebeta.spi.bean.Response.Reason;
 public class CustomerDAOImpl implements CustomerDAO{
 	
 	private static final Logger log = Logger.getLogger(RootApi.class.getName());
+	private static final AdminDAO ADMIN_DAO = new AdminDAOImpl();
 	
 	private com.google.appengine.api.search.Index getIndex(String name) {
 		IndexSpec indexSpec = IndexSpec.newBuilder().setName(name).build();
@@ -197,6 +198,16 @@ public class CustomerDAOImpl implements CustomerDAO{
 				response.setOrderId(orderKey.getId());
 				response.setOrderDate(order.getDate());
 				response.setTotal(total.getTotal());
+				
+				for(CompactProduct compactProduct: order.getProducts()) {
+					Product product = new Product();
+					product.setCoverageAreaId(coverageArea.getId());
+					product.setId(compactProduct.getId());
+					product = ADMIN_DAO.fetchProductById(product);product.setQuantity(product.getQuantity()-compactProduct.getQuantity());
+					product = ADMIN_DAO.updateProduct(product);
+				}
+				
+				
 				return response;
 			}else{
 				return new Response(false, Reason.ORDER_RETURN_NULL_FROM_DATASTORE);

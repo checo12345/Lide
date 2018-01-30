@@ -18,4 +18,5 @@ public interface AdminDAO {
 	Product fetchProductByCb(Product product);
 	Store updateStore(Store store);
 	List<Order> getOrders(Sync sync);
+	Product fetchProductById(Product product);
 }
