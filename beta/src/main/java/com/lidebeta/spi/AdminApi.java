@@ -311,7 +311,14 @@ public class AdminApi {
 					product.setCoverageAreaId(4785074604081152l);
 					product.setStoreId(5910974510923776l);
 					
-					product.setCodigoBarras(String.valueOf(i++));
+					int cv = i++;
+					if(cv==10) {
+						product.setCodigoBarras("4046222301613");
+					}else if(cv==11) {
+						product.setCodigoBarras("7501011112438");
+					}else {
+						product.setCodigoBarras(String.valueOf(cv));
+					}
 					
 					ADMIN_DAO.updateProduct(product);
 					

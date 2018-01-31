@@ -30,6 +30,11 @@
           	  sumar_columnas();
           	  
           	});
+           
+            $("#codigoProducto").delayPasteKeyUp(function(){
+            	agregarProducto() ;
+             }, 300);
+            
             
         });
  
@@ -86,7 +91,7 @@ function realizarVenta()
 			break;
 				
 			case 4:
-				producto.quantity=1;//$(this).text();
+				producto.quantity=$(this).children("input").val()*-1;
 				producto.storeId=5910974510923776;
 				producto.coverageAreaId=4785074604081152;
 				break;
@@ -168,6 +173,26 @@ function eliminarVisualProducto(codigoBarras) {
 		footable.removeRow(filaTabla);
 	});
 }
+
+function teclas(event) {
+    tecla=(document.all) ? event.keyCode : event.which;
+    if (tecla==13 && event.altKey) {
+        alert('holaaa');
+    }
+ 
+    return false;
+}
+
+
+$.fn.delayPasteKeyUp = function(fn, ms)
+{
+	 var timer = 0;
+	 $(this).on("propertychange input", function()
+	 {
+		 clearTimeout(timer);
+		 timer = setTimeout(fn, ms);
+	 });
+};
 
 
 
