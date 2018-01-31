@@ -45,4 +45,10 @@ public class CompactProduct{
 	public void setImageName(String imageName) {
 		this.imageName = imageName;
 	}
+	@Override
+	public String toString() {
+		return "CompactProduct [storeId=" + storeId + ", quantity=" + quantity + ", id=" + id + ", name=" + name
+				+ ", price=" + price + ", imageName=" + imageName + "]";
+	}
+	
 }

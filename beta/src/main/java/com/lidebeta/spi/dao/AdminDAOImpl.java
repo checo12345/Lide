@@ -40,22 +40,26 @@ public class AdminDAOImpl implements AdminDAO {
 	private List<Product> productsFromScoredDocuments(Results<ScoredDocument> results){
 		List<Product> products = new ArrayList<Product>();
 		for (ScoredDocument document : results) {
-			Product product = new Product();
-      	  	product.setCoverageAreaId	(Long.parseLong(document.getOnlyField(ProductContract.COLUMN_COVERAGE_AREA_ID).getAtom()));
-      	  	product.setStoreId			(Long.parseLong(document.getOnlyField(ProductContract.COLUMN_STORE_ID).getAtom()));
-	  		product.setId				(document.getId()); 
-	  		product.setName				(document.getOnlyField(ProductContract.COLUMN_NAME).getText()); 
-	  		product.setDescription		(document.getOnlyField(ProductContract.COLUMN_DESCRIPTION).getText()); 
-	  		product.setCodigoBarras		(document.getOnlyField(ProductContract.COLUMN_CODIGO_BARRAS).getText()); 
-	  		product.setAvaible			(document.getOnlyField(ProductContract.COLUMN_AVAIBLE).getNumber()==1);
-	  		product.setPrice			(document.getOnlyField(ProductContract.COLUMN_PRICE).getNumber()); 
-	  		product.setImage			(document.getOnlyField(ProductContract.COLUMN_IMAGE).getAtom());
-	  		product.setKeywords			(document.getOnlyField(ProductContract.COLUMN_KEYWORDS).getText());
-	  		product.setCategories		(document.getOnlyField(ProductContract.COLUMN_CATEGORIES).getText());
-	  		product.setQuantity  		(document.getOnlyField(ProductContract.COLUMN_QUANTITY).getNumber().intValue());
-	      	products.add(product);
+	      	products.add(productFromDocument(document));
 		}
 		return products;
+	}
+	
+	private Product productFromDocument(Document document) {
+		Product product = new Product();
+  	  	product.setCoverageAreaId	(Long.parseLong(document.getOnlyField(ProductContract.COLUMN_COVERAGE_AREA_ID).getAtom()));
+  	  	product.setStoreId			(Long.parseLong(document.getOnlyField(ProductContract.COLUMN_STORE_ID).getAtom()));
+  		product.setId				(document.getId()); 
+  		product.setName				(document.getOnlyField(ProductContract.COLUMN_NAME).getText()); 
+  		product.setDescription		(document.getOnlyField(ProductContract.COLUMN_DESCRIPTION).getText()); 
+  		product.setCodigoBarras		(document.getOnlyField(ProductContract.COLUMN_CODIGO_BARRAS).getText()); 
+  		product.setAvaible			(document.getOnlyField(ProductContract.COLUMN_AVAIBLE).getNumber()==1);
+  		product.setPrice			(document.getOnlyField(ProductContract.COLUMN_PRICE).getNumber()); 
+  		product.setImage			(document.getOnlyField(ProductContract.COLUMN_IMAGE).getAtom());
+  		product.setKeywords			(document.getOnlyField(ProductContract.COLUMN_KEYWORDS).getText());
+  		product.setCategories		(document.getOnlyField(ProductContract.COLUMN_CATEGORIES).getText());
+  		product.setQuantity  		(document.getOnlyField(ProductContract.COLUMN_QUANTITY).getNumber().intValue());
+		return product;
 	}
 	
 	private Document documentFromProduct(Product product){
@@ -133,6 +137,12 @@ public class AdminDAOImpl implements AdminDAO {
 	}
 	
 	@Override
+	public Product fetchProductById(Product product) {
+		Document doc = getIndex(product.getCoverageAreaId().toString()).get(product.getId());
+		return doc!=null?productFromDocument(doc):null;
+	}
+	
+	@Override
 	public Store updateStore(Store store) {
 		Key<CoverageArea> coverageAreaKey = Key.create(CoverageArea.class, store.getCoverageAreaId());
 		CoverageArea coverageArea = ofy().load().key(coverageAreaKey).now();
@@ -204,8 +214,8 @@ public class AdminDAOImpl implements AdminDAO {
 	public void actualizaInventario(Product product) {
 		//Prodcto debe tener codigo de barras, store y coverageArea
 		Product indexProd = fetchProductByCb( product);
-		indexProd.setQuantity(indexProd.getQuantity()+product.getQuantity());
+		indexProd.setQuantity(indexProd.getQuantity()+product.getPedido());
 		updateProduct(indexProd);
-		}
-
+	}
+	
 }
