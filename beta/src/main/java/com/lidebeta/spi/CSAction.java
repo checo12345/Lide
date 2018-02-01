@@ -34,7 +34,7 @@ public class CSAction extends ActionSupport {
 			AdminApi ca = new AdminApi();
 			System.out.println(
 					"codigo: " + getProducto().getCodigoBarras() + " area: " + getProducto().getCoverageAreaId());
-			User user = new User("checo.que@gmail.com") ;
+			User user = new User("roldan.a.z.p@gmail.com") ;
 			setProducto(ca.fetchProductByCb(user,getProducto()));
 		} catch (Exception e) {
 			System.out.println("mamo: " + e.getMessage());

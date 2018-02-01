@@ -282,7 +282,7 @@ public class AdminApi {
 		
 		InputStream resourceStream;
 		try {
-			resourceStream = new FileInputStream("WEB-INF/productos.csv");
+			resourceStream = new FileInputStream("WEB-INF/produpdate.csv");
 			InputStreamReader inReader = new InputStreamReader(resourceStream, "UTF-8");
 			BufferedReader br = new BufferedReader(inReader);
 			String line;
@@ -291,16 +291,21 @@ public class AdminApi {
 			br.readLine();//read headers and get it out the way
 			while ((line = br.readLine()) != null) {
 				String[] columns = line.split(",");
-				if(columns.length==5){
-										
+				//if(columns.length==5){
+							
+					System.out.println("-----------------------"+line);
+					System.out.println("======================="+Arrays.toString(columns));
+					String cv = columns[0];
+					System.out.println("======================="+cv);
+				
 					Product product = new Product();
 					
 					product.setName(columns[1]);
-					product.setImage("products/"+columns[2]);
-					product.setKeywords(columns[3]);
-					product.setDescription(columns[1]);
+					product.setImage("products/lors.jpg");
+					product.setKeywords("Marinela galleta galletas lors");
+					product.setDescription("Marinela galleta galletas lors");
 					
-					double price = Double.valueOf(columns[4]) + 0.1*Double.valueOf(columns[4]);
+					double price = Double.valueOf(columns[3].replace("$", ""));
 					
 					product.setPrice(price);
 					
@@ -311,18 +316,11 @@ public class AdminApi {
 					product.setCoverageAreaId(4785074604081152l);
 					product.setStoreId(5910974510923776l);
 					
-					int cv = i++;
-					if(cv==10) {
-						product.setCodigoBarras("4046222301613");
-					}else if(cv==11) {
-						product.setCodigoBarras("7501011112438");
-					}else {
-						product.setCodigoBarras(String.valueOf(cv));
-					}
+					product.setCodigoBarras(cv);
 					
 					ADMIN_DAO.updateProduct(product);
 					
-				}
+				//}
 	        }
 		} catch (FileNotFoundException e) {
 			System.out.println("-----------------------fuck0");

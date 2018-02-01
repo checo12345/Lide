@@ -86,7 +86,7 @@ public class AdminDAOImpl implements AdminDAO {
 	
 	@Override
 	public Product updateProduct(Product product) {
-		System.out.println("product.quantity = "+product.getQuantity());
+		System.out.println("product = "+product.toString());
 		PutResponse putResponse = 
 				getIndex(product.getCoverageAreaId().toString()).put(documentFromProduct(product));
 		for(String id: putResponse.getIds()){

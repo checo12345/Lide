@@ -2,7 +2,7 @@
 
 <tr id="<s:property value="producto.codigoBarras" />">
 	<td ><s:property value="producto.codigoBarras" /></td>
-	<td><s:property value="producto.description" /></td>
+	<td><s:property value="producto.name" /></td>
 	<td><s:property value="producto.quantity" /></td>
 	<td ><s:property value="producto.price" /></td>
 	<td><input type="number" class='entrada' min='1' value='1'> </td>
