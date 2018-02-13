@@ -85,6 +85,23 @@ public class AdminDAOImpl implements AdminDAO {
 	}
 	
 	@Override
+	public void cleanIndex(String coverageAreaId) {
+		com.google.appengine.api.search.Index index = getIndex(coverageAreaId);
+		StringBuilder query = new StringBuilder();
+		Results<ScoredDocument> results = index.search(query.toString());
+		System.out.println("------------------>"+results.getNumberFound());
+		while(results.getNumberFound()>0) {
+			List<String> ids = new ArrayList<>();
+			for (ScoredDocument document : results) {
+				ids.add(document.getId());
+			}
+			index.delete(ids);
+			results = index.search(query.toString());
+			System.out.println("------------------>"+results.getNumberFound());
+		}
+	}
+	
+	@Override
 	public Product updateProduct(Product product) {
 		System.out.println("product = "+product.toString());
 		PutResponse putResponse = 

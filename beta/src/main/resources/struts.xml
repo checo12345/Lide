@@ -13,7 +13,7 @@
 	        </interceptor-stack>
 	    </interceptors>  
        
-		<action name="iniciarSesion" class="com.lidebeta.spi.CSAction" method="inic iarSesion">
+		<action name="iniciarSesion" class="com.lidebeta.spi.CSAction" method="iniciarSesion">
 			<result name="exitoso">jsp/iniciarSesion.jsp</result>
 		</action>
 		<action name="menuPrincipal">

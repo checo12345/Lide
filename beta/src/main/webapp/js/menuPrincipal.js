@@ -92,8 +92,8 @@ function realizarVenta()
 				
 			case 4:
 				producto.quantity=$(this).children("input").val()*-1;
-				producto.storeId=5910974510923776;
-				producto.coverageAreaId=4785074604081152;
+				producto.storeId=5629499534213120;
+				producto.coverageAreaId=5629499534213120;
 				break;
 			}
 			

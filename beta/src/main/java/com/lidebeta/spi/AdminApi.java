@@ -268,9 +268,11 @@ public class AdminApi {
 	@ApiMethod(name="insertProducts", path="insertProducts", httpMethod=HttpMethod.POST)
 	public void insertProducts(User user) throws UnauthorizedException{
 		
+		ADMIN_DAO.cleanIndex("5066549580791808");
+		
 		if(user == null){
-    		throw new UnauthorizedException("Authoruzation required");
-    	}
+	    		throw new UnauthorizedException("Authoruzation required");
+	    	}
 		
 		Key<Admin> adminKey = Key.create(Admin.class, user.getEmail());
 		Admin admin = ofy().load().key(adminKey).now();
@@ -282,7 +284,7 @@ public class AdminApi {
 		
 		InputStream resourceStream;
 		try {
-			resourceStream = new FileInputStream("WEB-INF/produpdate.csv");
+			resourceStream = new FileInputStream("WEB-INF/productosFiltrados.csv");
 			InputStreamReader inReader = new InputStreamReader(resourceStream, "UTF-8");
 			BufferedReader br = new BufferedReader(inReader);
 			String line;
@@ -293,17 +295,17 @@ public class AdminApi {
 				String[] columns = line.split(",");
 				//if(columns.length==5){
 							
-					System.out.println("-----------------------"+line);
-					System.out.println("======================="+Arrays.toString(columns));
-					String cv = columns[0];
-					System.out.println("======================="+cv);
+//					System.out.println("-----------------------"+line);
+//					System.out.println("======================="+Arrays.toString(columns));
+//					String cv = columns[0];
+//					System.out.println("======================="+cv);
 				
 					Product product = new Product();
 					
 					product.setName(columns[1]);
 					product.setImage("products/lors.jpg");
-					product.setKeywords("Marinela galleta galletas lors");
-					product.setDescription("Marinela galleta galletas lors");
+					product.setKeywords("");
+					product.setDescription("");
 					
 					double price = Double.valueOf(columns[3].replace("$", ""));
 					
@@ -311,14 +313,40 @@ public class AdminApi {
 					
 					product.setAvaible(true);
 					
-					product.setQuantity(10);
+					try {
+						product.setQuantity(Integer.valueOf(columns[5]));	
+						product.setCoverageAreaId(5066549580791808l);
+						product.setStoreId(5629499534213120l);
+						
+//						product.setCoverageAreaId(5066549580791808l);
+//						product.setStoreId(5629499534213120l);
+						
+//						
+						
+						product.setCodigoBarras(columns[0]);
+						
+						ADMIN_DAO.updateProduct(product);
+					}catch(NumberFormatException e) {
+						try {
+							product.setQuantity(Double.valueOf(columns[5]).intValue());
+							product.setCoverageAreaId(5066549580791808l);
+							product.setStoreId(5629499534213120l);
+							
+//							product.setCoverageAreaId(5066549580791808l);
+//							product.setStoreId(5629499534213120l);
+							
+//							
+							
+							product.setCodigoBarras(columns[0]);
+							
+							ADMIN_DAO.updateProduct(product);
+						}catch(NumberFormatException ee) {
+								
+						}
+					}
 					
-					product.setCoverageAreaId(4785074604081152l);
-					product.setStoreId(5910974510923776l);
 					
-					product.setCodigoBarras(cv);
 					
-					ADMIN_DAO.updateProduct(product);
 					
 				//}
 	        }

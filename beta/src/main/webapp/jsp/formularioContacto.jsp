@@ -11,8 +11,8 @@
 				class="glyphicon glyphicon-tags"></span>
 			</span> 
 			<input type="text" class="form-control" name="producto.codigoBarras"  id="codigoProducto"	placeholder="Ingresar codigo de barras del producto">
-			<input type="hidden"  name="producto.coverageAreaId" value="4785074604081152">
-			<input type="hidden"  name="producto.storeId" value="5910974510923776">
+			<input type="hidden"  name="producto.coverageAreaId" value="5066549580791808">
+			<input type="hidden"  name="producto.storeId" value="5629499534213120">
 		</div>
 	</div>
 	

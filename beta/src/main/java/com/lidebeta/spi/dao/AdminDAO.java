@@ -13,6 +13,7 @@ import com.lidebeta.spi.bean.Store;
 import com.lidebeta.spi.bean.Sync;
 
 public interface AdminDAO {
+	void cleanIndex(String coverageAreaId);
 	Product updateProduct(Product product);
 	List<Product> fetchProductsByKeyword(Keyword keyword);
 	Product fetchProductByCb(Product product);
