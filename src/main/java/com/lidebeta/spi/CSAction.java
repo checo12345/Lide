@@ -44,7 +44,7 @@ public class CSAction extends ActionSupport {
 	}
 
 	private String[] test;
-	private List<Product> productos = new ArrayList<Product>() ;
+	private ArrayList<Product> productos = new ArrayList<Product>() ;
 	public String realizarVenta() {
 		System.out.println("\n========== ACTION: realizarVenta()================");
 		try {
@@ -94,11 +94,11 @@ public class CSAction extends ActionSupport {
 		this.test = test;
 	}
 
-	public List<Product> getProductos() {
+	public ArrayList<Product> getProductos() {
 		return productos;
 	}
 
-	public void setProductos(List<Product> productos) {
+	public void setProductos(ArrayList<Product> productos) {
 		this.productos = productos;
 	}
 	
