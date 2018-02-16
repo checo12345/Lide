@@ -17,7 +17,7 @@ public class Constants {
   public static final String ANDROID_CLIENT_ID = "299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com";
   
 //public static final String ANDROID_MANAGER_CLIENT_ID = "347485897175-p8fdbb289tcpua7mfjc8nhvofas3rohk.apps.googleusercontent.com";
-  public static final String ANDROID_MANAGER_CLIENT_ID = "299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com";
+  public static final String ANDROID_MANAGER_CLIENT_ID = "299646937934-cut3mi8kqla2prfomrmdbmpkhc1nf7gd.apps.googleusercontent.com";
   
   
   public static final String IOS_CLIENT_ID = "replace this with your iOS client ID";
