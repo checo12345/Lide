@@ -2,6 +2,7 @@ package com.lidebeta.spi;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 import com.lidebeta.spi.bean.CoverageArea;
 import com.lidebeta.spi.bean.Product;
@@ -11,6 +12,7 @@ import com.google.api.server.spi.auth.common.User;
 
 
 public class CSAction extends ActionSupport {
+	private static final Logger log = Logger.getLogger(CSAction.class.getName());
 	private String respuestaCadena = "exitoso";
 	private List<CoverageArea> areas;
 	private Product producto;
@@ -56,6 +58,8 @@ public class CSAction extends ActionSupport {
 					}
 				}
 		} catch (Exception e) {
+			log.info(e.getMessage());
+			log.info(e.getStackTrace().toString());
 			System.out.println("mamo: " + e.getMessage());
 			respuestaCadena = "errorGeneral";
 		}

@@ -111,7 +111,7 @@ public class AdminApi {
 
 	@ApiMethod(name="fetchProductByCb", path="fetchProductByCb", httpMethod=HttpMethod.POST)
 	public Product fetchProductByCb(User user,Product product) throws UnauthorizedException{
-		
+		/*
 		if(user == null){
     		throw new UnauthorizedException("Authoruzation required");
     	}
@@ -124,9 +124,8 @@ public class AdminApi {
 				!admin.isActive()){
 			throw new UnauthorizedException("Authentication fail");
 		}
-		
+		*/
 		return ADMIN_DAO.fetchProductByCb(product);
-		
 	}
 	
 	@ApiMethod(name="updateStore", path="updateStore", httpMethod=HttpMethod.POST)
