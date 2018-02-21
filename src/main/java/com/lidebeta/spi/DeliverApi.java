@@ -28,7 +28,8 @@ import com.lidebeta.spi.business.DeliveryBusinessImpl;
 		clientIds = {
 				Constants.WEB_CLIENT_ID, 
 				Constants.API_EXPLORER_CLIENT_ID,
-				Constants.ANDROID_CLIENT_ID
+				Constants.ANDROID_CLIENT_ID,
+				"299646937934-5klucl48qcede8f3q4a0ckhqu90htr8d.apps.googleusercontent.com"
 //				,				"299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com"//debug
 		}, 
 		audiences = {Constants.ANDROID_AUDIENCE},
@@ -83,12 +84,17 @@ public class DeliverApi {
 	
 	@ApiMethod(name="updateNotificationToken", path="updateNotificationToken", httpMethod=HttpMethod.POST)
 	public DeliveryMan updateNotificationToken(User user, NotificationToken token) throws UnauthorizedException{
+		
+		log.severe("--------------------user = "+ user);
+		
 		if(user==null){
 			throw new UnauthorizedException("Authorization required");
 		}
 		
 		Key<DeliveryMan> deliveryManKey = Key.create(DeliveryMan.class, user.getEmail());
 		DeliveryMan deliveryMan = ofy().load().key(deliveryManKey).now();
+		
+		log.severe("--------------------deliveryMan = "+ deliveryMan);	
 		
 		if(deliveryMan==null){
 			throw new UnauthorizedException("Authentication fail");
@@ -104,12 +110,15 @@ public class DeliverApi {
 	
 	@ApiMethod(name="sendNotification", path="sendNotification", httpMethod=HttpMethod.POST)
 	public BooleanWrapper sendNotification(User user, Notification notification) throws UnauthorizedException{
+		
 		if(user==null){
 			throw new UnauthorizedException("Authorization required");
 		}
 
 		Key<DeliveryMan> deliveryManKey = Key.create(DeliveryMan.class, user.getEmail());
 		DeliveryMan deliveryMan = ofy().load().key(deliveryManKey).now();
+		
+		
 		
 		if(deliveryMan==null){
 			throw new UnauthorizedException("Authentication fail");
