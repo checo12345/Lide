@@ -29,7 +29,11 @@ import com.lidebeta.spi.business.DeliveryBusinessImpl;
 				Constants.WEB_CLIENT_ID, 
 				Constants.API_EXPLORER_CLIENT_ID,
 				Constants.ANDROID_CLIENT_ID,
+<<<<<<< HEAD
 				"299646937934-5klucl48qcede8f3q4a0ckhqu90htr8d.apps.googleusercontent.com"
+=======
+				"299646937934-r1et88074vhp0qpksuon32ec2qibs52q.apps.googleusercontent.com"
+>>>>>>> a9d3853ec7540dc0985468f4d6c2c317281cb1a6
 //				,				"299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com"//debug
 		}, 
 		audiences = {Constants.ANDROID_AUDIENCE},
@@ -43,12 +47,16 @@ public class DeliverApi {
 	@ApiMethod(name="getOrders", path="getOrders", httpMethod=HttpMethod.GET)
 	public List<Order> getOrders(final User user) throws UnauthorizedException{
 		
+		
+		
 		if(user==null){
 			throw new UnauthorizedException("Authorization required user = " + null);
 		}
 		
 		Key<DeliveryMan> deliveryManKey = Key.create(DeliveryMan.class, user.getEmail());
 		DeliveryMan deliveryMan = ofy().load().key(deliveryManKey).now();
+		
+		
 		
 		if(deliveryMan==null){
 			throw new UnauthorizedException("Authentication fail deliveryMan = " + String.valueOf(deliveryMan));
@@ -66,6 +74,8 @@ public class DeliverApi {
 
 	@ApiMethod(name="updateOrder", path="updateOrder", httpMethod=HttpMethod.POST)
 	public OrderResponse updateOrder(User user, Order order) throws UnauthorizedException{
+		
+		
 		
 		if(user==null){
 			throw new UnauthorizedException("Authorization required");
@@ -85,8 +95,11 @@ public class DeliverApi {
 	@ApiMethod(name="updateNotificationToken", path="updateNotificationToken", httpMethod=HttpMethod.POST)
 	public DeliveryMan updateNotificationToken(User user, NotificationToken token) throws UnauthorizedException{
 		
+<<<<<<< HEAD
 		log.severe("--------------------user = "+ user);
 		
+=======
+>>>>>>> a9d3853ec7540dc0985468f4d6c2c317281cb1a6
 		if(user==null){
 			throw new UnauthorizedException("Authorization required");
 		}
