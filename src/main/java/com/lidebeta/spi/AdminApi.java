@@ -1,4 +1,4 @@
-package com.lidebeta.spi;
+package src.main.java.com.lidebeta.spi;
 
 import static com.lidebeta.spi.service.OfyService.ofy;
 

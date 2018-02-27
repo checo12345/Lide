@@ -118,14 +118,14 @@ public class RootApi {
 		Key<Root> rootKey = Key.create(Root.class, user.getEmail());
 		Root root = ofy().load().key(rootKey).now();
 		if(root==null){
-			throw new UnauthorizedException("Authentication fail root = " + root);
+			throw new UnauthorizedException("Authentication fail root = " + root + ", email = " + user.getEmail());
 		}
 	}	
-	
+
 	@ApiMethod(name="rootUp", path="rootUp", httpMethod=HttpMethod.POST)
-	public Root rootUp(User user, Customer customer) throws UnauthorizedException{
+	public Root rootUp(User user) throws UnauthorizedException{
 		Root root = new Root();
-		root.setId("root");
+		root.setId(user.getEmail());
 		ofy().save().entity(root).now();
 		return root;
 	}
