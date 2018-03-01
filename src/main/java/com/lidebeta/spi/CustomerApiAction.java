@@ -63,8 +63,7 @@ import com.lidebeta.spi.business.CustomerBusinessImpl;
 				clientIds = {
 						Constants.WEB_CLIENT_ID, 
 						Constants.API_EXPLORER_CLIENT_ID,
-						Constants.ANDROID_CUSTOMER_CLIENT_ID,
-						"299646937934-ja5hlk6lhjdl0c7lu252qkftm8738h62.apps.googleusercontent.com"
+						Constants.ANDROID_CUSTOMER_CLIENT_ID
 				}, 
 				audiences = {Constants.ANDROID_AUDIENCE},
 				description = "API for customers"

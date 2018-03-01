@@ -85,6 +85,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			query.append(" AND ");
 		}
 		
+		
 		//TODO Traer la lista de tiendas por area de covertura y incluir en el query NOT 123456789
 		//para cada tienda cerrada
 		
@@ -97,13 +98,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 		query.append(" = ");
 		query.append(keyword.getName());
 		
-		log.severe("------------------>>>"+query.toString() + "---------->>>"+keyword.getCoverage_area_id().toString());
-		
 		Results<ScoredDocument> results = getIndex(keyword.getCoverage_area_id().toString()).search(query.toString());
-		
-		log.severe("------------------>>>"+results.getNumberReturned());
-		
-		
 		return parseResultProducts(results);
 	}
 
