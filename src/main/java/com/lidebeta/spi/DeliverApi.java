@@ -29,7 +29,7 @@ import com.lidebeta.spi.business.DeliveryBusinessImpl;
 				Constants.WEB_CLIENT_ID, 
 				Constants.API_EXPLORER_CLIENT_ID,
 				Constants.ANDROID_CLIENT_ID,
-				"299646937934-5klucl48qcede8f3q4a0ckhqu90htr8d.apps.googleusercontent.com"
+				"299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com"
 //				,				"299646937934-p45gchbmkd6ck1fne34vu4tjk99560i1.apps.googleusercontent.com"//debug
 		}, 
 		audiences = {Constants.ANDROID_AUDIENCE},

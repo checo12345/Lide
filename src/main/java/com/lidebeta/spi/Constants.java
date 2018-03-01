@@ -25,7 +25,7 @@ public class Constants {
   public static final String API_EXPLORER_CLIENT_ID = Constant.API_EXPLORER_CLIENT_ID;
   public static final String EMAIL_SCOPE = "https://www.googleapis.com/auth/userinfo.email";
   
-  public static final String FCM_SERVER_KEY = "AAARcRZa04:APA91bFa5GGa0ss0bc03DfipeQT2Am5Juwfxe3b5KGdFh8ec5hJfn9AT9J0NlzCI1FNqbgAMnabGm-8xbzKu5bJoO6NzsGyYUIixuByUu2phaVXLYWCzdqrvNjVs1_DPdunv5luwnhZw";
+  public static final String FCM_SERVER_KEY = "AAAARcRZa04:APA91bFa5GGa0ss0bc03DfipeQT2Am5Juwfxe3b5KGdFh8ec5hJfn9AT9J0NlzCI1FNqbgAMnabGm-8xbzKu5bJoO6NzsGyYUIixuByUu2phaVXLYWCzdqrvNjVs1_DPdunv5luwnhZw";
   
   
   
