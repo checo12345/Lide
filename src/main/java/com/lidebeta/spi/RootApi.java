@@ -122,12 +122,12 @@ public class RootApi {
 		}
 	}	
 	
-	@ApiMethod(name="rootUp", path="rootUp", httpMethod=HttpMethod.POST)
-	public Root rootUp(User user, Customer customer) throws UnauthorizedException{
-		Root root = new Root();
-		root.setId("root");
-		ofy().save().entity(root).now();
-		return root;
-	}
+	// @ApiMethod(name="rootUp", path="rootUp", httpMethod=HttpMethod.POST)
+	// public Root rootUp(User user) throws UnauthorizedException{
+	// 	Root root = new Root();
+	// 	root.setId(user.getEmail());
+	// 	ofy().save().entity(root).now();
+	// 	return root;
+	// }
 	
 }

@@ -1,0 +1,498 @@
+Codigo,Descripcion,Precio Costo,Precio Venta,Precio Mayoreo,Inventario,Inv. Minimo,Departamento,keyword
+VASO SUELTO,,$0.00,$1.00,$0.00,0,0,- Sin Departamento -,
+RULECITOS DE CANELA,,$0.00,$7.00,$0.00,0,0,- Sin Departamento -,
+LECHGA,,$0.00,$12.00,$0.00,0,0,- Sin Departamento -,
+LECHUGA,,$10.00,$12.00,$0.00,N/A,0,- Sin Departamento -,
+75051365,,$0.00,$1.50,$0.00,0,0,Dulces,
+CUBRBOCAS,,$0.00,$1.50,$0.00,0,0,Farmacia,
+CUBREBOCAS,,$0.00,$1.50,$0.00,0,0,Farmacia,
+JAMON DE PAVO,,$0.00,$100.00,$0.00,0,0,lacteos y embutidos,
+7501055901173,Alpura Frutos Rojos 150g,$3.50,$5.00,$0.00,0,0,Alpura,Alpura Frutos Rojos 150g
+2201302,Orbit Fresa,$0.00,$2.00,$0.00,N/A,0,Dulces,Orbit Fresa
+2261003,Orbit Hierbabuena,$0.00,$2.00,$0.00,27,0,Dulces,Orbit Hierbabuena
+75041748,Orbit Menta,$0.00,$2.00,$0.00,2,0,Dulces,Orbit Menta
+7501032395599,0ikos Fresa,$7.00,$9.00,$0.00,1,0,Danone,0ikos Fresa
+1021,1 Kg Calabaza,$5.00,$6.50,$0.00,0,0,Verdura,1 Kg Calabaza
+1120,1 Kg Guayaba,$15.00,$19.50,$0.00,0,0,Verdura,1 Kg Guayaba
+1489,1 Kg Zanahoria,$5.00,$6.50,$0.00,0,0,Verdura,1 Kg Zanahoria
+1519,1 Peso,$0.00,$1.00,$0.00,N/A,0,Tienda,1 Peso
+7501199410913,1.2.2003,$18.00,$23.00,$23.00,7,0,Detergentes,1.2.2003
+1601,10 Pesos,$0.00,$10.00,$0.00,N/A,0,Tienda,10 Pesos
+1618,11 Pesos,$0.00,$11.00,$0.00,N/A,0,Tienda,11 Pesos
+1625,12 Pesos,$0.00,$12.00,$0.00,N/A,0,Tienda,12 Pesos
+1632,13 Pesos,$0.00,$13.00,$0.00,N/A,0,Tienda,13 Pesos
+1649,14 Pesos,$0.00,$14.00,$0.00,N/A,0,Tienda,14 Pesos
+1526,2 Pesos,$0.00,$2.00,$0.00,N/A,0,Tienda,2 Pesos
+1045,250g Calabaza,$1.50,$2.00,$0.00,0,0,Verdura,250g Calabaza
+1144,250g Guayaba,$4.00,$5.00,$0.00,0,0,Verdura,250g Guayaba
+1502,250g Zanahoria,$1.50,$2.00,$0.00,0,0,Verdura,250g Zanahoria
+PROMO 1,3 Blanca Nieves 250g + 1 Jabon Tocador,$0.00,$25.00,$0.00,11,0,Promociones,3 Blanca Nieves 250g + 1 Jabon Tocador
+7501058753137,3 En 1,$0.00,$45.00,$0.00,1,0,Tienda,3 En 1
+1533,3 Pesos,$0.00,$3.00,$0.00,N/A,0,Tienda,3 Pesos
+1540,4 Pesos,$0.00,$4.00,$0.00,N/A,0,Tienda,4 Pesos
+1557,5 Pesos,$0.00,$5.00,$0.00,N/A,0,Tienda,5 Pesos
+1656,50 Centavos,$0.00,$0.50,$0.00,N/A,0,Tienda,50 Centavos
+1038,500g Calabaza,$2.50,$3.00,$0.00,0,0,Verdura,500g Calabaza
+1137,500g Guayaba,$7.50,$10.00,$0.00,0,0,Verdura,500g Guayaba
+1496,500g Zanahoria,$2.50,$3.00,$0.00,0,0,Verdura,500g Zanahoria
+1564,6 Pesos,$0.00,$6.00,$0.00,N/A,0,Tienda,6 Pesos
+1571,7 Pesos,$0.00,$7.00,$0.00,N/A,0,Tienda,7 Pesos
+754177505935,"7,54E+11",$0.00,$2.00,$0.00,0,0,Dulces,"7,54E+11"
+1588,8 Pesos,$0.00,$8.00,$0.00,N/A,0,Tienda,8 Pesos
+1595,9 Pesos,$0.00,$9.00,$0.00,N/A,0,Tienda,9 Pesos
+7503000720082,ALCOHOL 125ML,$0.00,$6.00,$0.00,0,0,Farmacia,ALCOHOL 125ML
+AZUCAR,AZUCAR,$18.00,$18.00,$0.00,39.49,0,Tienda,AZUCAR
+7312040090754,Absolut Citron,$209.00,$250.00,$0.00,1,0,vino,Absolut Citron
+7506309898162,Ace 1kg,$24.00,$30.00,$0.00,20,0,Detergentes,Ace 1kg
+7501006705942,Ace 250g,$0.00,$9.00,$0.00,18,0,Detergentes,Ace 250g
+7501007445557,Ace 500 G,$14.00,$17.00,$17.00,19,0,Detergentes,Ace 500 G
+75005443,Aceite 123 500ml,$10.00,$13.00,$13.00,31,0,Tienda,Aceite 123 500ml
+75002343,Aceite 123 Litro,$20.00,$25.00,$24.00,27,0,Tienda,Aceite 123 Litro
+75024437,Aceite Capullo De 500,$0.00,$15.00,$0.00,1,0,- Sin Departamento -,Aceite Capullo De 500
+7501048100248,Aceite Cristal 15 Lt,$32.00,$37.00,$34.00,12,0,Tienda,Aceite Cristal 15 Lt
+7501048100163,Aceite Cristal De 1litro,$21.50,$24.50,$24.00,24,0,Tienda,Aceite Cristal De 1litro
+7501048100200,Aceite Cristal De 500 Ml,$10.00,$13.00,$13.00,14,0,Tienda,Aceite Cristal De 500 Ml
+7501039126004,Aceite Nutrioli,$11.50,$14.00,$14.00,6,0,Tienda,Aceite Nutrioli
+7501039120149,Aceite Nutrioli 946 Ml,$21.00,$26.50,$25.00,1,0,Tienda,Aceite Nutrioli 946 Ml
+7501032915155,Aceite PMuebles Pledge 3,$0.00,$50.00,$0.00,3,0,Tienda,Aceite PMuebles Pledge 3
+7501032396121,Activia,$0.00,$9.00,$0.00,2,0,Danone,Activia
+7501032396114,Activia Ciruela,$0.00,$9.00,$0.00,3,0,- Sin Departamento -,Activia Ciruela
+7501032396176,Activia Fibra,$0.00,$7.50,$0.00,2,0,Danone,Activia Fibra
+7501032334741,Activia Fresh Mango,$7.00,$8.50,$0.00,0,0,Danone,Activia Fresh Mango
+7501032397227,Activia Mango,$0.00,$9.00,$0.00,2,0,Danone,Activia Mango
+7501032395834,Activia Nuez Platano,$0.00,$8.00,$0.00,5,0,Tienda,Activia Nuez Platano
+7501032396145,Activia Papaya,$0.00,$8.50,$0.00,2,0,Danone,Activia Papaya
+7501005114523,Ades De Mango,$0.00,$5.00,$0.00,1,0,Tienda,Ades De Mango
+7501005114516,Ades De Naraja,$0.00,$5.00,$0.00,0,4,Tienda,Ades De Naraja
+7501005113373,Ades Durazno,$0.00,$5.00,$0.00,3,0,Tienda,Ades Durazno
+7501005114509,Ades Manzana,$0.00,$5.00,$0.00,1,0,Tienda,Ades Manzana
+7501400800564,Agin C 20,$0.00,$5.00,$0.00,N/A,0,Farmacia,Agin C 20
+758104000104,Agua Bonafont,$0.00,$4.00,$0.00,0,0,Agua,Agua Bonafont
+758104000159,Agua Bonafont  15 Lt,$0.00,$12.00,$0.00,11,0,Tienda,Agua Bonafont  15 Lt
+758104003419,Agua Bonafont 1L,$0.00,$9.00,$0.00,0,0,- Sin Departamento -,Agua Bonafont 1L
+75040840,Agua Bonafont 250ml,$0.00,$3.50,$0.00,24,0,Agua,Agua Bonafont 250ml
+758104001712,Agua Bonafont 600ml,$5.00,$7.00,$0.00,21,0,Tienda,Agua Bonafont 600ml
+7501055310487,Agua Ciel 5 Lts,$13.50,$17.00,$0.00,2,0,Refresco,Agua Ciel 5 Lts
+7501055307906,Agua Ciel 600ml,$0.00,$7.00,$0.00,4,0,Refresco,Agua Ciel 600ml
+7501073831469,Agua Mineral CLimon 600,$0.00,$8.50,$0.00,10,0,Refresco,Agua Mineral CLimon 600
+7501059200012,Agua Sta Maria 1.5L,$0.00,$11.00,$0.00,35,0,Tienda,Agua Sta Maria 1.5L
+7501059200067,Agua Sta Maria 355ml,$0.00,$3.00,$0.00,21,0,Tienda,Agua Sta Maria 355ml
+7501059200050,Agua Sta Maria 500ml,$0.00,$5.00,$0.00,15,0,Tienda,Agua Sta Maria 500ml
+AGUACATE,Aguacate,$30.00,$39.00,$0.00,N/A,0,Tienda,Aguacate
+62,Aguacate 1k,$0.00,$40.00,$0.00,N/A,0,Verdura,Aguacate 1k
+93,Aguacate 250g,$0.00,$10.00,$0.00,N/A,0,Verdura,Aguacate 250g
+79,Aguacate 500g,$0.00,$20.00,$0.00,N/A,0,Verdura,Aguacate 500g
+7501058764522,Air Wick,$35.00,$45.50,$0.00,0,0,Tienda,Air Wick
+7501058711519,Air Wick,$35.00,$45.50,$0.00,1,0,Tienda,Air Wick
+7503000720129,Alcohol 500ml,$13.00,$16.00,$0.00,0,0,Farmacia,Alcohol 500ml
+7503000720105,Alcohol Lourdes,$8.00,$9.00,$0.00,0,0,Tienda,Alcohol Lourdes
+7501055900039,Alpura 1L Clasica,$16.00,$17.50,$17.00,20,0,Alpura,Alpura 1L Clasica
+7501055901425,Alpura 1L Deslactosa,$16.00,$20.00,$20.00,11,0,Alpura,Alpura 1L Deslactosa
+7501055909575,Alpura Choco 250ml,$0.00,$7.50,$0.00,1,0,Alpura,Alpura Choco 250ml
+7501055904143,Alpura Deslactosada Light 1L,$0.00,$19.00,$0.00,1,0,Tienda,Alpura Deslactosada Light 1L
+7501055909285,Alpura Durazno,$0.00,$5.00,$0.00,1,0,- Sin Departamento -,Alpura Durazno
+7501055903788,Alpura Frutal 1,$15.00,$18.00,$0.00,0,0,Alpura,Alpura Frutal 1
+7501055905850,Alpura Frutal 250ml Piña,$6.00,$8.00,$0.00,0,0,Alpura,Alpura Frutal 250ml Piña
+7501055905843,Alpura Frutal Durazno,$6.00,$8.00,$0.00,2,0,Alpura,Alpura Frutal Durazno
+7501055905836,Alpura Frutal Fresa,$6.00,$8.00,$0.00,0,0,Alpura,Alpura Frutal Fresa
+7501055905942,Alpura Frutal Guanabana,$6.00,$7.50,$0.00,0,0,- Sin Departamento -,Alpura Frutal Guanabana
+7501055909339,Alpura Frutas Del Bosque,$0.00,$5.00,$0.00,1,0,- Sin Departamento -,Alpura Frutas Del Bosque
+7501055900800,Alpura Light 1L,$14.00,$16.50,$16.50,8,0,Alpura,Alpura Light 1L
+7501055909292,Alpura Mango,$0.00,$5.00,$0.00,1,0,Alpura,Alpura Mango
+7501055909308,Alpura Manzana,$0.00,$5.00,$0.00,0,0,- Sin Departamento -,Alpura Manzana
+7501055900046,Alpura Semi 1L,$14.00,$17.00,$16.50,0,0,Alpura,Alpura Semi 1L
+75002091,Alpura Vainilla 250ml,$6.00,$8.50,$8.50,2,0,Alpura,Alpura Vainilla 250ml
+7501055904372,Alpura Vivenda 250g,$6.50,$8.00,$0.00,1,0,Alpura,Alpura Vivenda 250g
+7501055904341,Alpura Vivenda Digestion,$6.50,$8.00,$0.00,1,0,Alpura,Alpura Vivenda Digestion
+7501055905010,Alpura Vivenda Regenerante,$6.50,$8.00,$0.00,1,0,Alpura,Alpura Vivenda Regenerante
+7501055909322,Alpura Zarzamora,$0.00,$5.00,$0.00,1,0,Alpura,Alpura Zarzamora
+7503006233012,Altex Guante 6,$0.00,$17.00,$0.00,0,0,Tienda,Altex Guante 6
+7501067210300,Alupak 10m,$13.00,$17.00,$0.00,8,0,Tienda,Alupak 10m
+7506339399820,Always,$0.00,$23.00,$0.00,0,0,- Sin Departamento -,Always
+7506195178188,Always Noc.,$16.00,$20.50,$0.00,1,0,Tienda,Always Noc.
+7790073034257,Always Normal FlexiAlas,$15.00,$19.50,$19.50,0,0,Tienda,Always Normal FlexiAlas
+7506195178133,Always Pink,$0.00,$17.50,$0.00,7,0,Tienda,Always Pink
+7501055327300,Ameyal 600ml,$7.50,$9.00,$0.00,15,0,Refresco,Ameyal 600ml
+7501055327317,Ameyal Fresa 2L,$13.00,$15.00,$0.00,1,0,Refresco,Ameyal Fresa 2L
+7501055327324,Ameyal Fresa 3L,$22.00,$24.00,$0.00,4,0,Refresco,Ameyal Fresa 3L
+7501055327447,Ameyal Piña 3L,$19.00,$22.00,$0.00,7,0,Refresco,Ameyal Piña 3L
+7501030444954,Animalitos 200g,$9.50,$12.00,$0.00,2,0,Marinela,Animalitos 200g
+7501000635726,Arco Iris 75 g,$6.00,$10.00,$0.00,3,0,Gamesa,Arco Iris 75 g
+7501007455761,Ariel 1 Kg,$28.00,$33.00,$33.00,6,0,Detergentes,Ariel 1 Kg
+7501065906922,Ariel 1 L,$0.00,$39.00,$0.00,3,0,Tienda,Ariel 1 L
+7506339399189,Ariel 1kg,$31.00,$37.00,$0.00,5,0,Detergentes,Ariel 1kg
+7501065908841,Ariel 250 Ml,$8.50,$10.00,$0.00,41,0,Detergentes,Ariel 250 Ml
+7501007455730,Ariel Bolsa 500gms,$17.00,$20.00,$20.00,24,0,Detergentes,Ariel Bolsa 500gms
+7501065906939,Ariel Liq 1L,$30.00,$35.50,$35.50,8,0,Detergentes,Ariel Liq 1L
+613008738846,Arizona,$0.00,$11.00,$0.00,6,0,Tienda,Arizona
+613008738808,Arizona 680ml,$0.00,$11.00,$0.00,3,0,Tienda,Arizona 680ml
+613008738822,Arizonas Kiwi 680ml,$0.00,$11.00,$0.00,2,0,Tienda,Arizonas Kiwi 680ml
+7501005105897,Arroz,$19.00,$24.50,$24.50,0,0,Tienda,Arroz
+ARROZ,Arroz 1 Kg,$12.00,$15.00,$0.00,N/A,0,Tienda,Arroz 1 Kg
+24,Arroz 250g,$0.00,$3.50,$0.00,N/A,0,Tienda,Arroz 250g
+17,Arroz 500g,$0.00,$7.00,$0.00,N/A,0,Tienda,Arroz 500g
+7506306307193,Arroz A La Española,$0.00,$20.00,$0.00,0,0,Tienda,Arroz A La Española
+7506306307209,Arroz A La Mexicana,$0.00,$20.00,$0.00,0,0,Tienda,Arroz A La Mexicana
+7501005105880,Arroz Blanco,$14.50,$19.00,$19.00,0,0,Tienda,Arroz Blanco
+7506306307223,Arroz Con Tomate,$0.00,$20.00,$0.00,0,0,Tienda,Arroz Con Tomate
+7501045401423,Atun Dolores Aceite,$13.00,$15.00,$13.00,95,0,Tienda,Atun Dolores Aceite
+7501045403144,Atun Dolores Agua,$13.00,$15.00,$0.00,42,0,Tienda,Atun Dolores Agua
+AVENA,Avena,$20.00,$24.00,$0.00,N/A,0,Tienda,Avena
+31,Avena 1k,$0.00,$24.00,$0.00,N/A,0,Tienda,Avena 1k
+55,Avena 250g,$0.00,$6.00,$0.00,N/A,0,Tienda,Avena 250g
+7501761810394,Avena 3 minutos 400g,$14.00,$18.00,$18.00,5,0,Tienda,Avena 3 minutos 400g
+48,Avena 500g,$0.00,$12.00,$0.00,N/A,0,Tienda,Avena 500g
+7791293025766,Axe 2012,$36.00,$43.50,$0.00,0,0,Tienda,Axe 2012
+7791293025773,Axe Anarchy,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Anarchy
+7791293025780,Axe Apollo,$0.00,$45.00,$0.00,0,0,- Sin Departamento -,Axe Apollo
+75043308,Axe Barra 54g,$0.00,$40.00,$0.00,1,0,Tienda,Axe Barra 54g
+75045463,Axe Barra 54g,$0.00,$40.00,$0.00,1,0,Tienda,Axe Barra 54g
+75035778,Axe Barra 54g,$0.00,$40.00,$0.00,1,0,Tienda,Axe Barra 54g
+75038960,Axe Barra 54g,$0.00,$40.00,$0.00,1,0,Tienda,Axe Barra 54g
+75043285,Axe Barra Apollo,$27.00,$35.00,$0.00,0,0,Farmacia,Axe Barra Apollo
+7791293028781,Axe Black,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Black
+7791293032153,Axe Black Night,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Black Night
+7506306226739,Axe Conviction,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Conviction
+7791293016573,Axe Dama,$0.00,$39.00,$0.00,0,0,Tienda,Axe Dama
+7791293025797,Axe Dark,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Dark
+7791293995779,Axe Dark,$39.00,$48.00,$0.00,0,0,Farmacia,Axe Dark
+7791293025803,Axe Excite,$0.00,$45.00,$0.00,0,0,- Sin Departamento -,Axe Excite
+7791293025810,Axe Fusion,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Fusion
+7791293025865,Axe Gold,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Gold
+7791293025018,Axe Gold,$39.00,$48.00,$0.00,0,0,Farmacia,Axe Gold
+7791293025858,Axe Peace,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Peace
+7506306234543,Axe Phoeni,$38.50,$46.50,$0.00,0,0,Tienda,Axe Phoeni
+7506306233355,Axe Seco Adrenalins,$39.00,$48.00,$0.00,0,0,Farmacia,Axe Seco Adrenalins
+7791293020297,Axe Seco Apollo,$39.00,$48.00,$0.00,0,0,Farmacia,Axe Seco Apollo
+7506306226722,Axe Young,$33.00,$44.00,$0.00,0,0,Farmacia,Axe Young
+7501067712057,Azucaradas,$0.00,$35.00,$0.00,0,0,Tienda,Azucaradas
+7501067751292,Azucaradas 30g,$0.00,$3.50,$0.00,1,0,Tienda,Azucaradas 30g
+7501058752192,BAM Brasso 650ml,$0.00,$40.00,$0.00,2,0,Tienda,BAM Brasso 650ml
+7501058750129,BAM Sarro Y Mugre 650ml,$0.00,$40.00,$0.00,2,0,Tienda,BAM Sarro Y Mugre 650ml
+757528002039,BIG MIX,$0.00,$8.00,$0.00,0,0,Tienda,BIG MIX
+BROCOLI,BROCOLI,$18.00,$21.50,$0.00,0,0,- Sin Departamento -,BROCOLI
+7501008660201,Bacardi Blanco 1l,$158.00,$197.50,$0.00,0,0,vino,Bacardi Blanco 1l
+7501008660171,Bacardi Blanco 200ml,$42.00,$53.00,$45.00,0,0,vino,Bacardi Blanco 200ml
+7501008660188,Bacardi Blanco 375ml,$74.00,$96.00,$0.00,2,0,Tienda,Bacardi Blanco 375ml
+7501008660195,Bacardi Blanco 750ml,$135.00,$176.00,$150.00,0,0,vino,Bacardi Blanco 750ml
+756774072735,Baileys,$0.00,$130.00,$0.00,0,0,Tienda,Baileys
+756774024895,Baileys Tubo,$62.00,$80.00,$0.00,1,0,Tienda,Baileys Tubo
+7501761810189,Barras Quaker,$0.00,$12.00,$0.00,0,0,Gamesa,Barras Quaker
+7501000669509,Barras de Coco 106g,$6.00,$10.00,$0.00,1,0,Gamesa,Barras de Coco 106g
+75030575,Barrilito 325ml,$0.00,$16.00,$0.00,1,0,- Sin Departamento -,Barrilito 325ml
+75035242,Barrilito 444ml,$0.00,$14.00,$0.00,42,0,Tienda,Barrilito 444ml
+7501000116430,Barrita Bran Frut Bimbo,$0.00,$8.00,$0.00,3,0,Bimbo,Barrita Bran Frut Bimbo
+7501000116447,Barrita Bran Frut Bimbo,$0.00,$8.00,$0.00,5,0,Tienda,Barrita Bran Frut Bimbo
+754177510168,Barrita Winis,$1.00,$1.00,$0.00,16,0,Dulces,Barrita Winis
+7501000339198,Barritas Bimbo Multigr42,$0.00,$8.00,$0.00,5,0,Tienda,Barritas Bimbo Multigr42
+7501000133055,Barritas Fresa,$8.00,$10.00,$0.00,0,0,Marinela,Barritas Fresa
+7501030470441,Barritas Moras,$8.00,$10.00,$0.00,4,0,Marinela,Barritas Moras
+7501000133031,Barritas Piña,$8.00,$10.00,$9.00,2,0,Marinela,Barritas Piña
+7501032916145,Baygon Casa Y Jardin,$32.50,$38.00,$0.00,1,0,Tienda,Baygon Casa Y Jardin
+BAYGON 250ML,Baygon Casa Y Jardin 250ml,$0.00,$20.00,$0.00,1,0,Tienda,Baygon Casa Y Jardin 250ml
+7501032907495,Baygon Poder Mortal 400ml,$39.50,$47.50,$41.50,1,0,Tienda,Baygon Poder Mortal 400ml
+7501032902032,Baygon Verde,$0.00,$35.00,$0.00,1,0,Tienda,Baygon Verde
+7501032903572,Baygon Verde 400ml,$43.00,$50.00,$46.00,1,0,Tienda,Baygon Verde 400ml
+7501032395506,Bene Gastro,$5.00,$6.50,$0.00,0,0,Danone,Bene Gastro
+757528022303,Big Mix,$0.00,$10.00,$0.00,0,0,Barcel,Big Mix
+757528022419,Big Mix Clasico,$0.00,$10.00,$0.00,3,0,Barcel,Big Mix Clasico
+757528017149,Big Mix Fuego,$0.00,$8.00,$0.00,0,0,Barcel,Big Mix Fuego
+7501030460879,Bimbo Rendidor 454g,$0.00,$22.00,$0.00,0,0,Bimbo,Bimbo Rendidor 454g
+7501000111602,Bimbollos Bimbo c8,$21.00,$27.00,$0.00,1,0,Bimbo,Bimbollos Bimbo c8
+7501000113095,Bimbuuelos 76g,$0.00,$10.00,$0.00,2,0,- Sin Departamento -,Bimbuuelos 76g
+7501000112609,Bimbuuelos Bimbo,$9.00,$12.00,$0.00,10,0,Bimbo,Bimbuuelos Bimbo
+7501026027536,Blanca Nieves 1k,$20.50,$26.50,$26.50,29,0,Detergentes,Blanca Nieves 1k
+7501026027550,Blanca Nieves 250g,$0.00,$7.00,$0.00,45,0,Tienda,Blanca Nieves 250g
+7501026027543,Blanca Nieves 500g,$10.00,$13.00,$13.00,31,0,Detergentes,Blanca Nieves 500g
+7501268200025,Blanqueador Patitos,$0.00,$9.00,$0.00,7,0,Tienda,Blanqueador Patitos
+7502244766962,Blumen,$22.00,$29.00,$29.00,1,0,Tienda,Blumen
+7502244766955,Blumen,$22.00,$29.00,$29.00,1,0,Tienda,Blumen
+7501039400470,Boing  Piña 1L,$12.00,$16.00,$16.00,1,0,Tienda,Boing  Piña 1L
+7501039400418,Boing 1l Fresa Tetra,$12.00,$16.00,$16.00,2,0,Tienda,Boing 1l Fresa Tetra
+7501039400432,Boing 1l Guayaba Tet,$13.50,$18.00,$0.00,11,0,Tienda,Boing 1l Guayaba Tet
+7501039400449,Boing 1l Mango Tetra,$13.50,$18.00,$0.00,10,0,Tienda,Boing 1l Mango Tetra
+7501039400456,Boing 1l Manzana Tet,$13.50,$18.00,$16.00,10,0,Tienda,Boing 1l Manzana Tet
+7501039400463,Boing 1l Naranja Tet,$13.50,$18.00,$16.00,12,0,Refresco,Boing 1l Naranja Tet
+7501039400494,Boing 1l Uva Tetrapa,$13.50,$18.00,$0.00,12,0,Tienda,Boing 1l Uva Tetrapa
+75001766,Boing 250ml Fresa Te,$4.00,$5.50,$5.50,3,0,Tienda,Boing 250ml Fresa Te
+75001773,Boing 250ml Guayaba,$4.00,$5.50,$0.00,29,0,Tienda,Boing 250ml Guayaba
+75001759,Boing 250ml Mango,$4.00,$5.50,$0.00,20,0,Tienda,Boing 250ml Mango
+75001797,Boing 250ml Manzana,$4.00,$5.50,$0.00,38,0,Tienda,Boing 250ml Manzana
+75001834,Boing 250ml Uva Tetr,$4.00,$5.50,$5.50,27,0,Tienda,Boing 250ml Uva Tetr
+19836200218,Boing 500ml Durazno,$6.00,$9.00,$8.00,10,0,Tienda,Boing 500ml Durazno
+75003166,Boing 500ml Fresa Te,$6.00,$8.00,$8.00,8,0,Tienda,Boing 500ml Fresa Te
+75003135,Boing 500ml Guayaba,$6.00,$9.00,$8.00,14,0,Tienda,Boing 500ml Guayaba
+75003104,Boing 500ml Mango Te,$6.00,$9.00,$0.00,24,0,Tienda,Boing 500ml Mango Te
+75003159,Boing 500ml Manzana,$7.00,$9.00,$8.00,16,0,Tienda,Boing 500ml Manzana
+75003180,Boing 500ml Uva Tetr,$0.00,$9.00,$0.00,8,0,Tienda,Boing 500ml Uva Tetr
+75001803,Boing Naranja 250gr,$4.00,$5.50,$5.50,27,0,Tienda,Boing Naranja 250gr
+7501001106690,Bold 2 En 1 500g Fre,$0.00,$14.00,$0.00,6,0,Tienda,Bold 2 En 1 500g Fre
+7506195117460,Bold 900g,$0.00,$28.00,$0.00,6,0,Tienda,Bold 900g
+7501000611829,Bombitos 135g,$0.00,$9.00,$0.00,1,0,Gamesa,Bombitos 135g
+BOMBON GRANDE,Bombon Grande,$1.00,$1.50,$0.00,30,0,Dulces,Bombon Grande
+725181389019,Bomvaso Lucas 30g,$3.50,$4.50,$0.00,8,0,Dulces,Bomvaso Lucas 30g
+75027971,Bon O Bon Arcor Amar,$0.00,$4.00,$0.00,44,0,Tienda,Bon O Bon Arcor Amar
+75031022,Bon O Bon Cafe,$0.00,$4.00,$0.00,8,0,Tienda,Bon O Bon Cafe
+758104100422,Bonafont 1l,$0.00,$10.00,$0.00,8,0,Tienda,Bonafont 1l
+758104000494,Bonafont 20 L,$30.00,$38.00,$0.00,N/A,0,Tienda,Bonafont 20 L
+758104001361,Bonafont Jamaica 500ml,$5.50,$7.00,$0.00,6,0,Agua,Bonafont Jamaica 500ml
+75038649,Bonafont Kids,$0.00,$4.50,$0.00,22,0,Agua,Bonafont Kids
+758104003341,Bonafont Mango 1.5 L,$11.00,$15.00,$0.00,1,0,Agua,Bonafont Mango 1.5 L
+758104003549,Bonafont Piña 600ml,$5.50,$7.00,$0.00,8,0,Agua,Bonafont Piña 600ml
+758104004331,Bonafont Uva Verde 500ml,$5.50,$7.00,$0.00,3,0,Agua,Bonafont Uva Verde 500ml
+7501063500580,Bota Navidea Mediana,$0.00,$36.00,$0.00,2,0,Dulces,Bota Navidea Mediana
+7501003603081,Brandy Azteza De Oro 700M,$139.00,$181.00,$170.00,1,0,vino,Brandy Azteza De Oro 700M
+75028855,Brandy Don Pedro 200,$27.00,$35.00,$0.00,22,0,- Sin Departamento -,Brandy Don Pedro 200
+75020446,Brandy Don Pedro 200Ml,$29.00,$38.00,$0.00,6,0,vino,Brandy Don Pedro 200Ml
+7501003692931,Brandy Don Pedro 750Ml,$100.00,$130.00,$120.00,1,0,vino,Brandy Don Pedro 750Ml
+7501003693273,Brandy Presidente 1lt,$103.00,$134.00,$0.00,1,0,vino,Brandy Presidente 1lt
+7501003693389,Brandy Presidente 200Ml,$25.50,$32.00,$30.00,13,0,vino,Brandy Presidente 200Ml
+7501003693402,Brandy Presidente De,$81.00,$106.00,$90.00,1,0,vino,Brandy Presidente De
+8410113000071,Brandy Torres 10 700Ml,$222.00,$290.00,$260.00,1,0,vino,Brandy Torres 10 700Ml
+8410113007087,Brandy Torres 15,$454.00,$590.00,$0.00,1,0,vino,Brandy Torres 15
+7501058755179,Braso Antigrasa Cocina,$35.00,$38.00,$0.00,14,0,Detergentes,Braso Antigrasa Cocina
+7501058752086,Brasso 1 L,$0.00,$17.00,$0.00,2,0,Tienda,Brasso 1 L
+7501058720610,Brasso Vidrios 650ml,$0.00,$40.00,$0.00,1,0,Tienda,Brasso Vidrios 650ml
+75051945,Bubalo,$0.00,$1.00,$0.00,18,0,- Sin Departamento -,Bubalo
+75043728,Bubalo Azul,$0.00,$1.00,$0.00,3,0,Tienda,Bubalo Azul
+75041762,Bubalo Chile,$0.00,$1.00,$0.00,9,0,Tienda,Bubalo Chile
+75043711,Bubalo Fresa,$0.00,$1.00,$0.00,10,0,Tienda,Bubalo Fresa
+75043759,Bubalo Tuti,$0.00,$1.00,$0.00,4,0,Tienda,Bubalo Tuti
+75043766,Bubalo Yerbabuena,$0.00,$1.00,$0.00,23,0,- Sin Departamento -,Bubalo Yerbabuena
+75051938,Bubbaloo,$0.00,$1.00,$0.00,1,0,Dulces,Bubbaloo
+7432354,BubuLubu Ricolino 35g,$4.50,$7.00,$0.00,2,0,Barcel,BubuLubu Ricolino 35g
+75043742,Bubulubu Platano,$0.00,$1.00,$0.00,3,0,Tienda,Bubulubu Platano
+7501000367481,CACAHUATES HOT NUTS 50G,$5.50,$7.00,$0.00,2,0,Barcel,CACAHUATES HOT NUTS 50G
+75036553,CERILLOS,$0.00,$2.00,$0.00,81,0,Tienda,CERILLOS
+7501232002303,CERILLOS FLAMA,$3.00,$5.00,$0.00,9,0,Tienda,CERILLOS FLAMA
+7506105601065,CHicle Clorets 189 G Ad,$0.00,$6.00,$0.00,13,0,Tienda,CHicle Clorets 189 G Ad
+75030438,CLORETS 4P,$0.00,$1.50,$0.00,21,0,Dulces,CLORETS 4P
+COCA VIDRIO 237ML,COCA VIDRIO 237ML,$0.00,$6.50,$0.00,24,0,Refresco,COCA VIDRIO 237ML
+7501000629770,CRACKETS 135G,$6.00,$11.00,$0.00,0,0,Gamesa,CRACKETS 135G
+749787500081,Cabrito 750ml,$144.00,$187.00,$0.00,0,0,vino,Cabrito 750ml
+7501030442417,Cacah Hot Nuts 50g Euph,$0.00,$7.00,$0.00,3,0,- Sin Departamento -,Cacah Hot Nuts 50g Euph
+7501393200075,Cacahuates Cariocas,$0.00,$11.00,$0.00,0,0,Tienda,Cacahuates Cariocas
+757528018481,Cacahuates Enchilados,$0.00,$10.00,$0.00,0,0,Barcel,Cacahuates Enchilados
+7501000167456,Cacahuates Golden Nuts 45,$0.00,$6.00,$0.00,4,0,Tienda,Cacahuates Golden Nuts 45
+7501000167449,Cacahuates GoldenNuts 45g,$0.00,$6.00,$0.00,4,0,Barcel,Cacahuates GoldenNuts 45g
+7506174504441,Cachorro,$0.00,$15.00,$0.00,8,0,pedigree,Cachorro
+7501059288034,Cafe 3 En 1,$2.50,$3.00,$0.00,9,0,Tienda,Cafe 3 En 1
+7503011960040,Cafe Gardelo,$5.00,$7.00,$6.50,2,0,Tienda,Cafe Gardelo
+7501052410111,Cafe Legal,$0.00,$6.00,$0.00,10,0,Nestle,Cafe Legal
+7501052410081,Cafe Legal 30g,$4.00,$6.00,$6.00,166,0,Tienda,Cafe Legal 30g
+756774072025,Caja Amarilla Turin,$44.00,$57.00,$0.00,1,0,- Sin Departamento -,Caja Amarilla Turin
+74323080421,Cajeta 660g,$0.00,$65.00,$0.00,1,0,Tienda,Cajeta 660g
+74323083651,Cajeta CoronQuemada 370g,$26.00,$34.00,$0.00,1,0,- Sin Departamento -,Cajeta CoronQuemada 370g
+74323088168,Cajeta Coronado,$0.00,$30.00,$0.00,0,0,Tienda,Cajeta Coronado
+74323083620,Cajeta Coronado Envin370,$26.00,$34.00,$0.00,2,0,- Sin Departamento -,Cajeta Coronado Envin370
+74323083644,Cajeta Coronado Vain370g,$26.00,$34.00,$0.00,2,0,- Sin Departamento -,Cajeta Coronado Vain370g
+7503013040207,Cal C Tose 400g,$36.50,$44.00,$0.00,1,0,Tienda,Cal C Tose 400g
+CALABAZA,Calabaza,$20.00,$22.00,$0.00,N/A,0,Verdura,Calabaza
+7501005199292,Caldo De Pollo 264gm,$30.00,$39.00,$0.00,4,0,- Sin Departamento -,Caldo De Pollo 264gm
+7501005112222,Caldo De Pollo 370gr,$30.50,$40.00,$40.50,1,0,Tienda,Caldo De Pollo 370gr
+7501005181044,Caldo De Pollo 800g,$65.00,$81.00,$94.00,1,0,Tienda,Caldo De Pollo 800g
+7501006713381,Camay Clasico 180g,$8.50,$12.00,$0.00,12,0,Tienda,Camay Clasico 180g
+7501030490388,Canapinas 140g,$0.00,$11.00,$0.00,1,0,Marinela,Canapinas 140g
+7501000135257,Canapinas Lara 80g,$5.50,$9.00,$0.00,3,0,Marinela,Canapinas Lara 80g
+7501030491644,Canelitas 90g,$8.50,$10.00,$0.00,3,0,Marinela,Canelitas 90g
+7501030475033,Canelitas Tubo,$14.00,$20.00,$0.00,2,0,Marinela,Canelitas Tubo
+75022983,Canels Rojo,$0.00,$1.00,$0.00,30,0,Gamesa,Canels Rojo
+75022976,Canels Rosa,$0.00,$0.50,$0.00,30,0,Dulces,Canels Rosa
+7509546045139,Cap Esp. Rep Compl.,$23.50,$31.00,$0.00,1,0,- Sin Departamento -,Cap Esp. Rep Compl.
+7503011960019,Cappuccino,$5.00,$7.00,$6.50,5,0,Tienda,Cappuccino
+7503011960118,Cappuccino Chocolate 45grm,$9.00,$12.00,$0.00,1,0,Tienda,Cappuccino Chocolate 45grm
+7503011960002,Cappuccino Clasico 45grm,$9.00,$12.00,$0.00,3,0,Tienda,Cappuccino Clasico 45grm
+7503011960095,Cappuccino Moka 45grm,$9.00,$12.00,$0.00,0,0,Tienda,Cappuccino Moka 45grm
+7503011960101,Cappuccino Vainilla,$9.00,$12.00,$11.00,0,0,Tienda,Cappuccino Vainilla
+7509546058979,Caprice  Algas  316ml,$26.50,$34.00,$0.00,2,0,Farmacia,Caprice  Algas  316ml
+7509546036045,Caprice 1L,$0.00,$31.00,$0.00,0,0,Tienda,Caprice 1L
+7509546026916,Caprice 1L,$0.00,$31.00,$0.00,1,0,Tienda,Caprice 1L
+7509546061122,Caprice 1L,$0.00,$31.00,$0.00,2,0,Tienda,Caprice 1L
+7509546061108,Caprice 1L,$0.00,$31.00,$0.00,2,0,Tienda,Caprice 1L
+7509546026985,Caprice 1l,$0.00,$31.00,$0.00,1,0,Tienda,Caprice 1l
+7509546030074,Caprice 220 Maxi Glo,$0.00,$13.00,$0.00,1,0,Tienda,Caprice 220 Maxi Glo
+7509546043159,Caprice 800ml,$0.00,$35.00,$0.00,1,0,Tienda,Caprice 800ml
+7509546058146,Caprice 800ml,$0.00,$35.00,$0.00,1,0,Tienda,Caprice 800ml
+7509546058955,Caprice Anticeramidas  316ml,$26.50,$34.00,$0.00,1,0,Farmacia,Caprice Anticeramidas  316ml
+7509546058993,Caprice Cirtrico  316ml,$0.00,$37.00,$0.00,2,0,Tienda,Caprice Cirtrico  316ml
+7509546058986,Caprice Kiwi 316ml,$26.50,$34.00,$0.00,2,0,Farmacia,Caprice Kiwi 316ml
+7509546058962,Caprice Sabila 316ml,$26.50,$34.00,$0.00,1,0,Farmacia,Caprice Sabila 316ml
+7509546063065,Caprice Sobre,$0.00,$3.00,$0.00,0,0,- Sin Departamento -,Caprice Sobre
+7502223770805,Capullo 905ml,$0.00,$30.00,$0.00,13,0,Tienda,Capullo 905ml
+754177505812,Caramelo Winis,$1.00,$2.00,$1.50,4,0,Dulces,Caramelo Winis
+7501003629043,Caribe Cooler Fresa 300Ml,$0.00,$15.00,$0.00,18,0,Tienda,Caribe Cooler Fresa 300Ml
+7501003631046,Caribe Durazno 300Ml,$12.00,$15.00,$15.00,12,0,vino,Caribe Durazno 300Ml
+7501032485047,Caribe Fresa,$13.00,$15.00,$0.00,12,0,vino,Caribe Fresa
+7501059236158,Carlos V,$3.50,$5.00,$5.00,47,0,Tienda,Carlos V
+7501059287327,Carlos V Blanco,$1.00,$1.50,$0.00,17,0,- Sin Departamento -,Carlos V Blanco
+7501059224346,Carlos V Stick,$0.00,$2.00,$0.00,23,0,Dulces,Carlos V Stick
+7501017050161,Catsup La Costeña400g,$0.00,$12.00,$12.00,25,0,Tienda,Catsup La Costeña400g
+CEBOLLA,Cebolla,$12.00,$12.00,$0.00,N/A,0,Tienda,Cebolla
+757528020897,Cemillas 28g,$0.00,$10.00,$0.00,2,0,Barcel,Cemillas 28g
+7501048810307,Centenario Plata 700ml,$145.00,$190.00,$190.00,0,0,Tienda,Centenario Plata 700ml
+99176316831,Cepillo Colgate,$8.00,$12.00,$0.00,0,0,Farmacia,Cepillo Colgate
+6910021007206,Cepillo Dental Colgate,$8.00,$13.00,$0.00,4,0,Tienda,Cepillo Dental Colgate
+7506192504539,Cera Ego,$0.00,$15.00,$0.00,2,0,Tienda,Cera Ego
+7506192504515,Cera Ego Verde},$0.00,$15.00,$0.00,1,0,Tienda,Cera Ego Verde}
+75025168,Cerillo Flama Ch,$2.00,$2.50,$0.00,44,0,Tienda,Cerillo Flama Ch
+7501064112546,Cerveza Bote Modelo,$13.00,$15.50,$0.00,0,0,Corona,Cerveza Bote Modelo
+7501064101410,Cerveza Corona Media,$0.00,$12.00,$0.00,1,0,Tienda,Cerveza Corona Media
+7501064101205,Cerveza Corona Mega,$0.00,$36.00,$0.00,0,0,vino,Cerveza Corona Mega
+75027285,Cerveza Negra Modelo,$0.00,$12.00,$0.00,4,0,Tienda,Cerveza Negra Modelo
+7501064191909,Cerveza Victoria Meg,$0.00,$34.00,$0.00,1,0,Tienda,Cerveza Victoria Meg
+7502208805171,Charola Termica Reym,$6.00,$8.00,$8.00,10,0,Tienda,Charola Termica Reym
+7501011143753,Cheetos Flamin Hot,$5.00,$7.00,$0.00,13,0,Sabritas,Cheetos Flamin Hot
+7501011158320,Cheetos Flamin Hot 27g,$0.00,$6.00,$0.00,4,0,Tienda,Cheetos Flamin Hot 27g
+7501011167452,Cheetos Poffs Chicos,$4.00,$5.00,$0.00,2,0,Tienda,Cheetos Poffs Chicos
+7501393200594,Chetos,$6.50,$8.00,$0.00,2,0,Cariocas,Chetos
+7501011143777,Chetos Bolitas,$0.00,$7.00,$0.00,5,0,Sabritas,Chetos Bolitas
+7501011162150,Chetos Bolitas Chicos,$4.00,$5.00,$0.00,1,0,Tienda,Chetos Bolitas Chicos
+7501011143852,Chetos Colmillos,$0.00,$6.00,$0.00,0,0,Sabritas,Chetos Colmillos
+7501011165717,Chetos Colmillos,$0.00,$7.00,$0.00,4,0,Tienda,Chetos Colmillos
+7501011158009,Chetos Colmillos Chicos,$4.00,$5.00,$0.00,4,0,Tienda,Chetos Colmillos Chicos
+7501011179301,Chetos Nacho,$0.00,$7.00,$0.00,8,0,Sabritas,Chetos Nacho
+7501011143999,Chetos Nachos,$0.00,$7.00,$0.00,0,0,Sabritas,Chetos Nachos
+7501011143791,Chetos Poffs,$0.00,$7.00,$0.00,8,0,Sabritas,Chetos Poffs
+7501011133181,Chetos Shoot,$0.00,$4.00,$0.00,0,0,Sabritas,Chetos Shoot
+7501011149502,Chetos Toings,$0.00,$6.00,$0.00,0,0,Sabritas,Chetos Toings
+7501011143586,Chetos Torciditos,$5.00,$7.00,$0.00,35,0,Sabritas,Chetos Torciditos
+7501011130975,Chetos Torciditos 150g,$15.00,$22.00,$0.00,1,0,Tienda,Chetos Torciditos 150g
+7501011161207,Chetos Torciditos Chicos,$5.00,$6.00,$0.00,2,0,Tienda,Chetos Torciditos Chicos
+7501011158016,Chetos Torciditos Chicos,$5.00,$6.00,$0.00,9,0,Tienda,Chetos Torciditos Chicos
+7501011179325,Chetos Torciditoss,$0.00,$7.00,$0.00,17,0,Sabritas,Chetos Torciditoss
+7501011179288,Chetos flamin,$0.00,$7.00,$0.00,7,0,Sabritas,Chetos flamin
+7501017005314,Chicharo La Costea 220g,$5.00,$6.50,$0.00,4,0,Tienda,Chicharo La Costea 220g
+CHICHARRON,Chicharron,$17.00,$25.00,$0.00,N/A,0,Tienda,Chicharron
+7501393200761,Chicharron  Riki Cuadros,$6.50,$8.00,$0.00,0,0,Cariocas,Chicharron  Riki Cuadros
+7501393200617,Chicharron Aztek 45g,$6.50,$8.00,$0.00,2,0,Cariocas,Chicharron Aztek 45g
+7501393200785,Chicharron Gotitas,$6.50,$8.00,$0.00,2,0,Cariocas,Chicharron Gotitas
+7501011151079,Chicharron Sabritas Chico,$7.00,$9.00,$0.00,1,0,Sabritas,Chicharron Sabritas Chico
+75045616,Chicle,$1.00,$1.50,$0.00,23,0,Dulces,Chicle
+7501056903947,Chicle Tri8dent Xtra Care,$0.00,$7.00,$0.00,5,0,Tienda,Chicle Tri8dent Xtra Care
+75022952,Chicles Canels 4s,$0.00,$0.50,$0.00,30,0,Dulces,Chicles Canels 4s
+75022990,Chiclests Canels Verde,$0.00,$0.50,$0.00,30,0,Dulces,Chiclests Canels Verde
+CHILE ANCHO,Chile Ancho,$120.00,$156.00,$0.00,3.9,0,Tienda,Chile Ancho
+314,Chile Ancho 1k,$0.00,$100.00,$0.00,N/A,0,Tienda,Chile Ancho 1k
+338,Chile Ancho 250g,$0.00,$25.00,$0.00,N/A,0,Tienda,Chile Ancho 250g
+321,Chile Ancho 500g,$0.00,$50.00,$0.00,N/A,0,Tienda,Chile Ancho 500g
+7501017005031,Chile Chipotle 220g,$14.00,$16.00,$14.50,22,0,Tienda,Chile Chipotle 220g
+CHILE DE ARBOL,Chile De Arbol,$78.00,$105.00,$0.00,N/A,0,Tienda,Chile De Arbol
+277,Chile De Arbol 250g,$0.00,$30.00,$0.00,N/A,0,Tienda,Chile De Arbol 250g
+260,Chile De Arbol 500g,$0.00,$50.00,$0.00,N/A,0,Tienda,Chile De Arbol 500g
+253,Chile De Arbol Ik,$0.00,$100.00,$0.00,N/A,0,Tienda,Chile De Arbol Ik
+291,Chile Guajillo,$0.00,$50.00,$0.00,N/A,0,Tienda,Chile Guajillo
+CHILE GUAJILLO,Chile Guajillo,$69.50,$104.00,$104.00,N/A,0,Tienda,Chile Guajillo
+284,Chile Guajillo 1k,$0.00,$100.00,$0.00,N/A,0,Tienda,Chile Guajillo 1k
+307,Chile Guajillo 250g,$0.00,$25.00,$0.00,N/A,0,Tienda,Chile Guajillo 250g
+246,Chile Pasilla,$0.00,$30.00,$0.00,N/A,0,Tienda,Chile Pasilla
+CHILE PASILLA,Chile Pasilla,$70.00,$105.00,$0.00,N/A,0,Tienda,Chile Pasilla
+239,Chile Pasilla 500g,$0.00,$60.00,$0.00,N/A,0,Tienda,Chile Pasilla 500g
+222,Chile Pasilla Ik,$0.00,$120.00,$0.00,N/A,0,Tienda,Chile Pasilla Ik
+369,Chile Verde,$0.00,$7.50,$0.00,N/A,0,Verdura,Chile Verde
+CHILE VERDE,Chile Verde,$21.00,$27.00,$0.00,N/A,0,Tienda,Chile Verde
+352,Chile Verde 500g,$0.00,$13.00,$0.00,N/A,0,Verdura,Chile Verde 500g
+345,Chile Verde Ik,$0.00,$26.00,$0.00,N/A,0,Verdura,Chile Verde Ik
+7501023314028,Chiles Largos,$14.00,$17.00,$17.00,7,0,Tienda,Chiles Largos
+7501058743107,Chinola Nugget Blanco 60m,$0.00,$10.50,$0.00,12,0,Tienda,Chinola Nugget Blanco 60m
+7501058743145,Chinola Nugget Cafe 60ml,$0.00,$10.50,$0.00,11,0,Tienda,Chinola Nugget Cafe 60ml
+7501058743121,Chinola Nugget Negra,$7.00,$10.00,$10.00,23,0,Tienda,Chinola Nugget Negra
+7501023318057,Chipotle San Marcos,$5.00,$7.00,$7.00,18,0,Tienda,Chipotle San Marcos
+7501000264834,Chipotles,$5.00,$8.00,$0.00,2,0,Barcel,Chipotles
+7501023318088,Chipotles,$0.00,$14.00,$0.00,10,0,Tienda,Chipotles
+7501017006021,Chipotles Adobados 105g,$7.00,$8.00,$8.00,35,0,Tienda,Chipotles Adobados 105g
+7501023318040,Chipotles San Marcos,$13.00,$15.50,$15.50,14,0,Tienda,Chipotles San Marcos
+7501000266234,Chips  Jalapeo 170g,$0.00,$30.00,$0.00,0,0,Barcel,Chips  Jalapeo 170g
+757528001889,Chips 170gr,$0.00,$30.00,$0.00,1,0,Barcel,Chips 170gr
+7501000260676,Chips Adobadas,$7.00,$12.00,$0.00,4,0,Barcel,Chips Adobadas
+7506306400115,Chips Ahoy,$0.00,$34.50,$0.00,0,0,Holanda,Chips Ahoy
+7501000266203,Chips CSal 170g,$0.00,$34.00,$0.00,1,0,Barcel,Chips CSal 170g
+757528024932,Chips Chipotle Limon 46g,$0.00,$10.00,$0.00,3,0,- Sin Departamento -,Chips Chipotle Limon 46g
+757528001872,Chips Fuego,$7.00,$10.00,$0.00,7,0,Barcel,Chips Fuego
+757528027148,Chips Fuego,$8.00,$12.00,$0.00,7,0,Barcel,Chips Fuego
+7501000266333,Chips Jalapeo,$7.00,$10.00,$0.00,8,0,Barcel,Chips Jalapeo
+757528027117,Chips Jalapeño,$0.00,$12.00,$0.00,11,0,- Sin Departamento -,Chips Jalapeño
+757528021917,Chips Limon,$0.00,$10.00,$0.00,2,0,Barcel,Chips Limon
+757528021955,Chips Limon 100g,$0.00,$20.00,$0.00,0,0,Barcel,Chips Limon 100g
+7501000260669,Chips Sal,$7.00,$10.00,$0.00,3,0,Barcel,Chips Sal
+757528027100,Chips Sal,$0.00,$12.00,$0.00,3,0,Barcel,Chips Sal
+7501030490395,Choco Chispas,$13.00,$17.00,$0.00,0,0,Marinela,Choco Chispas
+7501000657797,Choco Chokis 84g,$0.00,$12.00,$0.00,1,0,Gamesa,Choco Chokis 84g
+7501008007242,Choco Crispis 500g,$0.00,$45.00,$0.00,0,0,Tienda,Choco Crispis 500g
+7501030459415,Choco Donas 66g,$0.00,$6.00,$0.00,0,0,Bimbo,Choco Donas 66g
+7501067751308,Choco Gronchi 30g,$0.00,$3.50,$0.00,0,0,Tienda,Choco Gronchi 30g
+7506205802157,Choco Milk 400g,$35.50,$42.50,$0.00,1,0,Tienda,Choco Milk 400g
+75002275,Choco Roles 67g,$7.50,$12.00,$0.00,3,0,Marinela,Choco Roles 67g
+7501030461173,Choco Roles Moras Salvajes 80g,$0.00,$12.00,$0.00,0,0,Marinela,Choco Roles Moras Salvajes 80g
+75018047,Choco mazapan,$2.00,$3.00,$0.00,45,0,Dulces,Choco mazapan
+7501030490401,Chocochispas 170g,$9.50,$12.00,$0.00,2,0,Marinela,Chocochispas 170g
+7501030490418,Chocochispas 80g,$5.50,$7.00,$0.00,4,0,Marinela,Chocochispas 80g
+7501001656454,Chocolate Abue 90gRedond,$7.50,$12.00,$0.00,17,0,Nestle,Chocolate Abue 90gRedond
+25046150137,Chocolate Bocadin,$0.00,$1.50,$0.00,17,0,Dulces,Chocolate Bocadin
+7501059209398,Chocolate Larin De Nuez,$5.00,$8.00,$0.00,9,0,- Sin Departamento -,Chocolate Larin De Nuez
+7501059289239,Chocolate Morelia,$0.00,$10.00,$0.00,2,0,Tienda,Chocolate Morelia
+7501059277366,Chocolate Morelia 175g,$0.00,$10.00,$0.00,14,0,Tienda,Chocolate Morelia 175g
+CHOCOLATE TEENS,Chocolates Teens,$0.00,$2.50,$0.00,38,0,Tienda,Chocolates Teens
+7506205802355,Chocomilk Sobresito,$0.00,$4.00,$0.00,71,0,Tienda,Chocomilk Sobresito
+7501000635306,Chokis 63gms,$6.00,$10.00,$0.00,1,0,Gamesa,Chokis 63gms
+7500478002344,Chokis Black,$0.00,$12.00,$0.00,0,0,Gamesa,Chokis Black
+7501000636495,Chokis Brawni,$0.00,$9.00,$0.00,3,0,Tienda,Chokis Brawni
+7501000604685,Chokis Chokomax,$0.00,$12.00,$0.00,1,0,Gamesa,Chokis Chokomax
+7501000629497,Chokis Paketon,$0.00,$19.00,$0.00,1,0,Gamesa,Chokis Paketon
+7501000649402,Chokis Volcan,$0.00,$9.00,$0.00,0,0,Gamesa,Chokis Volcan
+7501011145764,Churruais Flama,$0.00,$7.00,$0.00,0,0,Sabritas,Churruais Flama
+7501011132283,Churrumais Chicos,$4.00,$7.00,$0.00,2,0,Sabritas,Churrumais Chicos
+7501055310920,Ciel,$0.00,$4.00,$0.00,0,0,Refresco,Ciel
+7501055313006,Ciel 10l,$20.00,$23.00,$0.00,0,0,Refresco,Ciel 10l
+7501055308675,Ciel 1l,$7.00,$9.00,$0.00,48,0,Agua,Ciel 1l
+75001322,Cig Marlboro Rojos,$44.00,$48.00,$0.00,7,0,Tienda,Cig Marlboro Rojos
+75022907,CigDelicCFiltro C14 P,$32.00,$35.00,$0.00,5,0,Tienda,CigDelicCFiltro C14 P
+CIGARRO,Cigarro,$0.00,$4.00,$0.00,N/A,0,Tienda,Cigarro
+CIGARROS,Cigarros,$0.00,$3.50,$0.00,N/A,0,Tienda,Cigarros
+8308315,Cigarros Camel,$42.00,$48.00,$0.00,5,0,Tienda,Cigarros Camel
+75000608,Cloralex 500ml,$5.00,$6.00,$6.00,54,0,Detergentes,Cloralex 500ml
+75000615,Cloralex 950ml,$7.00,$10.00,$10.00,5,0,Detergentes,Cloralex 950ml
+7501025412401,Cloralex Poder Vinagre 1 L,$17.50,$23.00,$0.00,15,0,Detergentes,Cloralex Poder Vinagre 1 L
+75019907,Clorets 2s Yerbabuen,$0.00,$2.00,$0.00,0,0,- Sin Departamento -,Clorets 2s Yerbabuen
+75051884,Clorets 4,$0.00,$2.00,$0.00,22,0,Dulces,Clorets 4
+7501025405311,Cloro 1 L,$7.50,$10.00,$0.00,13,0,Detergentes,Cloro 1 L
+7501071900112,Clorox 460ml,$4.00,$6.00,$5.50,68,0,Detergentes,Clorox 460ml
+7501071900129,Clorox 930ml,$7.50,$10.00,$10.00,19,0,Detergentes,Clorox 930ml
+7501071902611,Clorox Desengrasante,$10.00,$13.00,$13.00,19,0,Detergentes,Clorox Desengrasante
+7501071901645,Clorox Pastilla,$38.00,$45.50,$44.00,0,0,Tienda,Clorox Pastilla
+7501071902086,Clorox Ropa Color 930ml,$15.00,$18.00,$0.00,9,0,Detergentes,Clorox Ropa Color 930ml
+7501055305247,Coca Cola 2.5 Lt,$22.00,$23.00,$0.00,6,0,Refresco,Coca Cola 2.5 Lt
+7501055354672,Coca Cola 235ml,$0.00,$6.50,$0.00,0,0,Refresco,Coca Cola 235ml
+7501055355310,Coca Cola 250 Ml,$0.00,$6.00,$0.00,8,0,Refresco,Coca Cola 250 Ml
+7501055341344,Coca Cola 355 Ml,$0.00,$8.00,$0.00,5,0,Refresco,Coca Cola 355 Ml
+7501055304745,Coca Cola 3L Desechable,$25.00,$33.00,$0.00,0,0,Refresco,Coca Cola 3L Desechable
+7501055313068,Coca Cola 3l Retornable,$0.00,$26.00,$0.00,2,0,Refresco,Coca Cola 3l Retornable
+7501055302451,Coca Cola De 1lt,$13.00,$13.00,$0.00,4,0,Refresco,Coca Cola De 1lt
+75009809,Coca Cola De 500Ml,$0.00,$10.00,$0.00,0,0,Refresco,Coca Cola De 500Ml
+7501055300075,Coca Cola Lata,$0.00,$9.00,$0.00,1,0,- Sin Departamento -,Coca Cola Lata
+7501055300952,Coca Cola Vidrio 12,$11.00,$15.00,$0.00,0,0,Refresco,Coca Cola Vidrio 12
+7501055310227,Coca Ret 25 Litros,$18.00,$22.00,$0.00,2,0,Refresco,Coca Ret 25 Litros
+7501055328390,Coca Sin Azucar 355ml,$0.00,$8.00,$0.00,4,0,Refresco,Coca Sin Azucar 355ml
+75034917,Coca-Cola 200ml,$3.00,$4.00,$0.00,17,0,Refresco,Coca-Cola 200ml
+7501055346622,Coca-Cola 300ml,$4.50,$5.00,$0.00,8,0,Refresco,Coca-Cola 300ml
+75004699,CocaCola 1/2 Litro Ret,$7.00,$8.00,$0.00,12,0,Refresco,CocaCola 1/2 Litro Ret
+75007614,CocaCola 600 ml,$9.00,$11.00,$0.00,6,0,Refresco,CocaCola 600 ml
+735257001516,Coco,$7.50,$10.00,$0.00,4,0,Tienda,Coco
+7501058619228,Coffe Mate 160,$21.00,$25.00,$0.00,1,0,Tienda,Coffe Mate 160
+7501058611383,Coffe Mate 34g,$4.00,$6.00,$0.00,10,0,Tienda,Coffe Mate 34g
+7501058619211,Coffe Mate 400g,$38.00,$45.00,$0.00,2,0,Tienda,Coffe Mate 400g
+7501059235038,Coffee Mate 311g,$33.00,$39.50,$38.00,2,0,Tienda,Coffee Mate 311g
+7501059235045,Coffee-Mate 170gms,$19.00,$25.00,$0.00,1,0,- Sin Departamento -,Coffee-Mate 170gms
+7501000112203,Colchones Bimbo 130g,$8.00,$10.00,$0.00,1,0,Bimbo,Colchones Bimbo 130g
+COLGATE EX BLANCURA,Colgate triple accion 50ml,$0.00,$10.00,$0.00,6,0,Tienda,Colgate triple accion 50ml
+7503009095693,Colosseo,$0.00,$100.00,$0.00,0,0,Tienda,Colosseo
+7501000132706,Conchas Bimbo Chocol,$11.50,$12.00,$0.00,0,0,Bimbo,Conchas Bimbo Chocol
+7501005180658,Consome 100gms,$15.00,$19.00,$17.00,5,0,Tienda,Consome 100gms
+7501065060600,Contac Ultra Sobre C,$0.00,$6.00,$0.00,0,0,Tienda,Contac Ultra Sobre C
+7501008000694,Corn Flakes 560g,$34.00,$44.00,$44.00,5,0,Tienda,Corn Flakes 560g
+7501059284807,Corn Flakes 620g,$0.00,$35.00,$0.00,0,0,- Sin Departamento -,Corn Flakes 620g
+7506306414471,Corneto,$0.00,$20.00,$0.00,0,0,Holanda,Corneto
+7501130930449,Corneto Chocollage,$0.00,$20.00,$0.00,6,0,Holanda,Corneto Chocollage
+7501130934003,Corneto Vaso,$0.00,$20.00,$0.00,0,0,Holanda,Corneto Vaso
+7501064193859,Corona Lata,$14.00,$16.50,$0.00,0,0,vino,Corona Lata
+7501064194962,Corona Light,$0.00,$13.00,$0.00,15,0,Corona,Corona Light
+7501000612543,Crakets 95g,$5.00,$9.00,$0.00,7,0,Gamesa,Crakets 95g

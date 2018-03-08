@@ -46,6 +46,7 @@ import com.lidebeta.spi.bean.Order;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.bean.Store;
 import com.lidebeta.spi.bean.Sync;
+import com.lidebeta.spi.bean.CSV;
 import com.lidebeta.spi.dao.AdminDAO;
 import com.lidebeta.spi.dao.AdminDAOImpl;
 
@@ -264,10 +265,32 @@ public class AdminApi {
 		return adminPack;
 	}
 
-	@ApiMethod(name="insertProducts", path="insertProducts", httpMethod=HttpMethod.POST)
-	public void insertProducts(User user) throws UnauthorizedException{
+	@ApiMethod(name="clearProducts", path="clearProducts", httpMethod=HttpMethod.POST)
+	public void clearProducts(User user) throws UnauthorizedException, Exception{
 		
+		if(user == null){
+	    		throw new UnauthorizedException("Authoruzation required");
+	    	}
+		
+		Key<Admin> adminKey = Key.create(Admin.class, user.getEmail());
+		Admin admin = ofy().load().key(adminKey).now();
+		
+		if(		 admin==null || 
+				!admin.isActive()){
+			throw new UnauthorizedException("Authentication fail");
+		}
+
 		ADMIN_DAO.cleanIndex("5066549580791808");
+	}
+
+	@ApiMethod(name="insertProducts", path="insertProducts", httpMethod=HttpMethod.POST)
+	public void insertProducts(User user, CSV csv) throws UnauthorizedException, Exception{
+		
+		if(csv==null){
+			throw new Exception("required csv != null");
+		}
+
+		
 		
 		if(user == null){
 	    		throw new UnauthorizedException("Authoruzation required");
@@ -283,7 +306,7 @@ public class AdminApi {
 		
 		InputStream resourceStream;
 		try {
-			resourceStream = new FileInputStream("WEB-INF/productosFiltrados.csv");
+			resourceStream = new FileInputStream("WEB-INF/"+csv.getFilename());
 			InputStreamReader inReader = new InputStreamReader(resourceStream, "UTF-8");
 			BufferedReader br = new BufferedReader(inReader);
 			String line;
@@ -301,10 +324,12 @@ public class AdminApi {
 				
 					Product product = new Product();
 					
+
+					product.setImage("products/00"+columns[0]+"s.jpg");
 					product.setName(columns[1]);
-					product.setImage("products/lors.jpg");
-					product.setKeywords("");
-					product.setDescription("");
+					product.setKeywords(columns[1]);
+
+					product.setDescription(columns[1]);
 					
 					double price = Double.valueOf(columns[3].replace("$", ""));
 					
@@ -316,38 +341,20 @@ public class AdminApi {
 						product.setQuantity(Integer.valueOf(columns[5]));	
 						product.setCoverageAreaId(5066549580791808l);
 						product.setStoreId(5629499534213120l);
-						
-//						product.setCoverageAreaId(5066549580791808l);
-//						product.setStoreId(5629499534213120l);
-						
-//						
-						
 						product.setCodigoBarras(columns[0]);
-						
 						ADMIN_DAO.updateProduct(product);
 					}catch(NumberFormatException e) {
-						try {
-							product.setQuantity(Double.valueOf(columns[5]).intValue());
-							product.setCoverageAreaId(5066549580791808l);
-							product.setStoreId(5629499534213120l);
-							
-//							product.setCoverageAreaId(5066549580791808l);
-//							product.setStoreId(5629499534213120l);
-							
-//							
-							
-							product.setCodigoBarras(columns[0]);
-							
-							ADMIN_DAO.updateProduct(product);
-						}catch(NumberFormatException ee) {
-								
-						}
+
+						product.setQuantity(0);	
+						product.setCoverageAreaId(5066549580791808l);
+						product.setStoreId(5629499534213120l);
+						product.setCodigoBarras(columns[0]);
+						ADMIN_DAO.updateProduct(product);
+
+					}finally{
+						System.out.println( i++ + "----------------------->>>>" + product.toString());
 					}
 					
-					
-					
-					
-				//}
 	        }
 		} catch (FileNotFoundException e) {
 			System.out.println("-----------------------fuck0");

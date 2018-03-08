@@ -1,0 +1,629 @@
+Codigo,Descripcion,Precio Costo,Precio Venta,Precio Mayoreo,Inventario,Inv. Minimo,Departamento,keyword
+PLATANO,Platano,$0.00,$14.00,$0.00,N/A,0,Verdura,Platano
+1458,Platano 1k,$8.00,$10.50,$0.00,N/A,0,Verdura,Platano 1k
+1472,Platano 250g,$2.00,$3.00,$0.00,N/A,0,Verdura,Platano 250g
+1465,Platano 500g,$4.00,$5.00,$0.00,N/A,0,Verdura,Platano 500g
+7501000128174,Plativolos 74gms,$8.50,$10.00,$0.00,0,0,Marinela,Plativolos 74gms
+7501030474999,Plativolos Tubo,$0.00,$15.00,$0.00,0,0,- Sin Departamento -,Plativolos Tubo
+752216092163,Plato Div.,$7.00,$10.00,$0.00,0,0,Tienda,Plato Div.
+752216051061,Plato Hondo Jaguar C25,$0.00,$10.00,$0.00,22,0,Tienda,Plato Hondo Jaguar C25
+752216051030,Plato Jaguar 25pzas,$0.00,$10.00,$0.00,13,0,Tienda,Plato Jaguar 25pzas
+752216081044,Plato No66  PaqC50,$10.00,$12.50,$12.50,1,0,- Sin Departamento -,Plato No66  PaqC50
+752216081051,Plato Paquete C50 No855,$13.00,$16.00,$16.00,2,0,Tienda,Plato Paquete C50 No855
+752216051047,Plato Pastelero,$6.00,$8.00,$8.00,1,0,Tienda,Plato Pastelero
+3614220013701,Play Boy  Genaration,$38.00,$48.00,$0.00,0,0,Farmacia,Play Boy  Genaration
+3614221201510,Play Boy Malibu,$38.00,$48.00,$0.00,0,0,Farmacia,Play Boy Malibu
+7501737409850,Play Boy New York,$38.00,$48.00,$0.00,0,0,Farmacia,Play Boy New York
+7501032909376,Pledge,$0.00,$50.00,$0.00,1,0,Tienda,Pledge
+7501032905866,Pledge 260ml,$25.50,$35.00,$35.00,0,0,Tienda,Pledge 260ml
+7501032915193,Pledge 378ml,$51.00,$66.50,$66.50,0,0,Tienda,Pledge 378ml
+7501032915261,Pledge Brillo Y Proteccion,$0.00,$45.00,$0.00,1,0,Tienda,Pledge Brillo Y Proteccion
+719886400094,Plonetes,$0.00,$3.00,$3.00,0,0,Dulces,Plonetes
+POBLANO,Poblano,$0.00,$13.00,$0.00,N/A,0,Verdura,Poblano
+7501011155343,Poffets Queso Chicas,$5.00,$7.00,$0.00,10,0,Sabritas,Poffets Queso Chicas
+7501030475002,Polvoron Tubo 287g,$14.00,$20.00,$0.00,2,0,Tienda,Polvoron Tubo 287g
+7501030490951,Polvorones 113g,$8.50,$10.00,$0.00,3,0,Marinela,Polvorones 113g
+7501055349715,Power Ade 600ml,$0.00,$15.00,$0.00,0,0,Refresco,Power Ade 600ml
+7501055329267,Powerade,$0.00,$15.00,$0.00,0,0,Refresco,Powerade
+7501055329380,Powerade,$0.00,$16.00,$0.00,0,0,Refresco,Powerade
+7501055317684,Powerade Lima 1l,$0.00,$22.00,$0.00,0,0,Refresco,Powerade Lima 1l
+7501055329328,Powerade Limalimon,$0.00,$16.00,$0.00,0,0,Refresco,Powerade Limalimon
+7501393200051,Pozoloe Cariocas,$16.00,$19.00,$0.00,0,0,Cariocas,Pozoloe Cariocas
+7501000132300,Principe Blanco,$0.00,$12.00,$0.00,2,0,Marinela,Principe Blanco
+7501000128167,Principe C8 Mar,$8.00,$12.00,$0.00,3,0,Marinela,Principe C8 Mar
+7501030475026,Principe De Tubo,$14.00,$14.00,$0.00,1,0,Marinela,Principe De Tubo
+7501030473824,Principe Limon 106g,$8.00,$12.00,$0.00,2,0,Marinela,Principe Limon 106g
+7501030462859,Principe Tencion Avellanas 105g,$0.00,$12.00,$0.00,0,0,Marinela,Principe Tencion Avellanas 105g
+7622210412904,Promocion Tang,$0.00,$40.00,$0.00,0,0,Tienda,Promocion Tang
+7501019068515,Protectores Saba C28 Pza,$14.50,$19.00,$18.00,0,0,Tienda,Protectores Saba C28 Pza
+725226066622,Pulparindo Mini Sal,$1.00,$1.00,$0.00,21,0,Dulces,Pulparindo Mini Sal
+725226003238,Pulparindo Sandia,$1.50,$1.50,$0.00,0,0,Dulces,Pulparindo Sandia
+7501017005611,Pure De Tomate,$4.00,$5.00,$5.00,0,0,Tienda,Pure De Tomate
+QUESO AMARILLO,Queso Amarillo,$0.00,$1.00,$0.00,N/A,0,Tienda,Queso Amarillo
+QUESO AñEJO,Queso Añejo,$88.00,$106.00,$0.00,N/A,0,lacteos y embutidos,Queso Añejo
+871,Queso Añejo 1k,$0.00,$100.00,$0.00,N/A,0,lacteos y embutidos,Queso Añejo 1k
+895,Queso Añejo 250g,$0.00,$24.00,$0.00,N/A,0,lacteos y embutidos,Queso Añejo 250g
+888,Queso Añejo 500g,$0.00,$47.50,$0.00,N/A,0,lacteos y embutidos,Queso Añejo 500g
+840,Queso Crema 1k,$0.00,$94.00,$0.00,N/A,0,lacteos y embutidos,Queso Crema 1k
+864,Queso Crema 250g,$0.00,$23.50,$0.00,N/A,0,lacteos y embutidos,Queso Crema 250g
+857,Queso Crema 500g,$0.00,$47.00,$0.00,N/A,0,lacteos y embutidos,Queso Crema 500g
+QUESO DOBLE CREMA,Queso Doble Crema,$72.00,$94.00,$0.00,N/A,0,Tienda,Queso Doble Crema
+QUESO FRESCO,Queso Fresco,$80.00,$110.00,$0.00,N/A,0,Tienda,Queso Fresco
+789,Queso Fresco 1k,$0.00,$106.00,$0.00,N/A,0,lacteos y embutidos,Queso Fresco 1k
+802,Queso Fresco 250g,$0.00,$25.00,$0.00,N/A,0,lacteos y embutidos,Queso Fresco 250g
+796,Queso Fresco 500g,$0.00,$50.00,$0.00,N/A,0,lacteos y embutidos,Queso Fresco 500g
+QUESO MANCHEGO,Queso Manchego,$112.00,$146.00,$0.00,N/A,0,lacteos y embutidos,Queso Manchego
+758,Queso Manchego 1k,$0.00,$130.00,$0.00,N/A,0,lacteos y embutidos,Queso Manchego 1k
+772,Queso Manchego 250g,$0.00,$32.50,$0.00,N/A,0,lacteos y embutidos,Queso Manchego 250g
+765,Queso Manchego 500g,$0.00,$65.00,$0.00,N/A,0,lacteos y embutidos,Queso Manchego 500g
+QUESO OAXACA,Queso Oaxaca,$0.00,$115.00,$0.00,N/A,0,Tienda,Queso Oaxaca
+819,Queso Oaxaca 1k,$0.00,$104.00,$0.00,N/A,0,lacteos y embutidos,Queso Oaxaca 1k
+833,Queso Oaxaca 250g,$0.00,$25.00,$0.00,N/A,0,lacteos y embutidos,Queso Oaxaca 250g
+826,Queso Oaxaca 500g,$0.00,$50.00,$0.00,N/A,0,lacteos y embutidos,Queso Oaxaca 500g
+QUESO PANELA,Queso Panela,$0.00,$110.00,$0.00,0,0,- Sin Departamento -,Queso Panela
+7501002615122,Queso Philadelfia 190g,$21.00,$26.00,$0.00,2,0,lacteos y embutidos,Queso Philadelfia 190g
+8000500023976,Rafaelo 150g,$53.00,$69.00,$69.00,0,0,Dulces,Rafaelo 150g
+789742140068,Raffaello 60g,$27.00,$35.00,$0.00,0,0,Dulces,Raffaello 60g
+7501032902025,Raid,$24.00,$32.00,$31.50,1,0,Tienda,Raid
+7501032925154,Raid Accion Total,$45.50,$54.50,$0.00,1,0,Tienda,Raid Accion Total
+7501032901936,Raid Accion Total 250ml,$27.00,$35.00,$0.00,2,0,Tienda,Raid Accion Total 250ml
+7501032906566,Raid Casa Y Jardin,$42.50,$51.00,$0.00,1,0,Tienda,Raid Casa Y Jardin
+7501032925468,Raid Mata Bichos,$0.00,$35.00,$0.00,2,0,Tienda,Raid Mata Bichos
+7501032901929,Raid Matabichos Aero,$32.00,$42.00,$0.00,1,0,Tienda,Raid Matabichos Aero
+7501032925550,Raid Matabichos Aero,$48.00,$57.50,$0.00,1,0,Tienda,Raid Matabichos Aero
+7501032903589,Raid Max,$34.00,$44.00,$0.00,2,0,Tienda,Raid Max
+7501032906573,Raid Max,$52.50,$60.00,$0.00,1,0,Tienda,Raid Max
+7501032903596,Raid Max 400ml,$49.50,$64.50,$0.00,1,0,Tienda,Raid Max 400ml
+7501017006014,Rajas De Jalapeo 105g,$4.00,$4.50,$4.50,1,0,Tienda,Rajas De Jalapeo 105g
+7501023311041,Rajas San Marcos,$0.00,$8.00,$0.00,5,0,Tienda,Rajas San Marcos
+7501017005024,Rajas de Jalapeño 220g,$7.50,$10.00,$10.00,41,0,Tienda,Rajas de Jalapeño 220g
+7501011114517,Rancheritos 160g,$0.00,$21.00,$0.00,1,0,Sabritas,Rancheritos 160g
+7501011111028,Ranchertios 52g,$5.00,$7.00,$0.00,2,0,Sabritas,Ranchertios 52g
+7502247080416,Rancho Escondido 750ml,$39.00,$50.00,$50.00,0,0,vino,Rancho Escondido 750ml
+7501268201008,Rastrilllo,$0.00,$15.00,$0.00,N/A,0,Tienda,Rastrilllo
+7501009222729,Rastrillo  Presto BUltra,$12.50,$16.00,$0.00,5,0,Tienda,Rastrillo  Presto BUltra
+70330709485,Rastrillo BIC Confort,$0.00,$10.00,$0.00,0,0,Tienda,Rastrillo BIC Confort
+70330717534,Rastrillo Bic Comfor,$0.00,$15.00,$0.00,9,0,- Sin Departamento -,Rastrillo Bic Comfor
+7702018880409,Rastrillo Gillette P,$0.00,$19.00,$0.00,0,0,Tienda,Rastrillo Gillette P
+7501030496144,Raztachoc,$6.00,$7.00,$0.00,0,0,Bimbo,Raztachoc
+7501000112845,Rebanada Pan Bimbo,$2.00,$5.00,$0.00,8,0,Tienda,Rebanada Pan Bimbo
+7501030469681,Rebanadas De Chocolate,$0.00,$5.00,$0.00,0,0,Bimbo,Rebanadas De Chocolate
+7501052477206,Rebanadas Piña Clemente Jacqes 480g,$0.00,$28.00,$0.00,0,0,Tienda,Rebanadas Piña Clemente Jacqes 480g
+7501023321026,Rebanas De Piña San Marcos,$24.50,$30.00,$30.00,4,0,Tienda,Rebanas De Piña San Marcos
+7501011159242,Receta Crujiente,$0.00,$10.00,$0.00,2,0,Tienda,Receta Crujiente
+7501011143241,Receta Crujiente Sal,$21.00,$27.00,$0.00,1,0,Tienda,Receta Crujiente Sal
+608049031285,Recogedor De Basura,$11.00,$14.50,$14.50,0,0,Tienda,Recogedor De Basura
+9002490100070,Red Bull,$22.00,$29.00,$0.00,55,0,vino,Red Bull
+90415289,Red Bull Silver,$0.00,$28.00,$0.00,0,0,Tienda,Red Bull Silver
+793573950079,Red Cola 3L,$15.50,$21.00,$0.00,6,0,Refresco,Red Cola 3L
+40232798467,Red Cola 500 Ml,$0.00,$5.00,$0.00,0,0,Refresco,Red Cola 500 Ml
+7791293021256,Rexona,$0.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293023175,Rexona,$0.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293014845,Rexona,$0.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293005270,Rexona,$0.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293568942,Rexona,$0.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293990651,Rexona,$43.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293025537,Rexona,$43.00,$56.00,$0.00,0,0,- Sin Departamento -,Rexona
+78928084,Rexona,$0.00,$26.00,$0.00,0,0,Tienda,Rexona
+78924352,Rexona,$0.00,$26.00,$0.00,0,0,Tienda,Rexona
+78924338,Rexona,$0.00,$26.00,$0.00,0,0,Tienda,Rexona
+78926523,Rexona,$0.00,$26.00,$0.00,0,0,Tienda,Rexona
+78924345,Rexona,$20.00,$26.00,$0.00,0,0,Tienda,Rexona
+78929371,Rexona,$20.00,$26.00,$0.00,0,0,Tienda,Rexona
+7791293003085,Rexona,$0.00,$45.00,$0.00,0,0,- Sin Departamento -,Rexona
+7791293991054,Rexona,$0.00,$45.00,$0.00,0,0,Tienda,Rexona
+7791293025544,Rexona,$0.00,$45.00,$0.00,0,0,Tienda,Rexona
+7506306236516,Rexona,$0.00,$45.00,$0.00,0,0,Tienda,Rexona
+7791293004310,Rexona Aerosol 175ml,$0.00,$45.00,$0.00,1,0,Tienda,Rexona Aerosol 175ml
+7791293009155,Rexona Aerosol 175ml,$0.00,$45.00,$0.00,2,0,- Sin Departamento -,Rexona Aerosol 175ml
+10900000406,Reynolds Wrap 76m,$19.00,$24.00,$24.00,28,0,Tienda,Reynolds Wrap 76m
+659190000026,Ricaleta,$0.00,$2.00,$0.00,0,0,Dulces,Ricaleta
+659190000019,Ricaleta Tamarindo 2,$0.00,$2.00,$0.00,2,0,Dulces,Ricaleta Tamarindo 2
+7501000649754,Ricanelas 98g,$0.00,$10.00,$0.00,1,0,Tienda,Ricanelas 98g
+7501030426387,Rocko,$0.00,$1.00,$0.00,26,0,Tienda,Rocko
+7501000153763,Rocko Marinela,$0.00,$5.00,$0.00,9,0,- Sin Departamento -,Rocko Marinela
+7501000112128,Roles De Canela,$10.00,$12.00,$0.00,1,0,Bimbo,Roles De Canela
+7501000309726,Roles De Canela  CPasas,$21.50,$27.00,$0.00,0,0,Bimbo,Roles De Canela  CPasas
+7501000316878,Roles Glaseados 435g,$21.50,$26.00,$0.00,3,0,Bimbo,Roles Glaseados 435g
+7501000112166,Roles de Canela Glas 135g,$0.00,$11.00,$0.00,2,0,Bimbo,Roles de Canela Glas 135g
+840004075389,Rollips Hello Kity,$3.50,$4.50,$0.00,11,0,Dulces,Rollips Hello Kity
+840004096742,Rolllips Uva,$3.50,$4.50,$0.00,5,0,Dulces,Rolllips Uva
+CANELA,Rollo De Canela,$0.00,$3.50,$0.00,N/A,0,Tienda,Rollo De Canela
+7501943462571,Rollo De Vogue Jumbo,$0.00,$7.50,$0.00,N/A,0,Tienda,Rollo De Vogue Jumbo
+ROLLO VOGUE JUMBO,Rollo De Vogue Jumbo,$0.00,$7.50,$0.00,N/A,0,Tienda,Rollo De Vogue Jumbo
+7501000153459,Rollo Fresa Marinela,$0.00,$12.00,$0.00,0,0,Marinela,Rollo Fresa Marinela
+ROLLO PETLO,Rollo Petalo,$0.00,$7.00,$0.00,N/A,0,Tienda,Rollo Petalo
+ROLLO VOGUE,Rollo Vogue,$0.00,$6.00,$0.00,N/A,0,Tienda,Rollo Vogue
+745403060229,Rolly Pop,$0.00,$5.00,$0.00,7,0,Dulces,Rolly Pop
+7501026004605,Roma 1 Kg,$23.00,$27.00,$26.00,0,0,Detergentes,Roma 1 Kg
+7501026004629,Roma 250g,$5.50,$7.00,$7.00,27,0,Detergentes,Roma 250g
+7501026004612,Roma 500g,$11.50,$14.00,$13.50,11,0,Detergentes,Roma 500g
+7501008613047,Ron Bacardy Blanco 250Ml,$37.50,$49.00,$0.00,4,0,- Sin Departamento -,Ron Bacardy Blanco 250Ml
+7501008613122,Ron Bacardy Blanco 680Ml,$119.00,$155.00,$0.00,2,0,vino,Ron Bacardy Blanco 680Ml
+7421001471034,Roy Crema,$19.00,$25.00,$25.00,0,0,Tienda,Roy Crema
+7421001471027,Roy Crema Reafirmante,$19.00,$25.00,$25.00,0,0,Tienda,Roy Crema Reafirmante
+7501011102095,Ruffles Ondulados Chicos,$7.00,$10.00,$0.00,0,0,Sabritas,Ruffles Ondulados Chicos
+7501011104099,Ruffles Queso Chicos,$7.00,$10.00,$0.00,11,0,Sabritas,Ruffles Queso Chicos
+7501011152731,Ruffles Xtra-Onda,$0.00,$10.00,$0.00,0,0,Sabritas,Ruffles Xtra-Onda
+7501011164086,Rufles Cocktel,$0.00,$10.00,$0.00,0,0,Sabritas,Rufles Cocktel
+7501011126398,Rufles Megacrucnh 48g,$7.00,$10.00,$0.00,1,0,Sabritas,Rufles Megacrucnh 48g
+7501011128699,Rufles Megacrunch 48g,$7.00,$10.00,$0.00,1,0,Sabritas,Rufles Megacrunch 48g
+7501011152755,Rufles Xtra Onda,$0.00,$10.00,$0.00,0,0,Sabritas,Rufles Xtra Onda
+7501000222612,Runners,$5.00,$8.00,$0.00,4,0,Barcel,Runners
+757528024840,Runners Cross 58g,$0.00,$7.00,$0.00,1,0,Barcel,Runners Cross 58g
+7501006584028,SALSA BBQ,$24.50,$30.50,$0.00,0,0,Tienda,SALSA BBQ
+7509546058092,SUAVITEL Aroma Intense,$0.00,$20.00,$0.00,1,0,Detergentes,SUAVITEL Aroma Intense
+7501019030352,Saba Confort,$11.00,$16.00,$16.00,17,0,Tienda,Saba Confort
+7501019034855,Saba Estilos,$0.00,$20.00,$0.00,0,0,Tienda,Saba Estilos
+7501019006371,Saba Invisible con Alas,$0.00,$18.00,$0.00,2,0,Tienda,Saba Invisible con Alas
+7501019006296,Saba Ultra InvisCAl 10,$0.00,$25.00,$0.00,0,0,Tienda,Saba Ultra InvisCAl 10
+7501019006319,Saba Ultra Invisible,$22.00,$29.00,$29.00,3,0,Tienda,Saba Ultra Invisible
+7501019006647,Saba Ultra Invisible Noct,$22.00,$29.00,$29.00,5,0,Tienda,Saba Ultra Invisible Noct
+7506192501057,Sabile Chile 750ml,$0.00,$36.00,$0.00,1,0,- Sin Departamento -,Sabile Chile 750ml
+735257006023,Saborizante Delicia,$0.00,$9.00,$0.00,1,0,Tienda,Saborizante Delicia
+735257006030,Saborizante Delicia,$0.00,$16.00,$0.00,1,0,Tienda,Saborizante Delicia
+735257006047,Saborizante Delicia,$0.00,$30.00,$0.00,1,0,Tienda,Saborizante Delicia
+7501011115606,Sabritas,$0.00,$40.00,$0.00,0,0,Sabritas,Sabritas
+7501011101463,Sabritas Adobadas Chicas,$7.00,$10.00,$0.00,0,0,Sabritas,Sabritas Adobadas Chicas
+7501011101456,Sabritas Clasicas 45g,$7.00,$10.00,$0.00,11,0,Sabritas,Sabritas Clasicas 45g
+7501011118119,Sabritas Crema Especias,$7.00,$10.00,$0.00,2,0,Sabritas,Sabritas Crema Especias
+7501011143265,Sabritas Crujiente Chiles 170g,$0.00,$28.00,$0.00,3,0,Tienda,Sabritas Crujiente Chiles 170g
+7501011143258,Sabritas Crujientes Jalapeño 170g,$21.00,$30.00,$0.00,1,0,Sabritas,Sabritas Crujientes Jalapeño 170g
+7501011143739,Sabritas Flamint Hot 45g,$0.00,$10.00,$0.00,0,0,Tienda,Sabritas Flamint Hot 45g
+7501011159266,Sabritas Fuego Cujientes,$0.00,$30.00,$0.00,0,0,Sabritas,Sabritas Fuego Cujientes
+7501011137431,Sabritas Habanero 70g,$0.00,$10.00,$0.00,1,0,Sabritas,Sabritas Habanero 70g
+7501011101678,Sabritas Limn Chicas,$8.00,$10.00,$0.00,0,0,Sabritas,Sabritas Limn Chicas
+7501011154650,Sabritas Original 170g,$0.00,$34.50,$0.00,0,0,Sabritas,Sabritas Original 170g
+7501011155602,Sabritas Poffets,$0.00,$7.50,$0.00,3,0,- Sin Departamento -,Sabritas Poffets
+7501011135086,Sabritas Sal 175g,$20.00,$26.00,$0.00,0,0,Tienda,Sabritas Sal 175g
+7501011151086,Sabritones,$0.00,$23.00,$0.00,0,0,Sabritas,Sabritones
+7501011131408,Sabritones 175g,$16.50,$21.00,$0.00,2,0,Tienda,Sabritones 175g
+7503005405168,Sacate P Bañar,$0.00,$12.00,$0.00,0,0,Farmacia,Sacate P Bañar
+7501103300224,Sacate Taio,$15.00,$19.50,$19.50,0,0,Tienda,Sacate Taio
+34587090253,Sal Bote120g,$0.00,$6.00,$0.00,11,0,Tienda,Sal Bote120g
+34587090468,Sal Chile Limon,$0.00,$14.00,$0.00,16,0,Tienda,Sal Chile Limon
+7501041941930,Sal De Uvas,$0.00,$3.00,$0.00,N/A,0,Farmacia,Sal De Uvas
+34587030013,Sal La Fina  1 Kg,$8.00,$9.50,$8.50,19,0,Tienda,Sal La Fina  1 Kg
+7501000664221,Saladas  18,$8.00,$12.00,$0.00,0,0,Gamesa,Saladas  18
+SALCHICHA,Salchicha,$45.00,$58.50,$0.00,N/A,0,lacteos y embutidos,Salchicha
+7501040009761,Salchicha De Pavo266g,$13.00,$16.00,$0.00,1,0,Tienda,Salchicha De Pavo266g
+7501040009754,Salchicha Fud Viena266g,$0.00,$16.00,$0.00,0,0,Tienda,Salchicha Fud Viena266g
+27000384954,Salsa Barbecue,$23.00,$30.00,$30.00,0,0,Tienda,Salsa Barbecue
+738545010016,Salsa Botanera,$0.00,$17.00,$0.00,0,0,Tienda,Salsa Botanera
+738545010481,Salsa Botanera 385g,$6.00,$7.50,$7.50,0,0,Tienda,Salsa Botanera 385g
+738545010030,Salsa Botanera 525 G,$7.00,$12.00,$12.00,1,0,Tienda,Salsa Botanera 525 G
+7501017051366,Salsa Catsup La Costeña 220ml,$7.00,$8.00,$0.00,20,0,Tienda,Salsa Catsup La Costeña 220ml
+7501023348047,Salsa Chipotle San Marcos,$5.50,$8.00,$8.00,0,0,Tienda,Salsa Chipotle San Marcos
+7501017660230,Salsa Habanera 120ml,$0.00,$19.00,$0.00,0,0,Tienda,Salsa Habanera 120ml
+7501017660025,Salsa Habanera Yucateco,$0.00,$20.00,$0.00,2,0,Tienda,Salsa Habanera Yucateco
+7501001604318,Salsa Inglesa 145 ml,$0.00,$27.00,$0.00,3,0,Tienda,Salsa Inglesa 145 ml
+7501001604325,Salsa Inglesa 290ml,$0.00,$40.00,$0.00,1,0,Tienda,Salsa Inglesa 290ml
+738545010511,Salsa La Botanera 379g,$0.00,$9.00,$0.00,0,0,Tienda,Salsa La Botanera 379g
+7502226812427,Salsa Skwinkles,$3.00,$4.50,$0.00,0,0,Dulces,Salsa Skwinkles
+97339000030,Salsa Valentina 1 Lt,$0.00,$16.00,$0.00,0,0,Tienda,Salsa Valentina 1 Lt
+97339000054,Salsa Valentina 370ml,$7.00,$8.50,$8.50,10,0,Tienda,Salsa Valentina 370ml
+97339000061,Salsa Valentina Muy,$0.00,$9.00,$0.00,18,0,Tienda,Salsa Valentina Muy
+7501011160149,Salsabritas Tosti180ml,$5.50,$7.00,$0.00,1,0,Tienda,Salsabritas Tosti180ml
+7506339304824,Salvo,$21.50,$27.00,$0.00,0,0,Detergentes,Salvo
+7501001130664,Salvo 250g,$0.00,$7.00,$0.00,7,0,Detergentes,Salvo 250g
+7501001130657,Salvo 500g,$10.00,$13.00,$13.00,19,0,Detergentes,Salvo 500g
+7501007452876,Salvo De 900Gr,$18.00,$23.00,$23.00,7,0,Tienda,Salvo De 900Gr
+7506309873725,Salvo Liquido 300 ml,$9.50,$12.00,$12.00,2,0,Tienda,Salvo Liquido 300 ml
+7506195197004,Salvo Liquido 900ml,$26.50,$30.00,$29.00,11,0,Detergentes,Salvo Liquido 900ml
+7506309807843,Salvo Liquido Cuidado,$18.00,$23.50,$23.50,0,0,Tienda,Salvo Liquido Cuidado
+7506309807867,Salvo Liquido Cuidado,$18.00,$23.50,$23.50,0,0,Tienda,Salvo Liquido Cuidado
+7506195196984,Salvo Liquido Limon 300ml,$10.00,$12.00,$13.00,8,0,Tienda,Salvo Liquido Limon 300ml
+7506309821382,Salvo Ultra 750ml,$0.00,$39.00,$0.00,0,0,Tienda,Salvo Ultra 750ml
+8802257222134,Sandra Estropajo,$0.00,$10.00,$0.00,1,0,- Sin Departamento -,Sandra Estropajo
+7500326103346,Sangria 2.5L,$0.00,$21.00,$0.00,0,0,Refresco,Sangria 2.5L
+7500326103339,Sangria 2l,$0.00,$18.00,$0.00,0,0,Refresco,Sangria 2l
+7500326103360,Sangria 600 Ml,$10.00,$9.00,$0.00,0,0,Refresco,Sangria 600 Ml
+7501505630073,Sangria Cacera 600Ml,$0.00,$9.00,$0.00,0,0,Refresco,Sangria Cacera 600Ml
+658480001262,Sanisimo,$0.00,$17.00,$0.00,0,0,Bimbo,Sanisimo
+7501007829500,Sardina Calmex 425g,$20.00,$23.00,$0.00,24,0,Tienda,Sardina Calmex 425g
+17479831011,Sardina En SDe Tom425g,$18.00,$20.00,$0.00,0,0,Tienda,Sardina En SDe Tom425g
+17479211011,Sardina Yavaros,$18.00,$22.50,$22.50,0,0,Tienda,Sardina Yavaros
+7506192502603,Savile,$0.00,$12.00,$0.00,0,0,Tienda,Savile
+7506192503426,Savile 180ml,$0.00,$12.00,$0.00,0,0,Tienda,Savile 180ml
+7506192503433,Savile 24ml,$0.00,$2.50,$0.00,0,0,- Sin Departamento -,Savile 24ml
+7506192502511,Savile Aguacate 370ml,$0.00,$29.00,$0.00,3,0,Tienda,Savile Aguacate 370ml
+7506192501019,Savile Aguacate 750ml,$0.00,$40.00,$0.00,1,0,Tienda,Savile Aguacate 750ml
+7506192501040,Savile Almendra  750ml,$0.00,$36.00,$0.00,2,0,Tienda,Savile Almendra  750ml
+7506192502542,Savile Almendras 370ml,$0.00,$29.00,$0.00,1,0,Tienda,Savile Almendras 370ml
+7506192504423,Savile Argan,$0.00,$2.50,$0.00,0,0,Detergentes,Savile Argan
+7506192505499,Savile Biotina,$0.00,$40.00,$0.00,0,0,Detergentes,Savile Biotina
+7506192502528,Savile Miel 370ml,$0.00,$29.00,$0.00,3,0,Tienda,Savile Miel 370ml
+7506192501026,Savile Miel 750ml,$32.50,$40.00,$0.00,1,0,Tienda,Savile Miel 750ml
+7506192502535,Savile Rizos 370ml,$0.00,$29.00,$0.00,2,0,Tienda,Savile Rizos 370ml
+7506192501033,Savile Rizos 750ml,$0.00,$36.00,$0.00,3,0,Tienda,Savile Rizos 750ml
+7506192502634,Savile Sobre,$0.00,$2.50,$0.00,0,0,Tienda,Savile Sobre
+7506192502627,Savile Sobre Miel,$0.00,$2.50,$0.00,0,0,Tienda,Savile Sobre Miel
+7702006912884,Sedal  Liso Perfecto 200ml,$13.50,$17.00,$0.00,0,0,Farmacia,Sedal  Liso Perfecto 200ml
+7702006912914,Sedal  Rizos 200ml,$13.50,$17.00,$0.00,1,0,Farmacia,Sedal  Rizos 200ml
+7501056332990,Sedal Brillo Gloss 650ml,$0.00,$48.00,$0.00,2,0,Tienda,Sedal Brillo Gloss 650ml
+7791293003276,Sedal Ceramidas 200ml,$13.50,$17.00,$0.00,0,0,Farmacia,Sedal Ceramidas 200ml
+7501056338626,Sedal Reconstrucción,$0.00,$48.00,$0.00,2,0,Tienda,Sedal Reconstrucción
+7702006912938,Sedal Rizos 650ml,$0.00,$48.00,$0.00,1,0,Tienda,Sedal Rizos 650ml
+7702006912167,Sedal S.O.S Caida 650ml,$0.00,$48.00,$0.00,1,0,Tienda,Sedal S.O.S Caida 650ml
+7501055308330,Senzao 600ml,$0.00,$8.00,$0.00,1,0,Tienda,Senzao 600ml
+7501007704500,Servilletas Petalo C500,$30.00,$37.00,$37.00,6,0,Tienda,Servilletas Petalo C500
+7501007704302,Servilletas Petalo c125,$7.00,$8.00,$8.00,26,0,Tienda,Servilletas Petalo c125
+7501007716008,Servitoalla Petalo,$0.00,$15.00,$0.00,15,0,Tienda,Servitoalla Petalo
+7509546026954,Sh Caprice 800ml Manzan,$0.00,$31.00,$0.00,0,0,Tienda,Sh Caprice 800ml Manzan
+7501035919129,ShPalmolive Optims 400ml,$40.00,$52.00,$0.00,1,0,Farmacia,ShPalmolive Optims 400ml
+7509546015682,Shamoo Palmolive,$0.00,$2.50,$0.00,32,0,Tienda,Shamoo Palmolive
+7501001168995,ShampPantene 21 400ml,$40.00,$52.00,$0.00,2,0,Farmacia,ShampPantene 21 400ml
+7501056338534,Shampo Sedal Sobre,$0.00,$2.50,$0.00,0,0,Detergentes,Shampo Sedal Sobre
+7509546026824,Shampoo Capri 220ml,$0.00,$13.00,$0.00,0,0,- Sin Departamento -,Shampoo Capri 220ml
+7509546036069,Shampoo Capri 220ml,$0.00,$13.00,$0.00,0,0,Tienda,Shampoo Capri 220ml
+7509546027630,Shampoo Capri 220ml,$0.00,$13.00,$0.00,0,0,Tienda,Shampoo Capri 220ml
+7509546027029,Shampoo Capri 220ml,$0.00,$13.00,$0.00,0,0,Tienda,Shampoo Capri 220ml
+7509546058160,Shampoo Capri 220ml,$0.00,$13.00,$0.00,0,0,Tienda,Shampoo Capri 220ml
+7509546027036,Shampoo Capri 220ml,$10.50,$13.00,$0.00,0,0,Tienda,Shampoo Capri 220ml
+7509546026992,Shampoo Capri 800ml,$0.00,$31.00,$0.00,0,0,Tienda,Shampoo Capri 800ml
+7509546026763,Shampoo Capri 800ml,$0.00,$37.00,$0.00,1,0,Tienda,Shampoo Capri 800ml
+7509546061115,Shampoo Caprice,$0.00,$31.00,$0.00,1,0,Detergentes,Shampoo Caprice
+7509546045801,Shampoo Caprice 800ml,$0.00,$31.00,$0.00,1,0,Tienda,Shampoo Caprice 800ml
+7509546026800,Shampoo Caprice 800ml,$0.00,$31.00,$0.00,1,0,Tienda,Shampoo Caprice 800ml
+7509546026930,Shampoo Caprice 800ml,$0.00,$31.00,$0.00,1,0,Tienda,Shampoo Caprice 800ml
+7509546026961,Shampoo Caprice 800ml,$0.00,$31.00,$0.00,1,0,Tienda,Shampoo Caprice 800ml
+7509546026886,Shampoo Caprice 800ml,$0.00,$35.00,$0.00,1,0,Tienda,Shampoo Caprice 800ml
+7509546026879,Shampoo Caprice 900ml,$0.00,$31.00,$0.00,0,0,Tienda,Shampoo Caprice 900ml
+7501001133306,Shampoo Head Sh400 Ml,$44.50,$58.00,$0.00,1,0,Farmacia,Shampoo Head Sh400 Ml
+7590002025628,Shampoo Head Sh400ml,$44.50,$58.00,$0.00,0,0,Farmacia,Shampoo Head Sh400ml
+7501001133290,Shampoo Head Sh400ml,$44.50,$58.00,$0.00,2,0,Farmacia,Shampoo Head Sh400ml
+7501001133276,Shampoo Head Shoulder 400,$0.00,$50.00,$0.00,0,0,Tienda,Shampoo Head Shoulder 400
+7501001133283,Shampoo HeadSh 400ml,$44.50,$58.00,$0.00,0,0,Farmacia,Shampoo HeadSh 400ml
+75002794,Shampoo Palm Optims,$22.00,$26.50,$0.00,0,0,Tienda,Shampoo Palm Optims
+7501001303464,Shampoo Pantene 400ml,$40.00,$52.00,$0.00,1,0,Tienda,Shampoo Pantene 400ml
+7501001165246,Shampoo Pantene 400ml,$38.00,$46.00,$0.00,1,0,Tienda,Shampoo Pantene 400ml
+7501001164645,Shampoo Rizos 400mlPante,$40.00,$52.00,$0.00,0,0,Farmacia,Shampoo Rizos 400mlPante
+7501020533453,Shot Lala,$0.00,$8.00,$0.00,0,0,Tienda,Shot Lala
+7501020533446,Shot Lala Chocolate,$0.00,$8.00,$0.00,0,0,lacteos y embutidos,Shot Lala Chocolate
+7501055343324,Sidral 2l,$0.00,$16.00,$0.00,2,0,Refresco,Sidral 2l
+7501055339983,Sidral 600ml,$0.00,$9.00,$0.00,8,0,Refresco,Sidral 600ml
+725181207016,Skwinkles Mas,$0.00,$5.00,$0.00,0,0,Tienda,Skwinkles Mas
+7502226811970,Skwinklote,$5.00,$7.00,$7.00,46,0,Dulces,Skwinklote
+744607696012,Skyy,$16.00,$22.00,$0.00,17,0,vino,Skyy
+7501059284500,Snak,$6.00,$9.00,$9.00,0,0,Dulces,Snak
+7506174500207,Snickers Chocolate,$8.00,$10.00,$10.00,7,0,Dulces,Snickers Chocolate
+7506174502645,Sniker,$0.00,$5.00,$0.00,0,0,Dulces,Sniker
+7501059278516,Sobre Neskuik,$0.00,$3.00,$0.00,0,0,Tienda,Sobre Neskuik
+7501055302345,Soda De Lata,$0.00,$7.00,$0.00,5,0,- Sin Departamento -,Soda De Lata
+7501055303779,Soda Fanta 600ml,$0.00,$9.00,$0.00,14,0,- Sin Departamento -,Soda Fanta 600ml
+7501055303885,Soda Fresca 2L,$0.00,$15.00,$0.00,0,0,Tienda,Soda Fresca 2L
+7501055303786,Soda Fresca 600ml,$0.00,$9.00,$0.00,2,0,Tienda,Soda Fresca 600ml
+7501055303892,Soda Manzana Lift 2L,$0.00,$16.00,$0.00,0,0,Tienda,Soda Manzana Lift 2L
+7501055303793,Soda Manzana Lift 600ml,$0.00,$9.00,$0.00,0,0,Tienda,Soda Manzana Lift 600ml
+7501055309658,Soda Mini Lata De237 Ml,$6.00,$6.50,$0.00,26,0,Refresco,Soda Mini Lata De237 Ml
+7501055305650,Soda Sprite 2L,$0.00,$17.00,$0.00,0,0,Refresco,Soda Sprite 2L
+7501055305629,Soda Sprite 600ml,$0.00,$10.00,$0.00,8,0,Refresco,Soda Sprite 600ml
+7506306413047,Solero,$0.00,$10.00,$0.00,0,0,Tienda,Solero
+7506306413443,Solero Uva,$0.00,$10.00,$0.00,6,0,Holanda,Solero Uva
+7501018310554,Sopa Caracol #1,$0.00,$4.50,$0.00,4,0,Tienda,Sopa Caracol #1
+7501018310547,Sopa Codo #4,$0.00,$4.50,$0.00,31,0,Tienda,Sopa Codo #4
+7501005134712,Sopa Knor Coditos 95g,$0.00,$7.00,$0.00,0,0,Tienda,Sopa Knor Coditos 95g
+7501005129923,Sopa Knor Fideo 82g,$6.00,$7.50,$7.50,0,0,Tienda,Sopa Knor Fideo 82g
+7501005129947,Sopa Knorr Estrellas 82g,$6.00,$7.50,$7.50,17,0,Tienda,Sopa Knorr Estrellas 82g
+7501005129954,Sopa Knorr Letras 82g,$6.00,$7.50,$7.50,1,0,Tienda,Sopa Knorr Letras 82g
+7501005134002,Sopa Knorr Municione,$6.00,$7.50,$7.50,0,0,Tienda,Sopa Knorr Municione
+7501018310523,Sopa La  Moderna 200g,$0.00,$4.50,$0.00,27,0,Tienda,Sopa La  Moderna 200g
+41789001987,Sopa Maruchan CamChile,$7.00,$8.50,$7.00,30,0,Tienda,Sopa Maruchan CamChile
+41789001864,Sopa Maruchan CamLimHab,$7.00,$8.50,$0.00,103,0,Tienda,Sopa Maruchan CamLimHab
+41789001956,Sopa Maruchan Camaron,$7.00,$8.50,$7.00,27,0,Tienda,Sopa Maruchan Camaron
+41789001918,Sopa Maruchan Pollo,$7.00,$8.50,$7.00,57,0,Tienda,Sopa Maruchan Pollo
+41789001925,Sopa Maruchan Res,$6.50,$7.00,$7.00,10,0,Tienda,Sopa Maruchan Res
+7501018310745,Sopa Moderna 200g Al,$3.00,$4.00,$4.50,13,0,Tienda,Sopa Moderna 200g Al
+7501018310257,Sopa Moderna 200g Al,$0.00,$4.50,$0.00,51,0,Tienda,Sopa Moderna 200g Al
+7501018310561,Sopa Moderna 200g Ca,$0.00,$4.50,$0.00,0,0,Tienda,Sopa Moderna 200g Ca
+7501018310516,Sopa Moderna 200g Co,$0.00,$4.50,$0.00,46,0,Tienda,Sopa Moderna 200g Co
+7501018310318,Sopa Moderna 200g Es,$0.00,$4.50,$0.00,0,0,Tienda,Sopa Moderna 200g Es
+7501018310028,Sopa Moderna 200g Fi,$0.00,$4.50,$0.00,0,0,Tienda,Sopa Moderna 200g Fi
+7501018310035,Sopa Moderna 200g Fi,$0.00,$4.50,$0.00,1,0,Tienda,Sopa Moderna 200g Fi
+7501018310011,Sopa Moderna 200g Fi,$4.00,$4.50,$0.00,104,0,Tienda,Sopa Moderna 200g Fi
+7501018310233,Sopa Moderna 200g Le,$0.00,$4.50,$0.00,0,0,Tienda,Sopa Moderna 200g Le
+7501018310097,Sopa Moderna 200g Ma,$0.00,$4.50,$0.00,17,0,Tienda,Sopa Moderna 200g Ma
+7501018310752,Sopa Moderna 200g Mo,$0.00,$4.50,$0.00,16,0,Tienda,Sopa Moderna 200g Mo
+7501018310264,Sopa Moderna 200g Mu,$0.00,$4.50,$0.00,14,0,Tienda,Sopa Moderna 200g Mu
+7501018310103,Sopa Moderna 200g Sp,$0.00,$4.50,$0.00,88,0,Tienda,Sopa Moderna 200g Sp
+7501018310059,Sopa Moderna 200g Ta,$0.00,$4.50,$0.00,0,0,Tienda,Sopa Moderna 200g Ta
+7501018310042,Sopa Tallarin #1,$3.00,$4.00,$4.50,33,0,Tienda,Sopa Tallarin #1
+7501018310592,Sopa Tornillo La Moderna,$0.00,$4.50,$0.00,7,0,Tienda,Sopa Tornillo La Moderna
+7501011390270,Splash Zanahoria,$0.00,$12.00,$0.00,0,0,Refresco,Splash Zanahoria
+7501011390256,Splash Zarzabroso,$0.00,$15.00,$0.00,0,0,Refresco,Splash Zarzabroso
+7501000138944,Sponch 120g,$9.50,$12.00,$0.00,2,0,Marinela,Sponch 120g
+7509546059013,Spray,$0.00,$34.00,$0.00,1,0,Tienda,Spray
+7509546059006,Spray Caprice Granada,$26.50,$33.00,$0.00,0,0,Farmacia,Spray Caprice Granada
+7509546064437,Spray Caprice Sabila,$26.50,$34.00,$0.00,0,0,Farmacia,Spray Caprice Sabila
+7501055304806,Sprite 3l,$19.00,$23.00,$0.00,3,0,Refresco,Sprite 3l
+7501055349807,Sprite Lata 235ml,$0.00,$5.00,$0.00,0,0,Refresco,Sprite Lata 235ml
+7501071120077,Squirt Toronja 2L,$0.00,$16.00,$0.00,1,0,Refresco,Squirt Toronja 2L
+7501071120305,Squirt Toronja 3l,$22.00,$24.00,$0.00,4,0,Refresco,Squirt Toronja 3l
+7509546060545,Stefano,$35.50,$46.00,$0.00,0,0,- Sin Departamento -,Stefano
+7501035916265,Stefano Black,$28.00,$34.00,$0.00,0,0,Tienda,Stefano Black
+7509546025384,Stefano Midnight,$29.00,$35.00,$0.00,0,0,Tienda,Stefano Midnight
+7501035916586,Stefanospazio,$29.00,$35.00,$0.00,0,0,Tienda,Stefanospazio
+7501064194368,Straw Ber,$0.00,$12.00,$0.00,0,0,- Sin Departamento -,Straw Ber
+7501030496663,Suavi Cremas Cho,$5.50,$7.00,$0.00,0,0,Marinela,Suavi Cremas Cho
+7501030475682,Suavi Cremas Chocolate,$0.00,$8.00,$0.00,0,0,- Sin Departamento -,Suavi Cremas Chocolate
+7501030460923,Suavi Cremas Minis Fresa,$0.00,$10.00,$0.00,2,0,Marinela,Suavi Cremas Minis Fresa
+7501030490586,Suavicremas 237g,$0.00,$15.00,$0.00,0,0,Tienda,Suavicremas 237g
+7501030461227,Suavicremas Choc 50g,$0.00,$5.00,$0.00,0,0,Marinela,Suavicremas Choc 50g
+7501030490623,Suavicremas Chocolate 237g,$0.00,$15.00,$0.00,0,0,Tienda,Suavicremas Chocolate 237g
+7501030490609,Suavicremas Fresa,$0.00,$15.00,$0.00,0,0,Marinela,Suavicremas Fresa
+7501030461234,Suavicremas Fresa 50g,$0.00,$5.00,$0.00,1,0,Marinela,Suavicremas Fresa 50g
+7501030496656,Suavicremas Fresa 80g,$5.50,$7.00,$0.00,0,0,Marinela,Suavicremas Fresa 80g
+7501030461241,Suavicremas Vain 50g,$0.00,$5.00,$0.00,2,0,Marinela,Suavicremas Vain 50g
+7501030475699,Suavicremas Vainilla,$0.00,$8.00,$0.00,0,0,Marinela,Suavicremas Vainilla
+7509546044453,Suavitel,$14.00,$19.00,$19.00,0,0,Detergentes,Suavitel
+7509546040608,Suavitel,$15.00,$20.00,$20.00,0,0,Detergentes,Suavitel
+7509546017808,Suavitel 450 MlPrimavera,$8.00,$10.00,$10.00,9,0,Detergentes,Suavitel 450 MlPrimavera
+7509546032856,Suavitel 750ml M Ma,$0.00,$20.00,$0.00,8,0,Tienda,Suavitel 750ml M Ma
+7509546032863,Suavitel 750ml M Ma,$15.00,$20.00,$20.00,10,0,Detergentes,Suavitel 750ml M Ma
+7509546032870,Suavitel 750ml M Ma,$16.00,$19.00,$0.00,13,0,Detergentes,Suavitel 750ml M Ma
+7509546067520,Suavitel 850ml,$15.50,$18.50,$0.00,8,0,Detergentes,Suavitel 850ml
+7509546016313,Suavitel 850ml Fresc,$16.00,$19.00,$19.00,0,0,Detergentes,Suavitel 850ml Fresc
+7501035903029,Suavitel Azul 1L,$18.00,$21.50,$20.00,10,0,Detergentes,Suavitel Azul 1L
+7509546043579,Suavitel Baby 850 Ml,$0.00,$20.00,$0.00,9,0,Tienda,Suavitel Baby 850 Ml
+7509546044347,Suavitel Complete,$0.00,$19.00,$0.00,0,0,Detergentes,Suavitel Complete
+7509546067551,Suavitel Complete,$0.00,$18.50,$0.00,0,0,Tienda,Suavitel Complete
+7509546067544,Suavitel Complete,$0.00,$18.50,$0.00,0,0,Tienda,Suavitel Complete
+D,Suavitel Complete Adios Al Planchado,$16.00,$19.00,$19.00,0,0,Detergentes,Suavitel Complete Adios Al Planchado
+7509546017815,Suavitel Fresco Aroma Sol,$8.00,$10.50,$10.50,15,0,Detergentes,Suavitel Fresco Aroma Sol
+7509546044415,Suavitel Momentos,$0.00,$20.00,$0.00,0,0,Detergentes,Suavitel Momentos
+7501000156214,Submarinos Chocolate,$10.00,$12.00,$0.00,0,0,Marinela,Submarinos Chocolate
+7501000153374,Submarinos Fresa 105g,$8.00,$12.00,$0.00,0,0,Marinela,Submarinos Fresa 105g
+7501000153282,Submarinos Vainilla 105g,$8.00,$12.00,$0.00,0,0,Marinela,Submarinos Vainilla 105g
+7501000677368,Surtido Rico,$31.00,$38.00,$0.00,9,0,- Sin Departamento -,Surtido Rico
+7501000633982,Surtido Rico 522g,$33.00,$40.00,$40.00,2,0,Gamesa,Surtido Rico 522g
+7501030496649,Suvicremas Vainilla 80g,$7.00,$8.00,$0.00,0,0,Marinela,Suvicremas Vainilla 80g
+633148211146,TAJIN Sobre,$0.00,$1.50,$0.00,0,0,Sabritas,TAJIN Sobre
+7501028669048,TOALLITAS HUMEDAS,$0.00,$20.00,$0.00,0,0,Tienda,TOALLITAS HUMEDAS
+75045654,TRIDENT FRESA 4P,$1.00,$1.50,$1.50,26,0,Dulces,TRIDENT FRESA 4P
+75045661,TRIDENT MANGO 4P,$1.00,$1.50,$1.50,23,0,Dulces,TRIDENT MANGO 4P
+633148100013,Tajin,$0.00,$15.00,$0.00,1,0,Tienda,Tajin
+7501030424536,Takis Fuego 62 G,$9.00,$10.00,$0.00,6,0,Barcel,Takis Fuego 62 G
+757528016951,Takis Fuego Azul,$5.50,$7.00,$0.00,4,0,Barcel,Takis Fuego Azul
+7501000148288,Takis Huakamole 62g,$0.00,$9.00,$0.00,6,0,Barcel,Takis Huakamole 62g
+757528022334,Takis Limon,$0.00,$9.00,$0.00,0,0,Barcel,Takis Limon
+7501000166923,Takis Salsa Brava 62g,$5.50,$9.00,$0.00,5,0,Barcel,Takis Salsa Brava 62g
+TAMARINDO,Tamarindo,$22.50,$29.00,$0.00,0,0,- Sin Departamento -,Tamarindo
+7622210254559,Tang Coco,$0.00,$4.00,$0.00,N/A,0,Tienda,Tang Coco
+7622210254511,Tang Fresa,$0.00,$4.00,$0.00,N/A,0,Tienda,Tang Fresa
+7622210255600,Tang Frutas,$0.00,$4.00,$0.00,N/A,0,Tienda,Tang Frutas
+7622300716882,Tang Guayaba,$0.00,$4.00,$0.00,N/A,0,Tienda,Tang Guayaba
+7622210253583,Tang Horchata,$0.00,$4.00,$0.00,3,0,Tienda,Tang Horchata
+7622210253408,Tang Jamaica,$2.50,$4.00,$4.00,3,0,Tienda,Tang Jamaica
+7622210253507,Tang Limon,$2.50,$4.00,$4.00,N/A,0,Nestle,Tang Limon
+7622300716226,Tang Manzana,$0.00,$4.00,$0.00,0,0,Tienda,Tang Manzana
+7622300717940,Tang Manzana Verde,$0.00,$4.00,$0.00,8,0,Tienda,Tang Manzana Verde
+7622210253323,Tang Naranja,$2.50,$4.00,$4.00,20,0,Tienda,Tang Naranja
+7622210254610,Tang Piña,$0.00,$4.00,$0.00,12,0,Tienda,Tang Piña
+7622210255648,Tang Tamarindo,$0.00,$4.00,$0.00,0,0,Tienda,Tang Tamarindo
+7622210254436,Tang Uva,$0.00,$4.00,$0.00,N/A,0,Tienda,Tang Uva
+7501000164370,Taquis,$0.00,$8.00,$0.00,7,0,Tienda,Taquis
+TE LIMON,Te De Limon,$0.00,$1.00,$0.00,26,0,Tienda,Te De Limon
+TE MANZANILLA,Te De Manzanillas,$0.00,$1.00,$0.00,71,0,Tienda,Te De Manzanillas
+7501030472292,Tejitas,$11.00,$14.50,$0.00,2,0,- Sin Departamento -,Tejitas
+752216085172,Tenedor,$5.50,$7.00,$7.00,N/A,0,Tienda,Tenedor
+7501431268036,Tenedor Chico Bolsa C50p,$5.50,$7.00,$7.00,0,0,Tienda,Tenedor Chico Bolsa C50p
+7501431228030,Tenedor Mediano 25 Pzas,$0.00,$8.00,$0.00,36,0,Tienda,Tenedor Mediano 25 Pzas
+7501048840205,Teq Azul 700Ml,$142.00,$185.00,$0.00,0,0,vino,Teq Azul 700Ml
+7501048840212,Teq Azul 950Ml,$142.00,$185.00,$0.00,0,0,vino,Teq Azul 950Ml
+749787500012,Teq Cabrito 1L,$0.00,$190.00,$0.00,1,0,vino,Teq Cabrito 1L
+7501048810017,Teq Centenario 1L,$181.50,$236.00,$0.00,1,0,vino,Teq Centenario 1L
+744607049108,Teq Jimador Rep 750Ml,$129.00,$168.00,$0.00,1,0,vino,Teq Jimador Rep 750Ml
+744607049801,Teq Jimador Rep 950Ml,$129.00,$168.00,$0.00,0,0,vino,Teq Jimador Rep 950Ml
+7501035012028,Teq Tradicional 750Ml,$201.00,$260.00,$240.00,1,0,vino,Teq Tradicional 750Ml
+7501005616522,Tequila 100 Aos 200,$35.00,$45.50,$0.00,4,0,vino,Tequila 100 Aos 200
+7501005616911,Tequila 100 Años,$226.00,$294.00,$0.00,1,0,vino,Tequila 100 Años
+CABRITO 375ML,Tequila Cabrito 375ml,$0.00,$75.00,$0.00,1,0,vino,Tequila Cabrito 375ml
+749787500135,Tequila Cabrito 950ml,$124.00,$161.00,$150.00,0,0,vino,Tequila Cabrito 950ml
+698450501002,Tequila Casco Viejo,$77.00,$100.00,$0.00,3,0,vino,Tequila Casco Viejo
+7501048810208,Tequila Gran Centena,$175.00,$227.50,$210.00,5,0,vino,Tequila Gran Centena
+7503001506876,Tequila Rancho Escon,$45.00,$58.00,$0.00,9,0,vino,Tequila Rancho Escon
+78603752,Tic Tac Naranja,$0.00,$6.00,$0.00,0,0,Dulces,Tic Tac Naranja
+703885005459,Tiliko,$1.00,$2.00,$2.00,0,0,Dulces,Tiliko
+703885001857,Tiliko Sandia,$1.00,$1.50,$0.00,16,0,Dulces,Tiliko Sandia
+56100024798,Toalla Always NoctC8 Fl,$19.00,$24.00,$24.00,1,0,Tienda,Toalla Always NoctC8 Fl
+7501019006074,Toalla Saba Intima C10,$13.50,$17.00,$17.50,0,0,Tienda,Toalla Saba Intima C10
+7501019031137,Toallas Amore Saba C8,$7.00,$8.50,$0.00,4,0,- Sin Departamento -,Toallas Amore Saba C8
+7501001405335,Toallas Naturella C10 Nocturna,$13.00,$17.50,$17.50,15,0,Tienda,Toallas Naturella C10 Nocturna
+7501019006623,Toallas Saba Buenas Nc8,$16.50,$21.50,$21.50,12,0,Tienda,Toallas Saba Buenas Nc8
+7501028610378,Toallitas,$0.00,$20.00,$0.00,0,0,Tienda,Toallitas
+TOMATE,Tomate,$18.00,$20.00,$0.00,N/A,0,Verdura,Tomate
+994,Tomate 1k,$4.00,$6.00,$0.00,N/A,0,Verdura,Tomate 1k
+1014,Tomate 250g,$1.00,$1.50,$0.00,N/A,0,Verdura,Tomate 250g
+1007,Tomate 500g,$2.00,$3.00,$0.00,N/A,0,Verdura,Tomate 500g
+8410113000019,Torres 5,$156.00,$203.00,$190.00,0,0,vino,Torres 5
+7501000189403,Tortilla Harina,$8.00,$10.00,$0.00,4,0,Bimbo,Tortilla Harina
+7501030489634,Tortillas,$0.00,$15.00,$0.00,0,0,Bimbo,Tortillas
+TORTILLAS,Tortillas,$0.00,$14.00,$0.00,N/A,0,Tienda,Tortillas
+7501000111251,Tortillas Tia Rosa 260g,$10.00,$12.00,$0.00,5,0,Bimbo,Tortillas Tia Rosa 260g
+7501030469940,Tortillinas Max,$0.00,$24.00,$0.00,0,0,Bimbo,Tortillinas Max
+7501030472179,Tortillinas Precocidas 12p,$12.00,$15.00,$0.00,0,0,Bimbo,Tortillinas Precocidas 12p
+7501030470861,Tortillinas Tia Rosa,$11.00,$14.00,$0.00,0,0,Bimbo,Tortillinas Tia Rosa
+7501000106936,Tost Planas Milpa 175g,$0.00,$13.00,$0.00,0,0,Bimbo,Tost Planas Milpa 175g
+7501000264841,Tostachos,$0.00,$8.00,$0.00,3,0,Tienda,Tostachos
+757528022396,Tostachos Con Sal 170g,$0.00,$20.00,$0.00,0,0,Barcel,Tostachos Con Sal 170g
+7501393200372,Tostada Cariocas 300g,$15.50,$18.50,$0.00,4,0,Cariocas,Tostada Cariocas 300g
+7501030499534,Tostada Milpa Real 15 Pzs,$0.00,$11.00,$0.00,0,0,Bimbo,Tostada Milpa Real 15 Pzs
+7501393200020,Tostadas Botaneras Carioca,$12.50,$15.00,$0.00,5,0,Cariocas,Tostadas Botaneras Carioca
+7501393200389,Tostadas Cariocas Con Ajonjoli 300g,$0.00,$18.50,$0.00,0,0,Cariocas,Tostadas Cariocas Con Ajonjoli 300g
+7501393200310,Tostadas Con Ajonjoli 350g,$16.00,$18.50,$0.00,0,0,Cariocas,Tostadas Con Ajonjoli 350g
+7501000157075,Tostadas Mipa Real 360g,$16.00,$21.00,$0.00,4,0,Bimbo,Tostadas Mipa Real 360g
+7501011136946,Tostitos Queso Picante,$7.00,$9.00,$0.00,3,0,Sabritas,Tostitos Queso Picante
+7500366001435,Totis Queso,$0.00,$2.00,$0.00,0,0,Tienda,Totis Queso
+7501393200747,Totopos Chilaquiles,$0.00,$20.00,$0.00,0,0,Cariocas,Totopos Chilaquiles
+7501000364695,Totopos Del Hogar 280g,$16.00,$19.00,$0.00,0,0,Tienda,Totopos Del Hogar 280g
+7501030480778,Totopos Milpa Real 2,$16.00,$20.00,$0.00,0,0,Bimbo,Totopos Milpa Real 2
+7501030459132,Totopos Para Chilaquiles,$0.00,$20.00,$0.00,1,0,Tienda,Totopos Para Chilaquiles
+75045685,Trident 4´s,$1.00,$1.50,$0.00,24,0,Dulces,Trident 4´s
+7506105606145,Trident Fresa,$3.00,$6.00,$6.00,0,0,Dulces,Trident Fresa
+7506105604455,Trident Frutas,$0.00,$7.00,$0.00,0,0,Dulces,Trident Frutas
+75045494,Trident Menta,$1.00,$1.50,$1.50,0,0,Dulces,Trident Menta
+7506105604448,Trident Menta,$0.00,$7.00,$0.00,0,0,Dulces,Trident Menta
+75045623,Trident Menta 4´s,$0.00,$1.50,$0.00,24,0,Dulces,Trident Menta 4´s
+7506105606138,Trident Mora Azul,$0.00,$5.00,$0.00,0,0,Dulces,Trident Mora Azul
+7506105602543,Trident Rosa,$0.00,$7.00,$0.00,6,0,Tienda,Trident Rosa
+7506105604462,Trident Sandia,$0.00,$7.00,$0.00,0,0,Dulces,Trident Sandia
+7506105602635,Trident Twist,$4.50,$7.00,$7.00,0,0,Dulces,Trident Twist
+7501056901899,Trident Xtra Care Fresh,$4.00,$7.00,$7.00,0,0,Dulces,Trident Xtra Care Fresh
+7506105604431,Trient Rojo,$4.50,$7.00,$7.00,0,0,Dulces,Trient Rojo
+7501000140855,Triki Trakes 69g,$8.50,$10.00,$0.00,3,0,Marinela,Triki Trakes 69g
+7501030475019,Tubo Trikitrakes,$0.00,$20.00,$0.00,1,0,Marinela,Tubo Trikitrakes
+7501030457145,Tubos Triki Trakes,$0.00,$15.00,$0.00,0,0,Marinela,Tubos Triki Trakes
+TUNA,Tuna,$7.00,$9.00,$0.00,0,0,Verdura,Tuna
+756774022112,Turin,$62.00,$80.50,$0.00,0,0,- Sin Departamento -,Turin
+756774062057,Turin,$75.00,$97.50,$0.00,0,0,- Sin Departamento -,Turin
+756774023249,Turin,$92.00,$110.00,$0.00,0,0,- Sin Departamento -,Turin
+756774072742,Turin,$101.00,$131.50,$0.00,0,0,- Sin Departamento -,Turin
+756774070670,Turin,$0.00,$80.00,$0.00,0,0,Tienda,Turin
+756774070687,Turin,$0.00,$80.00,$0.00,0,0,Tienda,Turin
+756774023522,Turin,$0.00,$110.00,$0.00,0,0,Tienda,Turin
+756774061739,Turin 120g,$0.00,$55.00,$0.00,0,0,Tienda,Turin 120g
+756774021344,Turin 300g,$0.00,$110.00,$0.00,0,0,Dulces,Turin 300g
+756774054847,Turin Bayleys,$0.00,$45.00,$0.00,0,0,Dulces,Turin Bayleys
+756774073022,Turin Caja,$44.00,$57.00,$0.00,1,0,- Sin Departamento -,Turin Caja
+756774080372,Turin Cereza,$55.50,$72.00,$0.00,1,0,Tienda,Turin Cereza
+756774092108,Turin Chocolate Media Luna,$42.00,$55.00,$55.00,0,0,Tienda,Turin Chocolate Media Luna
+756774092115,Turin Cubo,$42.00,$55.00,$55.00,0,0,Tienda,Turin Cubo
+756774052270,Turin Estuche Jose Cuervo 160g,$75.00,$97.50,$0.00,0,0,Dulces,Turin Estuche Jose Cuervo 160g
+756774054854,Turin Jose Cuervo 80g,$0.00,$50.00,$0.00,0,0,Dulces,Turin Jose Cuervo 80g
+756774054830,Turin Kahlua,$0.00,$45.00,$0.00,0,0,Dulces,Turin Kahlua
+756774080464,Turin Menta Bote,$0.00,$100.00,$0.00,0,0,Dulces,Turin Menta Bote
+756774093860,Turin Muñeco De Nieve,$53.50,$69.50,$69.50,0,0,Tienda,Turin Muñeco De Nieve
+756774093150,Turin Rojo 100g,$0.00,$47.00,$0.00,0,0,Dulces,Turin Rojo 100g
+756774074142,Turin Rosa 100g,$0.00,$46.00,$0.00,0,0,Dulces,Turin Rosa 100g
+756774093877,Turin Santa Claus,$53.50,$69.50,$69.50,0,0,Tienda,Turin Santa Claus
+TUTSIPOP,Tutsipop,$0.00,$3.00,$0.00,15,0,Tienda,Tutsipop
+VEL,VELITA,$0.50,$1.00,$0.50,0,0,Dulces,VELITA
+7501000646975,VUALA,$0.00,$10.00,$0.00,0,0,Bimbo,VUALA
+7501130932504,Vainilla,$0.00,$23.50,$0.00,0,0,- Sin Departamento -,Vainilla
+735257006016,Vainilla 120ml,$0.00,$7.00,$0.00,0,0,Tienda,Vainilla 120ml
+7503011960033,Vainilla Gard,$5.00,$7.00,$6.50,5,0,Tienda,Vainilla Gard
+7501055330461,Valle Frut 2l Citrus,$0.00,$14.00,$0.00,0,0,Refresco,Valle Frut 2l Citrus
+7501055330812,Valle Frut 3L,$17.50,$20.00,$0.00,7,0,Refresco,Valle Frut 3L
+7501055342730,Valle Frut Guayaba,$0.00,$17.00,$0.00,0,0,Refresco,Valle Frut Guayaba
+650240022593,Vanart,$0.00,$21.00,$0.00,0,0,- Sin Departamento -,Vanart
+650240022654,Vanart,$0.00,$21.00,$0.00,0,0,- Sin Departamento -,Vanart
+650240022616,Vanart,$15.50,$21.00,$0.00,0,0,- Sin Departamento -,Vanart
+7501058752772,Vanish 450ml,$0.00,$15.00,$0.00,6,0,Tienda,Vanish 450ml
+7503002319529,Vanish 925ml Quitama,$0.00,$30.00,$0.00,12,0,- Sin Departamento -,Vanish 925ml Quitama
+752216095232,Vaso 6,$11.00,$13.00,$13.00,0,0,Tienda,Vaso 6
+7501431201125,Vaso Conv. 12,$8.50,$11.00,$0.00,3,0,Tienda,Vaso Conv. 12
+7502208800077,Vaso Desechable 8,$0.00,$13.00,$0.00,6,0,Tienda,Vaso Desechable 8
+752216031094,Vaso Jaguar 8,$12.00,$14.00,$14.00,17,0,Tienda,Vaso Jaguar 8
+744911006231,Vaso Karla 150g,$0.00,$7.00,$0.00,2,0,Tienda,Vaso Karla 150g
+7501431201088,Vaso Nieve Seca No8,$6.00,$8.00,$8.00,29,0,Tienda,Vaso Nieve Seca No8
+7501431261105,Vaso Termico N 10,$6.00,$9.00,$9.00,51,0,Tienda,Vaso Termico N 10
+7702144012439,Vaso Tuc,$0.00,$13.00,$0.00,15,0,Tienda,Vaso Tuc
+7501035904071,Vel Rosita 1 Lt,$31.50,$41.00,$41.00,2,0,Detergentes,Vel Rosita 1 Lt
+7509546045689,Vel Rosita 450ml,$16.00,$19.00,$19.00,3,0,Detergentes,Vel Rosita 450ml
+7501102232267,Vela Farol,$0.00,$5.00,$0.00,65,0,Tienda,Vela Farol
+7501102295859,Veladora Copa,$0.00,$21.00,$0.00,0,0,Tienda,Veladora Copa
+7501102269508,Veladora Eco. Semanaria Farolito,$16.00,$21.00,$0.00,22,0,Tienda,Veladora Eco. Semanaria Farolito
+7501102269515,Veladora Ecologica 1/2 Semana,$9.00,$11.00,$0.00,47,0,Tienda,Veladora Ecologica 1/2 Semana
+7501557200163,Veladora Ecologica A,$0.00,$13.00,$0.00,0,0,Tienda,Veladora Ecologica A
+7501102280701,Veladora Farolito Cafetero,$11.50,$14.00,$0.00,0,0,Tienda,Veladora Farolito Cafetero
+7501102212214,Veladora Farolito Chica,$0.00,$6.50,$0.00,148,0,Tienda,Veladora Farolito Chica
+7501102212207,Veladora Farolito No2,$0.00,$5.00,$0.00,59,0,Tienda,Veladora Farolito No2
+7501102290342,Veladora Infantil Farolito,$10.00,$13.00,$13.00,20,0,Tienda,Veladora Infantil Farolito
+7502002342902,Veladora Limonera La Gloria,$8.00,$11.00,$11.00,0,0,Tienda,Veladora Limonera La Gloria
+744831150953,Veladora Limonero,$15.00,$18.00,$16.00,2,0,Tienda,Veladora Limonero
+7501102212511,Veladora Papel Farol,$11.50,$13.50,$13.50,31,0,Tienda,Veladora Papel Farol
+7502012641552,Veladora San Felipe 1/2 Diamante,$24.50,$30.00,$30.00,9,0,Tienda,Veladora San Felipe 1/2 Diamante
+7502012640739,Veladora San Felipe Chica,$11.00,$13.00,$12.50,34,0,Tienda,Veladora San Felipe Chica
+7502012641156,Veladora San Felipe Grande,$44.50,$54.00,$54.00,6,0,Tienda,Veladora San Felipe Grande
+7502012640654,Veladora Semanaria,$19.50,$24.00,$21.00,11,0,Tienda,Veladora Semanaria
+7501053670934,Via Real 25l,$0.00,$60.00,$0.00,0,0,vino,Via Real 25l
+7501053670637,Via Real Vidrio 330,$0.00,$12.00,$0.00,51,0,Tienda,Via Real Vidrio 330
+7501064115400,Victoria 355ml,$10.00,$12.00,$0.00,171,0,Corona,Victoria 355ml
+75025663,Victoria Desechable,$0.00,$14.00,$0.00,0,0,vino,Victoria Desechable
+7501064194139,Victoria Lata,$0.00,$16.00,$0.00,0,0,vino,Victoria Lata
+7501083100029,Vinagre Barrilito Bl,$0.00,$10.00,$0.00,0,0,Tienda,Vinagre Barrilito Bl
+7501083100036,Vinagre Barrilito Ma,$0.00,$15.00,$0.00,2,0,Tienda,Vinagre Barrilito Ma
+7501052475004,Vinagre Blanco 500ml,$6.00,$8.00,$8.00,0,0,Tienda,Vinagre Blanco 500ml
+7501083100012,Vinagre Caña,$0.00,$10.00,$0.00,1,0,Tienda,Vinagre Caña
+7501052475202,Vinagre De Manzana,$8.50,$11.00,$11.00,0,0,Tienda,Vinagre De Manzana
+7506192505123,Vive 100,$0.00,$10.00,$0.00,0,0,Tienda,Vive 100
+7506192502726,Vive 100,$11.50,$15.00,$15.00,17,0,Tienda,Vive 100
+7501053670101,Viña Real,$10.50,$13.00,$0.00,50,0,vino,Viña Real
+7501017376322,Vogue 400 hjs,$18.50,$22.00,$20.00,54,0,Tienda,Vogue 400 hjs
+7501943461918,Vogue Jumbo,$24.00,$28.50,$27.00,17,0,Tienda,Vogue Jumbo
+7501000646951,Vuala,$0.00,$10.00,$0.00,0,0,Bimbo,Vuala
+7501000628933,Vuala 70 gms,$8.00,$10.00,$0.00,1,0,Gamesa,Vuala 70 gms
+7501000646999,Vuala Vainilla,$0.00,$10.00,$0.00,0,0,Gamesa,Vuala Vainilla
+840004099590,Webo Chavo,$11.50,$15.00,$15.00,0,0,Dulces,Webo Chavo
+706460244069,Whiskas,$5.00,$7.00,$0.00,2,0,Tienda,Whiskas
+82184090473,Whiskey Jack Daniels Paq,$309.00,$402.00,$0.00,0,0,Tienda,Whiskey Jack Daniels Paq
+7501032971052,Windex CAtomizador 650ml,$0.00,$36.00,$0.00,1,0,Tienda,Windex CAtomizador 650ml
+754177303722,Winis,$1.00,$2.00,$2.00,0,0,Dulces,Winis
+754177505836,Winis,$1.00,$2.00,$0.00,2,0,Dulces,Winis
+754177505829,Winis,$0.00,$2.00,$2.00,3,0,Dulces,Winis
+754177505805,Winis,$1.00,$2.00,$0.00,4,0,Dulces,Winis
+754177303166,Winis,$0.00,$2.00,$0.00,0,0,Dulces,Winis
+754177506253,Winis,$0.00,$2.00,$0.00,0,0,Dulces,Winis
+754177506246,Winis,$0.00,$2.00,$0.00,0,0,Dulces,Winis
+754177506239,Winis,$0.00,$2.00,$0.00,0,0,Dulces,Winis
+754177506444,Winis Cubo,$0.00,$2.00,$0.00,0,0,Dulces,Winis Cubo
+754177506079,Winis Liq,$1.00,$1.00,$1.00,0,0,Dulces,Winis Liq
+7506174504472,Wiskas 180g,$0.00,$8.00,$0.00,7,0,Tienda,Wiskas 180g
+YAKULT,Yakult,$5.00,$6.00,$0.00,3,0,Tienda,Yakult
+7501055905928,Yofrut,$0.00,$5.00,$0.00,0,0,Alpura,Yofrut
+7501032334000,Yoghourt Sabor Fresa,$6.00,$8.00,$0.00,1,0,Danone,Yoghourt Sabor Fresa
+7501055909315,Yoghrth Alpura Piña Coco,$0.00,$5.00,$0.00,3,0,Alpura,Yoghrth Alpura Piña Coco
+7501055901111,Yoghurt Alpura 150g,$3.50,$5.00,$0.00,0,0,Alpura,Yoghurt Alpura 150g
+7501055901128,Yoghurt Alpura 150g,$3.50,$5.00,$0.00,0,0,Alpura,Yoghurt Alpura 150g
+7501055901104,Yoghurt Alpura 150g,$3.50,$5.00,$0.00,2,0,Alpura,Yoghurt Alpura 150g
+7501055900206,Yoghurt Alpura Fresa 1L,$22.00,$25.00,$0.00,0,0,Alpura,Yoghurt Alpura Fresa 1L
+7501032397074,Yoghurt Con Cereal Danone,$0.00,$6.00,$0.00,0,0,Danone,Yoghurt Con Cereal Danone
+7501032395292,Yoghurt Fresa Danone,$0.00,$3.50,$0.00,0,0,Danone,Yoghurt Fresa Danone
+7501020538311,Yoghurt Lala De Fresa,$0.00,$6.50,$0.00,0,0,lala,Yoghurt Lala De Fresa
+7501055901135,Yoghurt Mango 150g,$3.50,$5.00,$0.00,0,0,Alpura,Yoghurt Mango 150g
+7501055901418,Yoghurt Piña Coco 150g,$3.50,$5.00,$0.00,0,0,Tienda,Yoghurt Piña Coco 150g
+7501055901159,Yoghurt Zarzamora 150g,$3.50,$5.00,$0.00,1,0,Alpura,Yoghurt Zarzamora 150g
+7501032332440,Yogurt Batidofresa,$3.00,$3.50,$0.00,1,0,Danone,Yogurt Batidofresa
+7501032395308,Yogurt Danone Manzana,$3.00,$3.50,$0.00,6,0,Danone,Yogurt Danone Manzana
+7501055909278,Yogurt Fresa,$4.00,$5.00,$0.00,0,0,Alpura,Yogurt Fresa
+7501055901180,Yogurt Natural,$0.00,$5.00,$0.00,0,0,Alpura,Yogurt Natural
+7501040090042,Yogurt Yoplait Dur 156g,$0.00,$4.00,$0.00,0,0,Tienda,Yogurt Yoplait Dur 156g
+7501032332464,Yogut Batido Durazno,$3.00,$3.50,$0.00,1,0,Tienda,Yogut Batido Durazno
+7501055329915,Yoli 600 Ml,$0.00,$9.00,$0.00,0,0,Refresco,Yoli 600 Ml
+7501040093456,Yoplait Browny,$0.00,$7.00,$0.00,0,0,Alpura,Yoplait Browny
+7501040093289,Yoplait Griego,$0.00,$7.00,$0.00,0,0,Tienda,Yoplait Griego
+7501040092855,Yoplait Griego Fresa,$0.00,$9.00,$0.00,0,0,Tienda,Yoplait Griego Fresa
+7501040092848,Yoplait Griego Moras,$0.00,$9.00,$0.00,0,0,Tienda,Yoplait Griego Moras
+7501040090011,Yoplait Natural 145g,$3.50,$4.50,$0.00,5,0,lacteos y embutidos,Yoplait Natural 145g
+7501040093852,Yoplait Placer Coco,$5.50,$6.50,$0.00,3,0,lacteos y embutidos,Yoplait Placer Coco
+7501040093869,Yoplait Placer Fresa,$5.50,$6.50,$0.00,2,0,lacteos y embutidos,Yoplait Placer Fresa
+7501040090769,Yoplait Vasito 125g,$0.00,$4.00,$0.00,0,0,Tienda,Yoplait Vasito 125g
+ZANAHORIA,Zanahoria,$12.00,$14.00,$0.00,N/A,0,Verdura,Zanahoria
+7501006713244,Zest,$0.00,$13.00,$0.00,0,0,Tienda,Zest
+7501006713220,Zest Manzanilla 180g,$0.00,$13.00,$0.00,11,0,Tienda,Zest Manzanilla 180g
+7501006713312,Zezt  Jardin De P 180g,$0.00,$13.00,$0.00,15,0,- Sin Departamento -,Zezt  Jardin De P 180g
+7506195102589,Zezt Aguacate 180g,$0.00,$13.00,$0.00,6,0,Tienda,Zezt Aguacate 180g
+7501006713268,Zezt Almendra 180g,$0.00,$13.00,$0.00,3,0,Tienda,Zezt Almendra 180g
+7501006713299,Zezt Citricas,$0.00,$13.00,$0.00,5,0,Tienda,Zezt Citricas
+7501006713176,Zezt Exfoliante 180g,$0.00,$13.00,$0.00,4,0,Tienda,Zezt Exfoliante 180g
+7501006713206,Zezt Hidratante 180g,$0.00,$13.00,$0.00,40,0,Tienda,Zezt Hidratante 180g
+7501006713305,Zezt Marina 180g,$0.00,$13.00,$0.00,2,0,Tienda,Zezt Marina 180g
+7501006713282,Zezt Miel 180g,$0.00,$13.00,$0.00,2,0,Tienda,Zezt Miel 180g
+7501006713213,Zezt Neutro 180g,$0.00,$13.00,$0.00,10,0,Tienda,Zezt Neutro 180g
+7501026005985,Zote 100g,$3.00,$3.50,$3.50,29,0,Tienda,Zote 100g
+7501008042984,Zucaritas,$19.50,$25.50,$25.50,0,0,Tienda,Zucaritas
+7501008042960,Zucaritas 890,$0.00,$65.00,$0.00,9,0,Tienda,Zucaritas 890
+7802800719396,Zuco Manzana,$0.00,$4.00,$0.00,0,0,Tienda,Zuco Manzana
+7802800719426,Zuco Tamarindo,$0.00,$4.00,$0.00,5,0,Tienda,Zuco Tamarindo
+7802800719464,Zuco Uva,$0.00,$4.00,$0.00,0,0,Tienda,Zuco Uva
+7802800719327,Zuko Durazno,$0.00,$4.00,$0.00,12,0,Tienda,Zuko Durazno
+7802800705399,Zuko Fresa 35 G,$0.00,$4.00,$0.00,11,0,Tienda,Zuko Fresa 35 G
+7802800705368,Zuko Horchata 35 Gms,$0.00,$4.00,$0.00,6,0,Tienda,Zuko Horchata 35 Gms
+7802800719372,Zuko Jamaica,$0.00,$4.00,$0.00,3,0,Tienda,Zuko Jamaica
+7802800719389,Zuko Mandarina,$0.00,$4.00,$0.00,4,0,Tienda,Zuko Mandarina
+7802800719419,Zuko Mango,$0.00,$4.00,$0.00,7,0,Tienda,Zuko Mango
+7802800710591,Zuko Manzana,$0.00,$4.00,$0.00,1,0,Tienda,Zuko Manzana
+7802800719402,Zuko Melon,$0.00,$4.00,$0.00,5,0,Tienda,Zuko Melon
+703885001833,Zumba Pica 12g,$0.00,$2.00,$0.00,0,0,Tienda,Zumba Pica 12g
+7501000278404,paleta Payaso,$5.00,$6.50,$0.00,0,0,Tienda,paleta Payaso
+7501000111299,tortillHarina Tia Rc20,$18.00,$22.00,$0.00,1,0,Bimbo,tortillHarina Tia Rc20
