@@ -1,0 +1,562 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Groceries : P&aacute;gina no encontrada</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<link href="/css/404.css" rel="stylesheet" type="text/css">
+<script src="/js/lib/allscript.js" type="text/javascript"> </script>
+<!-- Google Tag Manager -->
+<script>
+(function (w, d, s, l, i) {
+w[l] = w[l] || [];
+w[l].push({
+'gtm.start': new Date().getTime(),
+event: 'gtm.js'
+});
+var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s),
+dl = l != 'dataLayer' ? '&l=' + l : '';
+j.async = true;
+j.src =
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-59FS2S');
+</script>
+<!-- End Google Tag Manager -->
+<script>
+$(window).load(function () {
+dataLayer.push({
+'pageError': document.URL,
+'event': 'error404'
+});
+});
+</script>
+</head>
+<body class=" newStyles">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59FS2S" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+<div class="fire-header-wrap">
+<div id="fire-header">
+<div class="promotions">
+<div style="width: 100%; background-color: #f9be36; height: 150px;">
+<div style="width: 1348px; margin: 0 auto;">
+<a href="/browse/aperturas" onclick="addToGTM(&#39;20170626|aperturas &#39;,&#39;aperturas &#39;,&#39;Home_drop down _1_listado de tiendas nuevas con servicio a domicilio_0-0-0-aperturas _170802&#39;,&#39;1&#39;);"><img alt="Aperturas" src="/images/banner-images/drop-down_aperturas_super_010817.jpg"></a></div>
+</div>
+</div>
+<div class="header_top_wrapper">
+<div>
+<div class="header_draw_button_wrap">
+<div class="header_draw_button">
+<a href="javascript:void(0);"> </a>
+</div>
+</div>
+<div class="header_item_wrapper">
+<div class="header_promotions_container">
+<a href="/promotion/promotionLandingPage.jsp">Promociones </a>
+<span
+class="sprite-img"> </span>
+</div>
+<div class="header_help_container">
+<a href="/help/contactformhelp.jsp">Ayuda </a> <span class="sprite-img"> </span>
+</div>
+<div class="user_quickmenu_container">
+<a class="buttonSlideQuickmenu sprite-img" href="/fdf/Cafe-Te-y-Sustitutos/Cafe-Soluble/_/N-8mb#"></a>
+<div class="user_quickmenu" style="display: none;">
+<ul class="user_quickmenu_list">
+<li class="log_in">
+<span>&nbsp;</span><a href="/myaccount/login.jsp?fromLink=login"
+id="quicklink_Ano1" onclick="callToGa(&#39;MyAccount&#39;,&#39;Click_MyAccount&#39;,&#39;Header_login&#39;);">Ingresar/Registrar</a></li>
+<li class="quick_link_change_store">
+<span>&nbsp;</span><a href="/fdf/Cafe-Te-y-Sustitutos/Cafe-Soluble/_/N-8mb#"
+id="quicklink_Ano2" onclick="callToGa(&#39;MyAccount&#39;,&#39;Click_MyAccount&#39;,&#39;Change Store&#39;);">Busca tu tienda </a></li>
+<li class="myAccount brdrRB padTop">
+<span>&nbsp;</span>
+<a href="/myaccount/login.jsp?myAccount=true" onclick="callToGa(&#39;MyAccount&#39;,&#39;Click_MyAccount&#39;,&#39;Header_MyAccount&#39;);">
+<font size="+0">
+<font size="+0">Mi Cuenta</font>
+</font>
+</a>
+</li>
+<li class="myOrder brdrB padTop">
+<span>&nbsp;</span>
+<a href="/myaccount/login.jsp?myAccount=myOrder" onclick="callToGa(&#39;MyAccount&#39;,&#39;Click_MyOrders&#39;,&#39;Header_MyOrders&#39;);">
+<font size="+0">
+<font size="+0">Mis Pedidos</font>
+</font>
+</a>
+</li>
+<li class="information brdrRB">
+<span>&nbsp;</span>
+<a href="/myaccount/login.jsp?myAccount=myList" onclick="callToGa(&#39;MyAccount&#39;,&#39;Click_MyLists&#39;,&#39;Header_MyLists&#39;);">
+<font size="+0">
+<font size="+0">Mis Listas</font>
+</font>
+</a>
+</li>
+<li class="favorites brdrB">
+<span>&nbsp;</span>
+<a href="/myaccount/login.jsp?myAccount=myBasics">
+<font size="+0">
+<font size="+0">Mis Favoritos</font>
+</font>
+</a>
+</li>
+<li class="comparisons brdrR">
+<span>&nbsp;</span>
+<a href="/comparisons/compareProducts.jsp" onclick="callToGa(&#39;Comparisons&#39;,&#39;Click_Comparisons&#39;,&#39;Header_Comparisons&#39;);">
+<font size="+0">
+<font size="+0">Comparaciones</font>
+</font>
+</a>
+</li>
+<li class="faq">
+<span>&nbsp;</span>
+<a href="/help/faq.jsp" onclick="callToGa(&#39;Help&#39;,&#39;Click_FAQs&#39;,&#39;Header_FAQs&#39;);">
+<font size="+0">
+<font size="+0">FAQ</font>
+</font>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-container-wrap">
+<div>
+<div class="container-one">
+<a href="/" id="main-logo" class="header_a">
+<style type="text/css">
+a:hover {
+opacity: 1!important;
+filter: alpha(opacity=100);
+}
+</style>
+<p>
+<img src="/images/logo-images/logo.png" style="position: relative; width: 114%; top: -11px; left: -35px;">
+</p>
+</a>
+</div>
+<div class="container-two">
+<div class="search-bar">
+<form id="search_form" action="/search" method="get">
+<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input type="text" name="Ntt" id="search" autocomplete="off" class="srch_input ui-autocomplete-input" value="">
+<label for="search">&iquest;Qu&eacute; est&aacute;s buscando?</label>
+<div id="search-bar-division">
+<div id="search-bar-div"></div>
+</div>
+<input type="hidden" name="Ntx" value="mode matchall" id="Ntx">
+<input id="dept" name="dept" value="" type="hidden">
+</form><input type="button" name="submit" class="sprite-img submit" value="" id="search_submit">
+<input id="contextPath" value="" type="hidden">
+</div>
+</div>
+<div class="container-three">
+<div class="user-information">
+<div class="user-display unsigned">
+<span class="user-account">Mi Cuenta <span class="sprite-icons myAccount-icon"></span></span>
+<span class="welcome-user">Hola, Bienvenido</span>
+</div>
+<div id="welcome-options" style="display: none;">
+<br>
+<p><span class="GAsignin"><a href="/myaccount/login.jsp?fromLink=login">Ingresar</a></span>                                        para ver tu cuenta.</p>
+<p><span class="GAregister"><a href="/myaccount/login.jsp?fromLink=register">Registrar</a></span>                                        una nueva cuenta Wal-mart.</p>
+</div>
+</div>
+</div>
+<div class="container-four">
+<a href="/cart/fullCart.jsp">
+<div class="cart-information">
+<div class="cart-icon">
+<span class="sprite-icons" id="cart">
+<label id="item_count" class="sprite-img" onclick="location.href=&#39;/cart/fullCart.jsp&#39;">0</label>
+</span>
+</div>
+</div>
+</a>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<nav>
+<div id="nav-bar">
+<div id="fire-navigation" class="navbg">
+<div class="nav-panel-wrap">
+<a href="https://www.walmart.com.mx/inicio">
+<div class="tecnologia">
+<div class="computadora "><img src="/images/banner-images/computadora.svg" class="iconmg"></div>
+<div class="copy"><span class="mg">Visita nuestra secci&oacute;n de <b>Tecnolog&iacute;a y Hogar</b></span><span class="trianglemg"></span></div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</nav>
+<article>
+<section>
+<div id="wrapper-404" style="background-image: url(&quot;&quot;); height: 655px;">
+<div id="sky">
+<div class="blueCircle"><img src="/images/page-landing-images/home-icons/fondo-azul.png"></div>
+<div class="cloud one"><img src="/images/page-landing-images/home-icons/nube1.png"></div>
+<div class="cloud two"><img src="/images/page-landing-images/home-icons/nube1.png"></div>
+<div class="cloud three"><img src="/images/page-landing-images/home-icons/nube2.png"></div>
+<div id="sun">
+<div class="levelSun one"><img src="/images/page-landing-images/home-icons/sol1.png"></div>
+<div class="levelSun two"><img src="/images/page-landing-images/home-icons/sol2.png"></div>
+<div class="levelSun three"><img src="/images/page-landing-images/home-icons/sol3.png"></div>
+<div class="levelSun four"><img src="/images/page-landing-images/home-icons/sol4.png"></div>
+<div class="levelSun five"><img src="/images/page-landing-images/home-icons/sol5.png"></div>
+<div class="levelSun six"><img src="/images/page-landing-images/home-icons/sol6.png"></div>
+</div>
+</div>
+<div class="glass">
+<div id="backGlass"></div>
+<div class="msg"><img src="/images/page-landing-images/home-icons/404.png"></div>
+<div class="water">
+<div class="bubbles" id="b01"></div>
+<div class="bubbles" id="b02"></div>
+<div class="bubbles" id="b03"></div>
+<div class="bubbles" id="b04"></div>
+<div class="bubbles" id="b05"></div>
+<div class="bubbles" id="b06"></div>
+<div class="bubbles" id="b07"></div>
+<div class="bubbles" id="b08"></div>
+<div class="bubbles" id="b09"></div>
+<div class="bubbles" id="b10"></div>
+</div>
+<div class="triangleLeft"></div>
+<div class="triangleRight"></div>
+<div class="triangleBottom"></div>
+<div class="shadow"><img src="/images/page-landing-images/home-icons/vaso1-sombra.png"></div>
+<div class="popotito"><img src="/images/page-landing-images/home-icons/vaso5-popote.png"></div>
+<div id="transparentGlass"><img src="/images/page-landing-images/home-icons/vaso3-agua.png"></div>
+<div id="transparentLeft"><img src="/images/page-landing-images/home-icons/vaso4-ref-izq.png"></div>
+<div id="transparentRight"><img src="/images/page-landing-images/home-icons/vaso6-ref-der.png"></div>
+<div id="lightLeft"><img src="/images/page-landing-images/home-icons/vaso9-brillo-azul.png"></div>
+<div id="lightRight"><img src="/images/page-landing-images/home-icons/vaso8-brillo-blanco.png"></div>
+<div id="frontGlass"><img src="/images/page-landing-images/home-icons/vaso2-contorno.png"></div>
+</div>
+<div class="title"><span>Oops!</span></div>
+<div class="text">
+<div class="tit1"><span>La p&aacute;gina solicitada no est&aacute; disponible en este momento.</span></div>
+<div class="tit2"><span>Es posible que la p&aacute;gina que estas buscando no exista o que la direcci&oacute;n de URL <br> no se haya escrito  correctamente.</span></div>
+</div>
+</div>
+</section>
+</article>
+<article>
+<footer>
+<div id="fire-footer">
+<div class="social-icons-wrap">
+<div class="social-icons">
+<ul>
+<li>
+<a class="sprite-img" href="http://www.facebook.com/pages/Walmartcommx/116233558420020?v=app_4949752878" id="facebook" onclick="callToGa(&#39;Social Media&#39;,&#39;Click_Facebook&#39;,&#39;Footer_Facebook&#39;);"
+target="_blank" title="Facebook">&nbsp;</a></li>
+<li>
+<a class="sprite-img" href="https://twitter.com/WalmartMexico" id="twitter" onclick="callToGa(&#39;Social Media&#39;,&#39;Click_Twitter&#39;,&#39;Footer_Twitter&#39;);"
+target="_blank" title="Twitter">&nbsp;</a></li>
+<li>
+<a class="sprite-img" href="http://www.youtube.com/channel/UC9mhMjKsDY4gh7G8-zmN4Dw" id="youtube" onclick="callToGa(&#39;Social Media&#39;,&#39;Click_Youtube&#39;,&#39;Footer_Youtube&#39;);"
+target="_blank" title="YouTube">&nbsp;</a></li>
+<li>
+<a class="sprite-img" href="https://plus.google.com/u/0/109658095404238801161" id="googleplus" onclick="callToGa(&#39;Social Media&#39;,&#39;Click_Googleplus&#39;,&#39;Footer_Googleplus&#39;);"
+target="_blank" title="Google Plus">&nbsp;</a></li>
+<li>
+<a class="sprite-img" href="http://pinterest.com/walmartcommx" id="pinterest" onclick="callToGa(&#39;Social Media&#39;,&#39;Click_Pinterest&#39;,&#39;Footer_Pinterest&#39;);"
+target="_blank" title="Pinterest">&nbsp;</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-links-wrap clearfix">
+<div class="footer-links clearfix">
+<div class="footer-links-sub clearfix">
+<div class="link-container sectionMain">
+<h5>walmart.com.mx</h5>
+<ul>
+<li>
+<a href="/common/aboutUs.jsp" onclick="callToGa(&#39;AboutWalmart&#39;,&#39;Click_AboutUs&#39;,&#39;Footer_AboutUs&#39;);">Quienes somos</a></li>
+<li>
+<a href="/storelocator/storeLocator.jsp" onclick="callToGa(&#39;AboutWalmart&#39;,&#39;Click_StoreDirectory&#39;,&#39;Footer_StoreDirectory&#39;);">Directorio de tiendas</a></li>
+<li>
+<a href="/images/page-landing-images/home-icons/AP_Integral_eCommerce_ECOM1603111745.pdf" onclick="callToGa(&#39;AboutWalmart&#39;,&#39;Click_Aviso_privacidad&#39;,&#39;Footer_Aviso_privacidad_ecommerce_171116&#39;);"
+target="_blank">Aviso de privacidad</a></li>
+<li>
+<a href="/images/page-landing-images/home-icons/aviso_de_privacidad_de_tienda.pdf" onclick="callToGa(&#39;AboutWalmart&#39;,&#39;Click_politica_privacidad_tienda&#39;,&#39;Footer_politica_privacidad_tienda_171116&#39;);"
+target="_blank">Aviso de privacidad de tienda</a></li>
+<li>
+<a href="https://facturacion.walmartmexico.com.mx/" onclick="callToGa(&#39;AboutWalmart&#39;,&#39;Click_Invoices&#39;,&#39;Footer_Invoices&#39;);"
+target="_blank">Facturaci&oacute;n electr&oacute;nica</a></li>
+<li>
+<a href="/common/siteMap.jsp" onclick="callToGa(&#39;AboutWalmart&#39;,&#39;Click_SiteMap&#39;,&#39;Footer_SiteMap&#39;);">Mapa del sitio</a></li>
+</ul>
+</div>
+<div class="link-container sectionService">
+<h5>Servicio a domicilio</h5>
+<ul>
+<li>
+<a href="/common/termsAndConditions.jsp" onclick="callToGa(&#39;CustomerService&#39;,&#39;Click_Terms&amp;Conditions&#39;,&#39;Footer_Terms&amp;Conditions&#39;);">T&eacute;rminos y condiciones</a></li>
+<li>
+<a href="/myaccount/myBenefits.jsp" onclick="callToGa(&#39;CustomerService&#39;,&#39;Click_Benefits&#39;,&#39;Footer_Benefits&#39;);">Beneficios</a></li>
+<li>
+<a href="/common/paymentOptions.jsp" onclick="callToGa(&#39;CustomerService&#39;,&#39;Click_Payment&#39;,&#39;Footer_Payment&#39;);">Formas de pago</a></li>
+<li>
+<a href="/myaccount/myDelivery.jsp" onclick="callToGa(&#39;CustomerService&#39;,&#39;Click_DeliveryTime&#39;,&#39;Footer_DeliveryTime&#39;);">Tiempos de entrega</a></li>
+<li>
+<a href="/myaccount/myReturns.jsp" onclick="callToGa(&#39;CustomerService&#39;,&#39;Click_Returns&#39;,&#39;Footer_Returns&#39;);">Devoluciones</a></li>
+</ul>
+<h5>Compra por<br> 5134 0054</h5>
+</div>
+<div class="link-container sectionHelp">
+<h5>Ayuda</h5>
+<ul>
+<li>
+<a href="/help/contactformhelp.jsp" onclick="callToGa(&#39;Help&#39;,&#39;Click_ContactUs&#39;,&#39;Footer_ContactUs&#39;);">Cont&aacute;ctanos</a></li>
+<li>
+<a href="/help/faq.jsp" onclick="callToGa(&#39;Help&#39;,&#39;Click_FAQs&#39;,&#39;Footer_FAQs&#39;);">Preguntas frecuentes</a></li>
+<li>
+<a href="/myaccount/myOrderList.jsp" onclick="callToGa(&#39;Help&#39;,&#39;Click_MyOrder&#39;,&#39;Footer_MyOrder&#39;);">Mis pedidos</a></li>
+</ul>
+<h5>
+<a class="btn_clickChat" href="/fdf/Cafe-Te-y-Sustitutos/Cafe-Soluble/_/N-8mb#" onclick="callToGa(&#39;Help&#39;,&#39;Click_CHAT&#39;,&#39;Footer_Chat&#39;);">Chat en l&iacute;nea</a></h5>
+</div>
+<div class="link-container sectionCorporate">
+<h5>Info Corporativa</h5>
+<ul>
+<li>
+<a href="http://www.walmartmexicoycam.com/bolsa-de-trabajo-mex-cam.html" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Careers&#39;,&#39;Footer_Careers&#39;);"
+target="_blank">Bolsa de trabajo</a></li>
+<li>
+<a href="http://www.walmartmexicoycam.com/proveedores/socios_incorpor.html" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Suppliers&#39;,&#39;Footer_Suppliers&#39;);"
+target="_blank">Proveedores</a></li>
+<li>
+<a href="http://www.sams.com.mx/" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Sams Club M&eacute;xico&#39;,&#39;Footer_Sams Club Mexico&#39;);"
+target="_blank">Sam's Club M&eacute;xico</a></li>
+<li>
+<a href="http://www.suburbia.com.mx/" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Suburbia Mexico&#39;,&#39;Footer_Suburbia Mexico&#39;);"
+target="_blank">Suburbia M&eacute;xico</a></li>
+<li>
+<a href="http://www.bodegaurrera.com.mx/" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Bodega Aurrera&#39;,&#39;Footer_Bodega Aurrera&#39;);"
+target="_blank">Bodega Aurrera</a></li>
+<li>
+<a href="http://www.superama.com.mx/" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Superama&#39;,&#39;Footer_Superama&#39;);"
+target="_blank">Superama</a></li>
+<li>
+<a href="http://www.walmartmexicoycam.com/" onclick="callToGa(&#39;CorporateInfo&#39;,&#39;Click_Walmart Mexico y Centroamerica&#39;,&#39;Footer_Walmart Mexico y Centroamerica&#39;);"
+target="_blank">Walmart M&eacute;xico y Centroam&eacute;rica</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="department-icons-wrap">
+<div class="department-icons">
+<h5>Departamentos</h5>
+<div class="container">
+<div class="table-row">
+<div class="col">
+<div class="department1">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Despensa/cat120005">Despensa</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department2">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Lacteos/cat120006">L&aacute;cteos</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department3">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Frutas-y-Verduras/cat120007">Frutas y Verduras</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department4">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Carnes-y-Pescados/cat120008">Carnes y Pescados</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department5">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Salchichoneria/cat120009">Salchichoner&iacute;a</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department6">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Panaderia-y-Tortilleria/cat120010">Panader&iacute;a y Tortiller&iacute;a</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department7">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Jugos-y-Bebidas/cat120011">Jugos y Bebidas</a>
+</div>
+</div>
+</div>
+</div>
+<div class="table-row">
+<div class="col">
+<div class="department8">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Cerveza-Vinos-y-Licores/cat940184">Cerveza, Vinos y Licores</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department9">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Congelados/cat120013">Congelados</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department10">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Limpieza-y-Mascotas/cat120014">Limpieza y Mascotas</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department11">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Bebes/cat120015">Beb&eacute;s</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department12">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Farmacia/cat120016">Farmacia</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department13">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="/Higiene-y-Belleza/cat120017">Higiene y Belleza</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="department14">
+<div class="cellSplit">
+<span class="sprite-img-dept"></span>
+</div>
+<div class="cellSplit">
+<a href="https://www.walmart.com.mx/inicio" target="_blank">Electr&oacute;nicos</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom-wrap clearfix">
+<div style="background: #005aa2">
+<div style="text-align: center; margin: 0px auto; width: 1348px; background: #005aa2; color: #fff; padding-top: 15px">
+<p style="padding-right: 25px; display: inline; font-size: 10px">©2016 | Todos los derechos reservados</p>
+</div>
+<div style="text-align: center; margin: 0px auto; width: 1348px; background: #005aa2; color: #fff; padding-top: 15px">
+<p style="padding-right: 25px; display: inline; font-size: 10px">super.walmart.com.mx: Siempre encuentras todo y pagas menos.</p>
+</div>
+<div style="text-align: center; margin: 0px auto; width: 1348px; background: #005aa2; color: #fff; padding-top: 0px">
+<p style="padding-right: 25px; display: inline; color: #fff; font-size: 10px">&nbsp;</p>
+<ul style="font-size: 10px"><a target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Footer&#39;, &#39;Links&#39;, &#39;Walmart.com US&#39;]);"
+style="color: #fff" href="http://www.walmart.com/?country=US"><span>Walmart US |</span> </a>
+<a target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Footer&#39;, &#39;Links&#39;, &#39;Superama.com&#39;]);"
+style="color: #fff" href="http://www.superama.com.mx/superama/inicio.aspx"><span>Superama |</span> </a>
+<a target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Footer&#39;, &#39;Links&#39;, &#39;Sams.com&#39;]);" style="color: #fff"
+href="http://sams.com.mx/"><span>Sam´s Club |</span> </a>
+<a target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Footer&#39;, &#39;Links&#39;, &#39;Walmart_mex_centroamerica&#39;]);"
+style="color: #fff" href="http://www.walmartmexicoycam.com/"><span>Walmart M&eacute;xico y Centroam&eacute;rica |&nbsp;</span> </a>
+<a target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Footer&#39;, &#39;Links&#39;, &#39;Suburbia.com&#39;]);"
+style="color: #fff" href="http://suburbia.com.mx/"><span>Suburbia |</span> </a>
+<a target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Footer&#39;, &#39;Links&#39;, &#39;Sello_Confianza&#39;]);"
+href="https://sellosdeconfianza.org.mx/MuestraCertificado.php?NUMERO_SERIE=MD_w007">
+<img alt="" height="20" src="/images/logo-images/amipci.png"> </a>
+</ul>
+&nbsp;</div>
+<div style="text-align: center; margin: 0px auto; width: 1348px; background: #005aa2; color: #fff; padding-top: 0px">
+<p style="padding-right: 25px; display: inline; font-size: 12px"><span style="font-family: &#39;OpenSansBold&#39;"><b>Para la venta de antibi&oacute;ticos y/o controlados se requiere receta m&eacute;dica.</b></span></p>
+</div>
+<div style="text-align: justify; padding-bottom: 15px; margin: 0px auto; width: 1110px; background: #005aa2; color: #fff; padding-top: 15px">
+<p style="padding-right: 25px; display: inline; font-size: 10px"><span style="font-family: &#39;OpenSansBold&#39;">Siempre encuentra todo y paga menos en Walmart Supercenter. Ahora puedes comprar tu s&uacute;per en l&iacute;nea</span>                                con la misma frescura, calidad y precios bajos como si fueras a tu tienda Walmart Supercenter.<br>                                En la tienda del s&uacute;per en l&iacute;nea <a style="color: #fff" href="/">super.walmart.com.mx</a>                                encuentras los mismos precios bajos, surtido, oferta, frescura y calidad pero por internet.
+S&oacute;lo selecciona online tu lista de s&uacute;per como si estuvieras en pasillos de<br> tu tienda
+pero desde la pantalla de tu iPhone®, iPad®, computadora, tablet o tel&eacute;fono indica tu forma
+de pago efectivo, tarjeta de cr&eacute;dito, tarjeta de d&eacute;bito o vales de despensa de forma segura
+y r&aacute;pida.<br> Ahorra tiempo y dinero pidiendo tu s&uacute;per en l&iacute;nea <span style="font-family: &#39;OpenSansBold&#39;">f&aacute;cil y r&aacute;pido</span>                                ordena por internet los productos de tu despensa como si fueras a <span style="font-family: &#39;OpenSansBold&#39;">Walmart</span>                                pero sin salir de casa u oficina mientras que la <span style="font-family: &#39;OpenSansBold&#39;">tienda</span>                                que te da <span style="font-family: &#39;OpenSansBold&#39;">servicio</span> <br> prepara
+tu pedido para ser enviado a tu <span style="font-family: &#39;OpenSansBold&#39;">domicilio</span>                                o pasas por el a la tienda sin hacer filas.<br> Agrega al carrito de compras <span style="font-family: &#39;OpenSansBold&#39;">medicina de la farmacia, frutas, verduras, carnes, pescados, panader&iacute;a, abarrotes, l&aacute;cteos o vinos y licores</span>                                y todo lo que necesitas de <span style="font-family: &#39;OpenSansBold&#39;">Walmart Supercenter</span>                                y recibe en la <br> <span style="font-family: &#39;OpenSansBold&#39;">puerta</span> de tu
+<span style="font-family: &#39;OpenSansBold&#39;">casa</span> f&aacute;cil, r&aacute;pido y seguro. Compra
+tu s&uacute;per en l&iacute;nea ahorra dinero y vive mejor.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</article>
+<!-- Footer ends here -->
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+</body>
+</html>

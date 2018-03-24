@@ -325,7 +325,7 @@ public class AdminApi {
 					Product product = new Product();
 					
 
-					product.setImage("products/00"+columns[0]+"s.jpg");
+					product.setImage("products/"+columns[0]+".jpg");
 					product.setName(columns[1]);
 					product.setKeywords(columns[1]);
 
