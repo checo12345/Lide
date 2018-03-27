@@ -1,8 +1,8 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 
-<div class="row" onclick="realizarVenta()">
+<div class="row " onclick="realizarVenta()">
 	<div class="col-lg-12">
-		<div class="widget style1 navy-bg">
+		<div class="widget navy-bg  botonVenta">
 			<div class="row">
 				<div class="col-xs-4">
 					<i class="fa fa-money fa-5x"></i>

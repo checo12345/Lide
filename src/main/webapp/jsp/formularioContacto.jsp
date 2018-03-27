@@ -4,7 +4,7 @@
 
 <h1 class="m-t-none m-b" style="text-align: center;" id="tituloForm">REGISTRAR NUEVA VENTA</h1>
 <form id="registrarContactoForm" class="form-horizontal" action="agregarProducto" role="form" onsubmit="return false;" style="min-height: 70px;">
-	<div class="col-sm-8">
+	<div class="col-sm-4">
 		<label class="control-label">Codigo del producto</label>
 		<div class="input-group">
 			<span class="input-group-addon"> <span
@@ -16,6 +16,15 @@
 		</div>
 	</div>
 	
+	<div class="col-sm-4">
+		<label class="control-label">Nombre del producto</label>
+		<div class="input-group">
+			<span class="input-group-addon"> <span
+				class="glyphicon glyphicon-tags"></span>
+			</span> 
+			<input type="text" class="form-control" name="producto.nombre"  id="nombreProducto"	placeholder="Ingresar nombre del producto">
+		</div>
+	</div>
 	
 	<div class="col-sm-4">
 	<label class="control-label">Acciones</label>

@@ -33,6 +33,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
     <link href="css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="css/venta.css" rel="stylesheet">
     
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
