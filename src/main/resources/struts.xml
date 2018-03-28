@@ -13,18 +13,26 @@
 	        </interceptor-stack>
 	    </interceptors>  
        
-		<action name="iniciarSesion" class="com.lidebeta.spi.CSAction" method="iniciarSesion">
+      	<global-results>
+			<result name="irIniciarSesion">jsp/menuPrincipal.jsp</result>
+			<result name="irMenu">jsp/menuPrincipal.jsp</result>
+			<result name="errorGeneral">jsp/errorGeneral.jsp</result>
+			<result name="errorLide">jsp/errorLide.jsp</result>
+		</global-results>
+		<action name="iniciarSesion" class="com.lidebeta.spi.action.PuntoVentaAction" method="iniciarSesion">
 			<result name="exitoso">jsp/iniciarSesion.jsp</result>
 		</action>
 		<action name="menuPrincipal">
 			<result >jsp/menuPrincipal.jsp</result>
 		</action>
-		<action name="agregarProducto" class="com.lidebeta.spi.CSAction" method="agregarProducto">
+		<action name="obtenerPuntoDeVenta">
+			<result >jsp/formularioVenta.jsp</result>
+		</action>
+		<action name="obtenerProductoPorCodigo" class="com.lidebeta.spi.action.PuntoVentaAction" method="obtenerProductoPorCodigo">
 			<result name="exitoso">jsp/rowVenta.jsp</result>
 		</action>
-		<action name="realizarVenta" class="com.lidebeta.spi.CSAction" method="realizarVenta">
+		<action name="agregarVenta" class="com.lidebeta.spi.action.PuntoVentaAction" method="agregarVenta">
 		<interceptor-ref name="jsonStack"></interceptor-ref>
-			<result name="exitoso">jsp/tablaContacto.jsp</result>
 		</action>
 	</package>
 	

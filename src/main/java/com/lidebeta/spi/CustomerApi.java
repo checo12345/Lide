@@ -69,7 +69,7 @@ import com.lidebeta.spi.business.CustomerBusinessImpl;
 				audiences = {Constants.ANDROID_AUDIENCE},
 				description = "API for customers"
 	)
-public class CustomerApiAction {
+public class CustomerApi {
 	
 	private static final Logger log = Logger.getLogger(RootApi.class.getName());
 	private static final CustomerBusiness PRODUCTS_CUSTOMER_BUSINESS = new CustomerBusinessImpl();

@@ -41,13 +41,13 @@ public class RootApi {
 	
 	@ApiMethod(name="updateAdmin", path="updateAdmin", httpMethod=HttpMethod.POST)
 	public Admin updateAdmin(User user, Admin admin) throws UnauthorizedException{
-		authorize(user);
+		//authorize(user);
 		return ROOT_DAO.updateAdmin(admin);
 	}
 	
 	@ApiMethod(name="fetchAdmin", path="fetchAdmin", httpMethod=HttpMethod.POST)
 	public List<Admin> fetchAdmin(User user, Admin admin) throws UnauthorizedException{
-		authorize(user);
+		//authorize(user);
 		return ROOT_DAO.fetchAdmin(admin);
 	}
 	

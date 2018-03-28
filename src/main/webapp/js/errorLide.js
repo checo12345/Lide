@@ -1,9 +1,9 @@
 /*========================================================================
 * Sistema: Lide
 * Modulo: js
-* Sub modulo: errorGeneral.js
+* Sub modulo: errorLide.js
 * Fecha de modificación: 27/03/2018
-* Descripción:  Jquery para el manejo de errores generales
+* Descripción:  Jquery para el manejo de errores del negocio
 * Autor: Sergio Rojas
 =========================================================================
 */
@@ -20,12 +20,7 @@
              closeButton: true,
              progressBar: true,
              showMethod: 'slideDown',
-             timeOut: 4000
+             timeOut: 5000
          };
-         toastr.error(errorGeneral, 'Error');
-         if (errorGeneral == "No tienes sesion para este modulo")
-        	 {
-        	 	setTimeout(function() {window.location = "irIniciarSesion";}, 4000);
-        	 }
-	 
+         toastr.warning(errorGeneral, 'Error Lide');
  }

@@ -7,6 +7,16 @@
             <param-value>com.lide.beta.server.products.spi.ProductsAdminApi,com.lide.beta.server.products.spi.ProductsCustomerApi</param-value>
         </init-param>
     </servlet>
+    <!-- Servlet para iniciar log4j e imprimir una bitacora de todo lo que sucede -->
+	<servlet>
+		<servlet-name>RegistradorServlet</servlet-name>
+		<servlet-class>com.lidebeta.spi.config.iniciarBitacora</servlet-class>
+		<init-param>
+			<param-name>log4j-init-file</param-name>
+			<param-value>log4j.properties</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
     <servlet-mapping>
         <servlet-name>SystemServiceServlet</servlet-name>
         <url-pattern>/_ah/spi/*</url-pattern>

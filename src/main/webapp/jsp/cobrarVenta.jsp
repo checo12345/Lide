@@ -1,6 +1,6 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 
-<div class="row " onclick="realizarVenta()">
+<div class="row " onclick="agregarVenta()">
 	<div class="col-lg-12">
 		<div class="widget navy-bg  botonVenta">
 			<div class="row">

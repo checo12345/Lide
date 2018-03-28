@@ -78,10 +78,9 @@
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold"><s:property value="usuario.usuario_usuario"/></strong>
-                             </span> <span class="text-muted text-xs block">Puesto<b class="caret"></b></span> </span> </a>
+                             </span> <span class="text-muted text-xs block">Cajero<b class="caret"></b></span> </span> </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="profile.html">Perfil</a></li>
-                                <li><a href="contacts.html">Contactos</a></li>
+                                <li><a href="profile.html">Cuenta</a></li>
                                 <li class="divider"></li>
                                 <li><a href="cerrarSesion.action">Salir</a></li>
                             </ul>
@@ -90,21 +89,67 @@
                             SPV
                         </div>
                     </li>
-                    <s:if test="listaModulos!=null">
-						<s:iterator value="listaModulos">
-							<li>
-		                        <a href="index.html"><i class="<s:property value="modulo_icono"/>"></i> <span class="nav-label"><s:property value="modulo_nombre"/></span> <span class="fa arrow"></span></a>
-		                        <s:if test="listaSubModulos!=null">
-		                        <ul class="nav nav-second-level">
-								<s:iterator value="listaSubModulos">
-			                            <li><a onclick='<s:property value="subModulo_accion"/>'><s:property value="subModulo_nombre"/></a></li>
-								</s:iterator>
-								</ul>
-							</s:if>
-		                    </li>
-						</s:iterator>
-					</s:if>
-                </ul>
+                    
+                    <li>
+						<a onclick="obtenerPuntoDeVenta()">
+							<i class="fa fa-shopping-cart"></i> 
+							<span class="nav-label">Punto de Venta</span>
+						</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<i class="fa fa-user-circle"></i> 
+							<span class="nav-label">Clientes</span> 
+							<span class="fa arrow"></span>
+						</a>
+						<ul class="nav nav-second-level collapse">
+							<li><a href="index.html">Actualizar clientes</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="index.html">
+							<i class="fa fa-barcode"></i> 
+							<span class="nav-label">Productos</span> 
+							<span class="fa arrow"></span>
+						</a>
+						<ul class="nav nav-second-level collapse">
+							<li><a href="index.html">Actualizar productos</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="index.html">
+							<i class="fa fa-file-text-o"></i> 
+							<span class="nav-label">Inventario</span> 
+							<span class="fa arrow"></span>
+						</a>
+						<ul class="nav nav-second-level collapse">
+							<li><a href="index.html">Exportar inventario</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="index.html">
+							<i class="fa fa-gear"></i> 
+							<span class="nav-label">Configuracion</span> 
+							<span class="fa arrow"></span>
+						</a>
+						<ul class="nav nav-second-level collapse">
+							<li><a href="index.html">Cuenta</a></li>
+							<li><a href="index.html">Cajeros</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="index.html"> 
+							<i class="fa fa-list-alt"></i> 
+							<span class="nav-label">Reportes</span> 
+							<span class="fa arrow"></span>
+						</a>
+						<ul class="nav nav-second-level collapse">
+							<li><a href="index.html">Reporte de ventas</a></li>
+							<li><a href="index.html">Reporte de inventario</a></li>
+							<li><a href="index.html">Reporte de cajeros</a></li>
+						</ul>
+					</li>
+				</ul>
             </div>
         </nav>
 
@@ -136,9 +181,9 @@
 						<div class="sk-double-bounce1"></div>
 						<div class="sk-double-bounce2"></div>
 					</div>
-					<div id="contenidoDinamico"><s:include value="/jsp/formularioContacto.jsp"></s:include></div>
-					<div id="contenidoDinamico2"><s:include value="/jsp/tablaContacto.jsp"></s:include></div>
-					<div id="contenidoDinamico3"><s:include value="/jsp/cobrarVenta.jsp"></s:include></div>
+					<div id="contenidoDinamico">
+						<h1 class="m-t-none m-b" style="text-align: center;" id="tituloForm">BIENVENIDO A LIDE</h1>
+					</div>
 				</div>
 			</div>
 		</div>

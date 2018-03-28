@@ -1,5 +1,4 @@
-<script src="js/contacto.js" charset="UTF-8"></script>
-  
+<script src="js/tablaProducto.js" charset="UTF-8"></script>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 
 <div class="wrapper wrapper-content animated fade in row ">
@@ -11,7 +10,7 @@
             </div>
                 <input type="text" class="form-control input-sm m-b-xs" id="filter"
                        placeholder="Buscar en la tabla">
-                <table id="tablaContacto" class="footable table table-stripped toggle-arrow-tiny text-center" data-filter=#filter>
+                <table id="tablaProducto" class="footable table table-stripped toggle-arrow-tiny text-center" data-filter=#filter>
                     <thead>
                     <tr>
                         <th class="text-center" data-toggle="true" data-field="id">Codigo</th>
