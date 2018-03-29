@@ -19,8 +19,11 @@
 			<result name="errorGeneral">jsp/errorGeneral.jsp</result>
 			<result name="errorLide">jsp/errorLide.jsp</result>
 		</global-results>
-		<action name="iniciarSesion" class="com.lidebeta.spi.action.PuntoVentaAction" method="iniciarSesion">
-			<result name="exitoso">jsp/iniciarSesion.jsp</result>
+		<action name="iniciarSesion">
+			<result>jsp/iniciarSesion.jsp</result>
+		</action>
+		<action name="validarSesion" class="com.lidebeta.spi.action.PuntoVentaAction" method="validarSesion">
+			<result name="exitoso">jsp/menuPrincipal.jsp</result>
 		</action>
 		<action name="menuPrincipal">
 			<result >jsp/menuPrincipal.jsp</result>

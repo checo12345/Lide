@@ -9,16 +9,17 @@
 */
 
 package com.lidebeta.spi.action;
-
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import com.google.api.server.spi.auth.common.User;
-import com.lidebeta.spi.AdminApi;
-import com.lidebeta.spi.RootApi;
+import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeTokenRequest;
+import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleIdToken;
+import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleTokenResponse;
+import com.google.appengine.repackaged.com.google.api.client.http.javanet.NetHttpTransport;
+import com.google.appengine.repackaged.com.google.api.client.json.jackson2.JacksonFactory;
 import com.lidebeta.spi.action.CSAction;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.business.MetodosConsultar;
-import com.lidebeta.spi.dao.AdminDAOImpl;
 import com.lidebeta.spi.dao.CSServicioRespuesta;
 import com.lidebeta.spi.exception.LideException;
 
@@ -31,11 +32,41 @@ public class PuntoVentaAction extends CSAction {
 	private CSServicioRespuesta respuesta;
 	private MetodosConsultar consultar;
 	private ArrayList<Product> productos = new ArrayList<Product>();
+	String codigo;
 	
-	public String iniciarSesion() {
+	
+	public String validarSesion() {
 		System.out.println("\n========== ACTION: iniciarSesion()================");
 		try {
-			AdminApi ca = new AdminApi();
+			
+			String authCode=getCodigo();
+			
+			GoogleTokenResponse tokenResponse =
+			          new GoogleAuthorizationCodeTokenRequest(
+			              new NetHttpTransport(),
+			              JacksonFactory.getDefaultInstance(),
+			              "https://www.googleapis.com/oauth2/v4/token",
+			              "299646937934-044postf14bnq484tthl88cnfo9f9379.apps.googleusercontent.com",
+			              "L1iahWYUdR6GT6qHMVqbegfs",
+			              authCode,
+			              "").execute();
+
+			String accessToken = tokenResponse.getAccessToken();
+
+
+			// Get profile info from ID token
+			GoogleIdToken idToken = tokenResponse.parseIdToken();
+			GoogleIdToken.Payload payload = idToken.getPayload();
+			String userId = payload.getSubject();  // Use this value as a key to identify a user.
+			String email = payload.getEmail();
+			boolean emailVerified = Boolean.valueOf(payload.getEmailVerified());
+			String name = (String) payload.get("name");
+			String pictureUrl = (String) payload.get("picture");
+			String locale = (String) payload.get("locale");
+			String familyName = (String) payload.get("family_name");
+			String givenName = (String) payload.get("given_name");
+			
+			logger.info("ESTE ES EL CODIGO: "+authCode) ;
 		} catch (Exception e) {
 			respuestaCadena = "errorGeneral";
 		}
@@ -63,9 +94,6 @@ public class PuntoVentaAction extends CSAction {
 		return respuestaCadena;
 	}
 
-
-
-
 	public String agregarVenta() {
 		logger.info("\n========== ACTION: agregarVenta()================");
 		try {
@@ -89,6 +117,17 @@ public class PuntoVentaAction extends CSAction {
 		return null;
 	}
 
+	
+
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
+	}
 
 
 	public String execute() {
