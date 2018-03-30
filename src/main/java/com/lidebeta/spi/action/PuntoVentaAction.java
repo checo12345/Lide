@@ -9,14 +9,24 @@
 */
 
 package com.lidebeta.spi.action;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.Reader;
+import java.io.Writer;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
+
+import com.fasterxml.jackson.core.JsonFactory;
 import com.google.api.server.spi.auth.common.User;
+import com.google.appengine.repackaged.com.google.api.client.auth.oauth2.TokenResponseException;
 import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeTokenRequest;
-import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleIdToken;
+import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets;
 import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleTokenResponse;
 import com.google.appengine.repackaged.com.google.api.client.http.javanet.NetHttpTransport;
-import com.google.appengine.repackaged.com.google.api.client.json.jackson2.JacksonFactory;
+import com.google.appengine.repackaged.com.google.api.client.json.jackson.JacksonFactory;
 import com.lidebeta.spi.action.CSAction;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.business.MetodosConsultar;
@@ -34,6 +44,7 @@ public class PuntoVentaAction extends CSAction {
 	private ArrayList<Product> productos = new ArrayList<Product>();
 	String codigo;
 	
+	private static final JacksonFactory JSON_FACTORY = new JacksonFactory();
 	
 	public String validarSesion() {
 		System.out.println("\n========== ACTION: iniciarSesion()================");
@@ -41,18 +52,28 @@ public class PuntoVentaAction extends CSAction {
 			
 			String authCode=getCodigo();
 			
+			logger.info("Codigo: "+authCode) ;
+			String CLIENT_SECRET_FILE = "/WEB-INF/client_secret_java.json";
+
+			// Exchange auth code for access token
+
+			GoogleClientSecrets clientSecrets = new GoogleClientSecrets();
+			
+			
+			logger.info("Valiooooooooooooooooo: ") ;
+			
+			
 			GoogleTokenResponse tokenResponse =
 			          new GoogleAuthorizationCodeTokenRequest(
 			              new NetHttpTransport(),
-			              JacksonFactory.getDefaultInstance(),
-			              "https://www.googleapis.com/oauth2/v4/token",
-			              "299646937934-044postf14bnq484tthl88cnfo9f9379.apps.googleusercontent.com",
-			              "L1iahWYUdR6GT6qHMVqbegfs",
+			              JSON_FACTORY,
+			              "299646937934-39jf1363b3e0fs212vn8q285t6duo396.apps.googleusercontent.com",
+			              "AWCiO5tcubcUVA94PGOHTeyK",
 			              authCode,
 			              "").execute();
-
-			String accessToken = tokenResponse.getAccessToken();
-
+			logger.info("Terminoooooooooooooooooooooooooooooooooooooooooooooo") ;
+			
+			/*String accessToken = tokenResponse.getAccessToken();
 
 			// Get profile info from ID token
 			GoogleIdToken idToken = tokenResponse.parseIdToken();
@@ -66,14 +87,18 @@ public class PuntoVentaAction extends CSAction {
 			String familyName = (String) payload.get("family_name");
 			String givenName = (String) payload.get("given_name");
 			
-			logger.info("ESTE ES EL CODIGO: "+authCode) ;
-		} catch (Exception e) {
+			logger.info("ESTE ES EL correo: "+email) ;*/
+		}catch (TokenResponseException e) {
+			logger.info("Fallo token"+ e.getMessage()) ;
+		}
+		catch (Exception e) {
 			respuestaCadena = "errorGeneral";
+			logger.info("Fallo") ;
 		}
 		return respuestaCadena;
 	}
-
-	
+	 
+	 
 	public String obtenerProductoPorCodigo() {
 		logger.info("\n========== ACTION: obtenerProductoPorCodigo()================");
 		try {

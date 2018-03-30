@@ -135,7 +135,7 @@ function setSigninStatus(isSignedIn) {
 			url : "validarSesion.action",
 			type : "POST",
 			dataType : "json",
-			data:	{codigo:user.El},
+			data:	{codigo:user.Zi.access_token},
 			success : function(respuestaHtml, textStatus, jqXHR) {
 				toastr.success("No se encontro",'Departamento');
 			},

@@ -72,10 +72,6 @@
     </div>
 
 <div style="text-align: center;"> <button id="revoke-access-button" style="display: none;">Revoke access</button></div>
-
-
-	<div><s:include value="/jsp/recuperarCuenta.jsp"></s:include></div>
-	<div><s:include value="/jsp/registrarEmpresa.jsp"></s:include></div>
 </body>
 
 </html>
