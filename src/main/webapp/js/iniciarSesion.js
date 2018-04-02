@@ -130,19 +130,7 @@ function setSigninStatus(isSignedIn) {
   var user = GoogleAuth.currentUser.get();
   var isAuthorized = user.hasGrantedScopes(SCOPE);
   if (isAuthorized) {
-	  
-	  $.ajax({
-			url : "validarSesion.action",
-			type : "POST",
-			dataType : "json",
-			data:	{codigo:user.Zi.access_token},
-			success : function(respuestaHtml, textStatus, jqXHR) {
-				toastr.success("No se encontro",'Departamento');
-			},
-			error : function(jqXHR,textStatus,errorThrown) {
-				toastr.error("No se encontro",'Departamento');
-			}
-		});
+	  GoogleAuth.grantOfflineAccess().then(signInCallback);
 	  
   } else {
     $('#sign-in-or-out-button').html('Sign In/Authorize');
@@ -150,6 +138,23 @@ function setSigninStatus(isSignedIn) {
     $('#auth-status').html('You have not authorized this app or you are ' +
         'signed out.');
   }
+}
+
+function signInCallback(authResult) {
+	debugger
+	$.ajax({
+		url : "validarSesion.action",
+		type : "POST",
+		dataType : "json",
+		data:	{codigo:authResult['code']},
+		success : function(respuestaHtml, textStatus, jqXHR) {
+			toastr.success("No se encontro",'Departamento');
+		},
+		error : function(jqXHR,textStatus,errorThrown) {
+			toastr.error("No se encontro",'Departamento');
+		}
+	});
+  
 }
 
 function updateSigninStatus(isSignedIn) {
