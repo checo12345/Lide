@@ -1,10 +1,9 @@
 /*========================================================================
-* CHECKSOFT
-* Sistema: Contratistas
-* Modulo: com.mx.contratistas.contenedores
+* Sistema: LIDE
+* Modulo: iniciarSesion
 * Sub modulo: iniciarSesion.js
-* Fecha de modificaci�n: 14/08/2017
-* Descripci�n:  Jquery para que el usuario inicie sesi�n
+* Fecha de modificacion: 03/04/2018
+* Descripcion:  Jquery para el manejo y validacion de usuarios
 * Autor: Sergio Rojas
 =========================================================================
 */
@@ -147,8 +146,13 @@ function signInCallback(authResult) {
 		type : "POST",
 		dataType : "json",
 		data:	{codigo:authResult['code']},
-		success : function(respuestaHtml, textStatus, jqXHR) {
-			toastr.success("No se encontro",'Departamento');
+		success : function(respuestaJson, textStatus, jqXHR) {
+			if (respuestaJson.exito){
+				toastr.success(respuestaJson.mensaje,'Usuario');
+				irMenuPrincipal() ;
+			}
+			else
+				toastr.warning(respuestaJson.mensaje,'Usuario');
 		},
 		error : function(jqXHR,textStatus,errorThrown) {
 			toastr.error("No se encontro",'Departamento');

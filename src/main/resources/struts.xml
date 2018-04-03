@@ -23,7 +23,6 @@
 			<result>jsp/iniciarSesion.jsp</result>
 		</action>
 		<action name="validarSesion" class="com.lidebeta.spi.action.PuntoVentaAction" method="validarSesion">
-			<result name="exitoso">jsp/menuPrincipal.jsp</result>
 		</action>
 		<action name="menuPrincipal">
 			<result >jsp/menuPrincipal.jsp</result>

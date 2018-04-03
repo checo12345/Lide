@@ -15,15 +15,19 @@ import java.util.Map;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 import org.apache.struts2.ServletActionContext;
-import com.opensymphony.xwork2.ActionSupport;
-import com.google.gson.Gson;
+import org.apache.struts2.interceptor.SessionAware;
 
-public class CSAction extends ActionSupport {
+import com.opensymphony.xwork2.ActionSupport;
+import com.google.api.server.spi.auth.common.User;
+import com.google.gson.Gson;
+import com.lidebeta.spi.Constants;
+
+public class CSAction extends ActionSupport implements SessionAware{
 	private static final long serialVersionUID = 1L;
 	private static final Logger logger = Logger.getLogger(CSAction.class);
 	protected Map<String, Object> session;
 	private String actionError;
-
+	protected User user;
 	
 
 	/** Funcion: Metodo para convertir el resultado en un objeto json y devolverlo al cliente
@@ -42,6 +46,15 @@ public class CSAction extends ActionSupport {
 		}
 	}
 	
+	// Funcion: Metodo fijar la sesion del usuario
+	// Parametro: Mapa clave que es un String declarado en constantes y un Objeto que es lo que se sube a la sesion
+	@Override
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+		user = (User) session.get(Constants.SYS_SESION_USUARIO);
+
+	}
+
 	public CSAction() {
 		super();
 	}

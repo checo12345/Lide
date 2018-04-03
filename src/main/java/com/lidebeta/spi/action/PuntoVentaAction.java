@@ -28,6 +28,7 @@ import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oau
 import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleTokenResponse;
 import com.google.appengine.repackaged.com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.appengine.repackaged.com.google.api.client.json.jackson.JacksonFactory;
+import com.lidebeta.spi.Constants;
 import com.lidebeta.spi.action.CSAction;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.business.MetodosConsultar;
@@ -45,62 +46,27 @@ public class PuntoVentaAction extends CSAction {
 	private ArrayList<Product> productos = new ArrayList<Product>();
 	String codigo;
 	
-	private static final JacksonFactory JSON_FACTORY = new JacksonFactory();
+	
 	
 	public String validarSesion() {
-		System.out.println("\n========== ACTION: iniciarSesion()================");
+		System.out.println("\n========== ACTION: validarSesion()================");
 		try {
+			consultar= new MetodosConsultar() ;
+			respuesta= consultar.validarSesion(getCodigo()) ;
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
 			
-			String authCode=getCodigo();
-			
-			logger.info("Codigo: "+authCode) ;
-			String CLIENT_SECRET_FILE = "/WEB-INF/client_secret_java.json";
-
-			// Exchange auth code for access token
-
-			GoogleClientSecrets clientSecrets = new GoogleClientSecrets();
-			
-			
-			logger.info("Valiooooooooooooooooo: ") ;
-			
-			
-			GoogleAuthorizationCodeTokenRequest tokenResponse =
-			          new GoogleAuthorizationCodeTokenRequest(
-			              new NetHttpTransport(),
-			              JSON_FACTORY,
-			              "https://www.googleapis.com/oauth2/v4/token",
-			              "299646937934-39jf1363b3e0fs212vn8q285t6duo396.apps.googleusercontent.com",
-			              "5OMDh_eYTmxXSSAnGE106KHY",
-			              authCode,
-			              "postmessage") ;
-			
-			
-			GoogleTokenResponse response = tokenResponse.execute() ;
-			logger.info("Terminoooooooooooooooooooooooooooooooooooooooooooooo") ;
-			
-			String accessToken = response.getAccessToken();
-
-			// Get profile info from ID token
-			GoogleIdToken idToken = response.parseIdToken();
-			GoogleIdToken.Payload payload = idToken.getPayload();
-			String userId = payload.getSubject();  // Use this value as a key to identify a user.
-			String email = payload.getEmail();
-			boolean emailVerified = Boolean.valueOf(payload.getEmailVerified());
-			String name = (String) payload.get("name");
-			String pictureUrl = (String) payload.get("picture");
-			String locale = (String) payload.get("locale");
-			String familyName = (String) payload.get("family_name");
-			String givenName = (String) payload.get("given_name");
-			
-			logger.info("ESTE ES EL correo: "+email) ;
-		}catch (TokenResponseException e) {
-			logger.info("Fallo token"+ e.getMessage()) ;
-		}
-		catch (Exception e) {
+			session.put(Constants.SYS_SESION_USUARIO,(User)respuesta.getResultado());
+			System.out.println("\n========== Se subio el user a sesion================");
+		}catch (LideException e) {
+			respuestaCadena = "errorLide";
+			logger.error(respuesta.getMensaje());
+		}catch (Exception e) {
 			respuestaCadena = "errorGeneral";
-			logger.info("Fallo") ;
+			logger.info(e.getMessage()) ;
 		}
-		return respuestaCadena;
+		enviarObjetoJSONRespuesta(respuesta);
+		return null;
 	}
 	 
 	 
@@ -108,7 +74,7 @@ public class PuntoVentaAction extends CSAction {
 		logger.info("\n========== ACTION: obtenerProductoPorCodigo()================");
 		try {
 			consultar= new MetodosConsultar() ;
-			respuesta= consultar.obtenerProductoPorCodigo(new User("roldan.a.z.p@gmail.com"), getProducto()) ;
+			respuesta= consultar.obtenerProductoPorCodigo((User) session.get(Constants.SYS_SESION_USUARIO), getProducto()) ;
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
 			
@@ -130,7 +96,7 @@ public class PuntoVentaAction extends CSAction {
 			consultar= new MetodosConsultar() ;
 			if(getProductos() != null) {
 				for (Product producto : getProductos())
-					respuesta=consultar.actualizarInventario(new User("roldan.a.z.p@gmail.com"),producto);
+					respuesta=consultar.actualizarInventario((User) session.get(Constants.SYS_SESION_USUARIO),producto);
 			}
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
