@@ -73,8 +73,10 @@ public class PuntoVentaAction extends CSAction {
 	public String obtenerProductoPorCodigo() {
 		logger.info("\n========== ACTION: obtenerProductoPorCodigo()================");
 		try {
+			
 			consultar= new MetodosConsultar() ;
-			respuesta= consultar.obtenerProductoPorCodigo((User) session.get(Constants.SYS_SESION_USUARIO), getProducto()) ;
+			user = (User) session.get(Constants.SYS_SESION_USUARIO) ;
+			respuesta= consultar.obtenerProductoPorCodigo(user, getProducto()) ;
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
 			
@@ -96,7 +98,7 @@ public class PuntoVentaAction extends CSAction {
 			consultar= new MetodosConsultar() ;
 			if(getProductos() != null) {
 				for (Product producto : getProductos())
-					respuesta=consultar.actualizarInventario((User) session.get(Constants.SYS_SESION_USUARIO),producto);
+					respuesta=consultar.actualizarInventario(new User("roldan.a.z.p@gmail.com"),producto);
 			}
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
