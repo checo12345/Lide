@@ -73,9 +73,9 @@ function obtenerProductoPorNombre()
 			success : function(respuestaHtml, textStatus, jqXHR) {
 				
 					if(respuestaHtml.includes("error")== false){
-						debugger
-						$("#modalProductos").empty() ;
-						$("#modalProductos").html(respuestaHtml) ;
+						$("#modalDinamico").empty() ;
+						$("#modalDinamico").html(respuestaHtml) ;
+						$("#mdl-productos").modal() ;
 					}
 					else{
 						$("#contenidoError").empty() ;

@@ -5,11 +5,7 @@
 <div class="row animated fadeInRight">
     <div class="col-lg-12">
         <div class="ibox float-e-margins">
-            <div class="ibox-title">
-            <h1 class="m-t-none m-b" style="text-align: center;">PRODUCTOS</h1>
             </div>
-                <input type="text" class="form-control input-sm m-b-xs" id="filter"
-                       placeholder="Buscar en la tabla">
                 <table id="tablaProductosEncontrados" class="footable table table-stripped toggle-arrow-tiny text-center" data-filter=#filter>
                     <thead>
                     <tr>

@@ -44,23 +44,19 @@
 <div id="contenidoDinamico3"><s:include value="/jsp/cobrarVenta.jsp"></s:include></div>
 
 
-<div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content animated bounceInRight">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">
-					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-				</button>
-				<i class="fa fa-laptop modal-icon"></i>
-				<h4 class="modal-title">Productos Encontrados</h4>
-			</div>
-			<div class="modal-body" id="modalProductos">
-				
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-white" data-dismiss="modal">Cerrar</button>
+<div id="mdl-productos" class="modal inmodal fade" tabindex="-1" role="dialog"  aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h1 class="m-t-none m-b" id="tituloRolForm">Productos Encontrados</h1>
+            </div>
+            <div class="modal-body" id="modalDinamico">
+            </div>
+            <div class="modal-footer">
+            	<button type="button" class="btn btn-white" data-dismiss="modal">Cerrar</button>
 				<button type="button" class="btn btn-primary">Agregar</button>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>
