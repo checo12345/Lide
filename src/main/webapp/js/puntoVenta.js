@@ -60,6 +60,37 @@ function obtenerProductoPorCodigo()
 	 $('.ibox-content').toggleClass('sk-loading');
 }
 
+
+function obtenerProductoPorNombre()
+{
+	 var postData = $("#buscarProductoForm").serializeArray();
+	 $('.ibox-content').toggleClass('sk-loading');
+	 $.ajax({
+			url : "obtenerProductoPorNombre.action",
+			type : "POST",
+			dataType : "html",
+			data:	postData,
+			success : function(respuestaHtml, textStatus, jqXHR) {
+				
+					if(respuestaHtml.includes("error")== false){
+						debugger
+						$("#modalProductos").empty() ;
+						$("#modalProductos").html(respuestaHtml) ;
+					}
+					else{
+						$("#contenidoError").empty() ;
+						$("#contenidoError").html(respuestaHtml) ;
+					}
+						
+					
+			},
+			error : function(jqXHR,textStatus,errorThrown) {
+				toastr.error("No se encontro",'Departamento');
+			}
+		});
+	 $('.ibox-content').toggleClass('sk-loading');
+}
+
 function sumar_columnas(){
 	var sum=0;
 	    //itera cada input de clase .subtotal y la suma
@@ -69,7 +100,6 @@ function sumar_columnas(){
 	    //cambia valor del total y lo redondea a la segunda decimal
 	    $('#totalVenta').text('$'+sum.toFixed(2));
 	}
-
 
 function agregarVenta()
 {
@@ -119,7 +149,7 @@ function agregarVenta()
 						
 			},
 			error : function(jqXHR,textStatus,errorThrown) {
-				toastr.error("No se encontro",'Departamento');
+				toastr.error("Ocurrio un problema",'Punto de Venta');
 			}
 		});
 	 $('.ibox-content').toggleClass('sk-loading');

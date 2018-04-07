@@ -33,6 +33,9 @@
 		<action name="obtenerProductoPorCodigo" class="com.lidebeta.spi.action.PuntoVentaAction" method="obtenerProductoPorCodigo">
 			<result name="exitoso">jsp/rowVenta.jsp</result>
 		</action>
+		<action name="obtenerProductoPorNombre" class="com.lidebeta.spi.action.PuntoVentaAction" method="obtenerProductoPorNombre">
+			<result name="exitoso">jsp/listaProducto.jsp</result>
+		</action>
 		<action name="agregarVenta" class="com.lidebeta.spi.action.PuntoVentaAction" method="agregarVenta">
 		<interceptor-ref name="jsonStack"></interceptor-ref>
 		</action>

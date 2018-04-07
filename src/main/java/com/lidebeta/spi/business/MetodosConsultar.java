@@ -1,6 +1,8 @@
 package com.lidebeta.spi.business;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 
@@ -13,6 +15,7 @@ import com.google.appengine.repackaged.com.google.api.client.http.javanet.NetHtt
 import com.google.appengine.repackaged.com.google.api.client.json.jackson.JacksonFactory;
 import com.lidebeta.spi.AdminApi;
 import com.lidebeta.spi.Constants;
+import com.lidebeta.spi.bean.Keyword;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.dao.CSServicioRespuesta;
 import com.lidebeta.spi.exception.LideException;
@@ -77,6 +80,33 @@ public class MetodosConsultar {
 		return respuesta;
 	}
 	
+	/** Funcion: Metodo obtener el usuario
+	 * @param session
+	 * @return User: Objeto con el usuario que tiene permisos
+	 */
+	public CSServicioRespuesta obtenerUsuario(Map<String, Object> session) {
+		logger.info("\n********** EJECUTAR: obtenerUsuario():**********");
+		CSServicioRespuesta respuesta = new CSServicioRespuesta();
+		AdminApi adminApi = new AdminApi();
+		try {
+			respuesta = new CSServicioRespuesta(false, "No ejecutado", null);
+			User user =(User) session.get(Constants.SYS_SESION_USUARIO) ;
+			
+			if(user != null)
+				respuesta = new CSServicioRespuesta(true, "Usuario validado exitosamente", user);
+			else
+				respuesta = new CSServicioRespuesta(true, "Usuario no validado", null);
+
+			logger.info(respuesta.getMensaje());
+
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+			respuesta = new CSServicioRespuesta(false, "Ocurrio una Excepcion", null);
+		}
+		logger.info("************************Saliendo obtenerUsuario************************");
+		return respuesta;
+	}
+	
 	/** Funcion: Metodo comprobar si es correcto usuario y contrasena en la base de datos
 	 * @param usuario
 	 * @return CSServicioRespuesta: Objeto con el producto obtenido
@@ -102,6 +132,35 @@ public class MetodosConsultar {
 			respuesta = new CSServicioRespuesta(false, "Ocurrio una Excepcion", null);
 		}
 		logger.info("************************Saliendo obtenerProductoPorCodigo************************");
+		return respuesta;
+	}
+	
+	
+	/** Funcion: Metodo para obtener un producto por nombre
+	 * @param usuario , producto
+	 * @return CSServicioRespuesta: Objeto con el producto obtenido
+	 */
+	public CSServicioRespuesta obtenerProductoPorNombre(User usuario,Keyword keyword) {
+		logger.info("\n********** EJECUTAR: obtenerProductoPorNombre():**********");
+		CSServicioRespuesta respuesta = new CSServicioRespuesta();
+		AdminApi adminApi = new AdminApi();
+		try {
+			respuesta = new CSServicioRespuesta(false, "No ejecutado", null);
+			
+			List<Product> listaProductos= adminApi.fetchProductsByKeyword(usuario, keyword) ;
+			
+			if(listaProductos != null)
+				respuesta = new CSServicioRespuesta(true, "Productos encontrado exitosamente", listaProductos);
+			else
+				respuesta = new CSServicioRespuesta(true, "Productos no encontrados", null);
+
+			logger.info(respuesta.getMensaje());
+
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+			respuesta = new CSServicioRespuesta(false, "Ocurrio una Excepcion", null);
+		}
+		logger.info("************************Saliendo obtenerProductoPorNombre************************");
 		return respuesta;
 	}
 	

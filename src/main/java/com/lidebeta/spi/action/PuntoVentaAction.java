@@ -9,27 +9,12 @@
 */
 
 package com.lidebeta.spi.action;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.Reader;
-import java.io.Writer;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
-
-import com.fasterxml.jackson.core.JsonFactory;
 import com.google.api.server.spi.auth.common.User;
-import com.google.appengine.repackaged.com.google.api.client.auth.oauth2.TokenResponseException;
-import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeTokenRequest;
-import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets;
-import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleIdToken;
-import com.google.appengine.repackaged.com.google.api.client.googleapis.auth.oauth2.GoogleTokenResponse;
-import com.google.appengine.repackaged.com.google.api.client.http.javanet.NetHttpTransport;
-import com.google.appengine.repackaged.com.google.api.client.json.jackson.JacksonFactory;
 import com.lidebeta.spi.Constants;
 import com.lidebeta.spi.action.CSAction;
+import com.lidebeta.spi.bean.Keyword;
 import com.lidebeta.spi.bean.Product;
 import com.lidebeta.spi.business.MetodosConsultar;
 import com.lidebeta.spi.dao.CSServicioRespuesta;
@@ -44,7 +29,8 @@ public class PuntoVentaAction extends CSAction {
 	private CSServicioRespuesta respuesta;
 	private MetodosConsultar consultar;
 	private ArrayList<Product> productos = new ArrayList<Product>();
-	String codigo;
+	private String codigo;
+	private Keyword keyword ;
 	
 	
 	
@@ -57,7 +43,7 @@ public class PuntoVentaAction extends CSAction {
 				throw new LideException();
 			
 			session.put(Constants.SYS_SESION_USUARIO,(User)respuesta.getResultado());
-			System.out.println("\n========== Se subio el user a sesion================");
+
 		}catch (LideException e) {
 			respuestaCadena = "errorLide";
 			logger.error(respuesta.getMensaje());
@@ -75,7 +61,10 @@ public class PuntoVentaAction extends CSAction {
 		try {
 			
 			consultar= new MetodosConsultar() ;
-			user = (User) session.get(Constants.SYS_SESION_USUARIO) ;
+			respuesta= consultar.obtenerUsuario(session) ;
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
+			user=(User)respuesta.getResultado();
 			respuesta= consultar.obtenerProductoPorCodigo(user, getProducto()) ;
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
@@ -91,15 +80,44 @@ public class PuntoVentaAction extends CSAction {
 		}
 		return respuestaCadena;
 	}
-
+	
+	@SuppressWarnings("unchecked")
+	public String obtenerProductoPorNombre() {
+		logger.info("\n========== ACTION: obtenerProductoPorNombre()================"+getKeyword().getName());
+		try {
+			
+			consultar= new MetodosConsultar() ;
+			respuesta= consultar.obtenerUsuario(session) ;
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
+			user=(User)respuesta.getResultado();
+			respuesta= consultar.obtenerProductoPorNombre(user, getKeyword()) ;
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
+			
+			setProductos((ArrayList<Product>)respuesta.getResultado());
+		}catch (LideException e) {
+			respuestaCadena = "errorLide";
+			logger.error(respuesta.getMensaje());
+			
+		}catch (Exception e) {
+			respuestaCadena = "errorGeneral";
+			logger.error(respuesta.getMensaje());
+		}
+		return respuestaCadena;
+	}
 	public String agregarVenta() {
 		logger.info("\n========== ACTION: agregarVenta()================");
 		try {
 			consultar= new MetodosConsultar() ;
-			if(getProductos() != null) {
+			respuesta= consultar.obtenerUsuario(session) ;
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
+			user=(User)respuesta.getResultado();
+			if(getProductos() != null)
 				for (Product producto : getProductos())
-					respuesta=consultar.actualizarInventario(new User("roldan.a.z.p@gmail.com"),producto);
-			}
+					respuesta=consultar.actualizarInventario(user,producto);
+
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
 			
@@ -156,5 +174,16 @@ public class PuntoVentaAction extends CSAction {
 	public void setRespuesta(CSServicioRespuesta respuesta) {
 		this.respuesta = respuesta;
 	}
+
+
+	public Keyword getKeyword() {
+		return keyword;
+	}
+
+
+	public void setKeyword(Keyword keyword) {
+		this.keyword = keyword;
+	}
+	
 	
 }

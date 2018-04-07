@@ -24,16 +24,16 @@
 			<span class="input-group-addon"> <span
 				class="glyphicon glyphicon-tags"></span>
 			</span> 
-			<input type="text" class="form-control"  id="nombreProducto"	placeholder="Ingresar nombre del producto">
-			<input type="hidden"   value="5066549580791808">
-			<input type="hidden"   value="5629499534213120">
+			<input type="text" class="form-control" name="keyword.name"  id="nombreProducto"	placeholder="Ingresar nombre del producto">
+			<input type="hidden"  name="keyword.coverage_area_id" value="5066549580791808">
+			<input type="hidden"  name="keyword.store_id" value="5629499534213120">
 		</div>
 	</div>
 	
 	<div class="col-sm-4">
 	<label class="control-label">Acciones</label>
 		<div class="input-group">
-			<button onclick="obtenerProductoPorNombre()" type="button" class="btn btn-primary block m-b pull-right" id="btn-admon-contacto">Agregar Producto</button>
+			<button onclick="obtenerProductoPorNombre()" type="button" class="btn btn-primary block m-b pull-right"  data-toggle="modal" data-target="#myModal"> Agregar Producto</button>
 		</div>
 		
 	</div>
@@ -42,3 +42,25 @@
 <div id="contenidoError"></div>
 <div id="contenidoDinamico2"><s:include value="/jsp/tablaProducto.jsp"></s:include></div>
 <div id="contenidoDinamico3"><s:include value="/jsp/cobrarVenta.jsp"></s:include></div>
+
+
+<div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content animated bounceInRight">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+				</button>
+				<i class="fa fa-laptop modal-icon"></i>
+				<h4 class="modal-title">Productos Encontrados</h4>
+			</div>
+			<div class="modal-body" id="modalProductos">
+				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-white" data-dismiss="modal">Cerrar</button>
+				<button type="button" class="btn btn-primary">Agregar</button>
+			</div>
+		</div>
+	</div>
+</div>

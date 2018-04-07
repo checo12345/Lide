@@ -10,19 +10,28 @@
             </div>
                 <input type="text" class="form-control input-sm m-b-xs" id="filter"
                        placeholder="Buscar en la tabla">
-                <table id="tablaProducto" class="footable table table-stripped toggle-arrow-tiny text-center" data-filter=#filter>
+                <table id="tablaProductosEncontrados" class="footable table table-stripped toggle-arrow-tiny text-center" data-filter=#filter>
                     <thead>
                     <tr>
-                        <th class="text-center" data-toggle="true" data-field="id">Codigo</th>
+                        <th class="text-center" data-toggle="true">Codigo</th>
                         <th class="text-center" data-toggle="true">Nombre</th>
                         <th class="text-center" data-toggle="true">Existencia</th>
                         <th class="text-center" data-toggle="true">Precio</th>
-                        <th class="text-center" data-toggle="true">Cantidad</th>
-                        <th class="text-center" data-toggle="true">Sub-Total</th>
                         <th class="text-center">Acciones</th>		
                     </tr>
                     </thead>
                     <tbody>	
+                    <s:if test="productos != null && productos.size>0"> 
+                    	<s:iterator value="productos">
+                    		<tr id="<s:property value="codigoBarras" />">
+							<td ><s:property value="codigoBarras" /></td>
+							<td><s:property value="name" /></td>
+							<td><s:property value="quantity" /></td>
+							<td ><s:property value="price" /></td>
+							</tr>
+                    	</s:iterator>
+                    </s:if>
+                    	
                     </tbody>
                     <tfoot>
                     <tr>
@@ -36,8 +45,5 @@
     </div>
 </div>
 </div>
-
-
-
 
 
