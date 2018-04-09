@@ -1,4 +1,4 @@
-<script src="js/tablaProducto.js" charset="UTF-8"></script>
+<script src="js/listaProducto.js" charset="UTF-8"></script>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 
 <div class="wrapper wrapper-content animated fade in row ">
@@ -13,7 +13,8 @@
                         <th class="text-center" data-toggle="true">Nombre</th>
                         <th class="text-center" data-toggle="true">Existencia</th>
                         <th class="text-center" data-toggle="true">Precio</th>
-                        <th class="text-center">Acciones</th>		
+                        <!--  <th class="text-center" data-toggle="true">Imagen</th>-->
+                        <th class="text-center">Seleccionar</th>		
                     </tr>
                     </thead>
                     <tbody>	
@@ -24,6 +25,8 @@
 							<td><s:property value="name" /></td>
 							<td><s:property value="quantity" /></td>
 							<td ><s:property value="price" /></td>
+							<!--  <td ><img width="50px" height="50px" src='https://endpoint-testdrive-192618.appspot.com/img/<s:property value="image" />'></td>-->
+							<td ><div class="i-checks"><label> <input type="checkbox" value=""> <i></i></label></div></td>
 							</tr>
                     	</s:iterator>
                     </s:if>

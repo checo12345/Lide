@@ -34,6 +34,8 @@
     <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
     <link href="css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
     <link href="css/venta.css" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
     
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -58,6 +60,7 @@
     <script src="js/plugins/validate/jquery.validate.min.js"></script>
     <script src="js/plugins/footable/footable.all.min.js"></script>
     <script src="js/plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
     
     <script  type="text/javascript" charset="utf-8" src="js/menuPrincipal.js" ></script>
     <script  type="text/javascript" charset="utf-8" src="js/funcionesGenericas.js" ></script>
