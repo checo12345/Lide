@@ -69,7 +69,7 @@
  			success : function(respuestaJson, textStatus, jqXHR) {
  				
  					if(respuestaJson.exito){
- 						$("#contenidoDinamico2").empty() ;
+ 						$("#  ").empty() ;
  						toastr.success(respuestaJson.mensaje,'LIDE');
  					}
  						
