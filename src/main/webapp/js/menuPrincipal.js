@@ -36,7 +36,26 @@ function obtenerPuntoDeVenta() {
 				$("#contenidoDinamico").html(respuestaHtml) ;
 			},
 			error : function(jqXHR,textStatus,errorThrown) {
-				toastr.error("No se encontro",'Departamento');
+				toastr.error("No se encontro",'LIDE');
+			}
+		});
+	 $('.ibox-content').toggleClass('sk-loading');
+	
+}
+
+
+function obtenerActualizacionProducto() {
+	$('.ibox-content').toggleClass('sk-loading');
+	 $.ajax({
+			url : "obtenerActualizacionProducto.action",
+			type : "POST",
+			dataType : "html",
+			success : function(respuestaHtml, textStatus, jqXHR) {
+				$("#contenidoDinamico").empty() ;
+				$("#contenidoDinamico").html(respuestaHtml) ;
+			},
+			error : function(jqXHR,textStatus,errorThrown) {
+				toastr.error("No se encontro",'LIDE');
 			}
 		});
 	 $('.ibox-content').toggleClass('sk-loading');

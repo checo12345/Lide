@@ -33,7 +33,6 @@ public class PuntoVentaAction extends CSAction {
 	private Keyword keyword ;
 	
 	
-	
 	public String validarSesion() {
 		System.out.println("\n========== ACTION: validarSesion()================");
 		try {
@@ -106,6 +105,34 @@ public class PuntoVentaAction extends CSAction {
 		}
 		return respuestaCadena;
 	}
+	public String actualizarProducto() {
+		logger.info("\n========== ACTION: actualizarProducto()================");
+		try {
+			consultar= new MetodosConsultar() ;
+			respuesta= consultar.obtenerUsuario(session) ;
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
+			user=(User)respuesta.getResultado();
+			
+			respuesta=consultar.actualizarInventario(user,getProducto());
+
+			if(!respuesta.isExito() || respuesta.getResultado()== null)
+				throw new LideException();
+			
+		}catch (LideException e) {
+			respuestaCadena = "errorLide";
+			logger.error(respuesta.getMensaje());
+			
+		}catch (Exception e) {
+			respuestaCadena = "errorGeneral";
+			logger.error(respuesta.getMensaje());
+		}
+		enviarObjetoJSONRespuesta(respuesta);
+		return null;
+	}
+
+	
+	
 	public String agregarVenta() {
 		logger.info("\n========== ACTION: agregarVenta()================");
 		try {
@@ -132,9 +159,7 @@ public class PuntoVentaAction extends CSAction {
 		enviarObjetoJSONRespuesta(respuesta);
 		return null;
 	}
-
 	
-
 
 	public String getCodigo() {
 		return codigo;

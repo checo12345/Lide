@@ -4,12 +4,11 @@
 
 <!--
 ========================================================================
-* CHECKSOFT
-* Sistema: Contratistas
+* Sistema: LIDE
 * Modulo: jsp
 * Sub modulo: menuPrincipal.jsp
-* Fecha de modificación: 14/08/2017
-* Descripción:  JSP para pintar el menu principal validando los permisos del usuario
+* Fecha de modificación: 09/04/2018
+* Descripción:  JSP para pintar el menu principal
 * Autor: Sergio Rojas
 =========================================================================
 -->
@@ -116,7 +115,7 @@
 							<span class="fa arrow"></span>
 						</a>
 						<ul class="nav nav-second-level collapse">
-							<li><a href="index.html">Actualizar productos</a></li>
+							<li><a onclick="obtenerActualizacionProducto()">Actualizar productos</a></li>
 						</ul>
 					</li>
 					<li>

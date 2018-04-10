@@ -39,6 +39,15 @@
 		<action name="agregarVenta" class="com.lidebeta.spi.action.PuntoVentaAction" method="agregarVenta">
 		<interceptor-ref name="jsonStack"></interceptor-ref>
 		</action>
+		
+		<action name="obtenerActualizacionProducto">
+			<result >jsp/formularioBusquedaProducto.jsp</result>
+		</action>
+		<action name="obtenerProductoPorCodigoActualizar" class="com.lidebeta.spi.action.PuntoVentaAction" method="obtenerProductoPorCodigo">
+			<result name="exitoso">jsp/formularioProducto.jsp</result>
+		</action>
+		<action name="actualizarProducto" class="com.lidebeta.spi.action.PuntoVentaAction" method="actualizarProducto">
+		</action>
 	</package>
 	
 </struts>
