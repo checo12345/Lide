@@ -12,7 +12,7 @@
 				</div>
 				<div class="col-xs-4 text-right">
 					<span>TOTAL :</span>
-					<h2 id="totalVenta" class="font-bold">$ 0.00</h2>
+					<h1 id="totalVenta" class="font-bold">$ 0.00</h1>
 				</div>
 			</div>
 		</div>
