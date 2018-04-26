@@ -109,12 +109,11 @@ public class PuntoVentaAction extends CSAction {
 		logger.info("\n========== ACTION: actualizarProducto()================");
 		try {
 			consultar= new MetodosConsultar() ;
-			/*respuesta= consultar.obtenerUsuario(session) ;
+			respuesta= consultar.obtenerUsuario(session) ;
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
-			user=(User)respuesta.getResultado();*/
+			user=(User)respuesta.getResultado();
 			
-			User user = new User("checo.que@gmail.com") ;
 			respuesta=consultar.actualizarInventario(user,getProducto());
 
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
@@ -138,10 +137,11 @@ public class PuntoVentaAction extends CSAction {
 		logger.info("\n========== ACTION: agregarVenta()================");
 		try {
 			consultar= new MetodosConsultar() ;
-			respuesta= consultar.obtenerUsuario(session) ;
+			/*respuesta= consultar.obtenerUsuario(session) ;
 			if(!respuesta.isExito() || respuesta.getResultado()== null)
 				throw new LideException();
-			user=(User)respuesta.getResultado();
+			user=(User)respuesta.getResultado();*/
+			User user = new User("checo.que@gmail.com") ;
 			if(getProductos() != null)
 				for (Product producto : getProductos())
 					respuesta=consultar.actualizarInventario(user,producto);
